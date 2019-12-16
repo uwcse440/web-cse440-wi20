@@ -31,13 +31,13 @@ When installing Python:
 
 ### Creating a Virtual Environment and Installing Dependencies
 
-Create the virtual environment. From the working directory of our project (e.g., `c:\devel\invoke-base`):
+Create the virtual environment. From the working directory of our project (e.g., `c:\devel\web-cse440-wi20`):
 
 ~~~
 c:\Python36/python.exe -m venv env36
 ~~~
 
-This will create a directory for the virtual environment (e.g., `c:\devel\invoke-base/env36/`).
+This will create a directory for the virtual environment (e.g., `c:\devel\web-cse440-wi20/env36/`).
 
 Next activate that virtual environment and install our Python dependencies:
 
@@ -45,6 +45,12 @@ Next activate that virtual environment and install our Python dependencies:
 env36/Scripts/activate.bat
 pip install -r requirements3.txt
 ~~~
+
+## Installing Node
+
+[https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi)
+
+The default installation options are appropriate.
 
 ## Installing GitHub Desktop
 

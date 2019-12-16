@@ -4,7 +4,7 @@
 {{ readme.travis_badge }}
 {% endif %}
 
-A course website.
+The course website for CSE 440 in Winter 2020.
 
 {% include "base/readme/install.md" %}
 
