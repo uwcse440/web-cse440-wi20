@@ -1,20 +1,17 @@
 class PageData {
-  due_project_4a: string = "Uploaded Monday, March 11, 2019"; //
-  link_project_4a: string = "https://canvas.uw.edu/courses/1254716/assignments/4635400"; 
+  due_project_4a: string = "Uploaded Monday, March 2, 2020";
+  link_project_4a: string = "https://canvas.uw.edu/courses/1352267/assignments/5160403";
   
-  due_project_4b: string = "Uploaded Monday, March 11, 2019";
-  link_project_4b: string = "https://canvas.uw.edu/courses/1254716/assignments/4635407"; 
+  due_project_4b: string = "Uploaded Monday, March 9, 2020";
+  link_project_4b: string = "https://canvas.uw.edu/courses/1352267/assignments/5160404";
 
-  due_project_4c: string = "Uploaded Wednesday, March 13, 2019"; 
-  link_project_4c: string = "https://canvas.uw.edu/courses/1254716/assignments/4635408"; 
+  due_project_4c: string = "Uploaded Monday, March 9, 2020";
+  link_project_4c: string = "https://canvas.uw.edu/courses/1352267/assignments/5160417";
 
-  due_project_4d: string = "Uploaded Friday, March 15"; // Uploaded Monday, December 11, 2017
-  link_project_4d_poster: string = "https://canvas.uw.edu/courses/1254716/assignments/4635409"; 
-  link_project_4d_video: string = "https://canvas.uw.edu/courses/1254716/assignments/4637124"; // https://canvas.uw.edu/courses/1173784/assignments/3960522
+  due_project_4d: string = "Uploaded Friday, March 13, 2020";
+  link_project_4d: string = "https://canvas.uw.edu/courses/1352267/assignments/5160422";
 
-  due_project_4e: string = "Submitted Monday March 18. 2019"; // 
-
-  due_project_4f: string = "Attend 4:30-5:30, Wednesday, March 20, 2019";
+  due_project_4p: string = "Attend 11:30-12:50, Thursday, March 12, 2020";
 }
 
 export const page = new PageData();

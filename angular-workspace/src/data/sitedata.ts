@@ -2,24 +2,43 @@ class SiteData {
   projectSamples = {
     offerings: [
       {
+        name: "Winter 2019",
+        key: "winter2019"
+      },
+      {
         name: "Autumn 2017",
         key: "autumn2017"
       },
       {
         name: "Winter 2017",
         key: "winter2017"
-      },
-      {
-        name: "Autumn 2015",
-        key: "autumn2015"
-      },
-      {
-        name: "Autumn 2014",
-        key: "autumn2014"
       }
     ],
 
     projects: {
+      winter2019: [
+        {
+          name: "Laundr",
+          link: "https://courses.cs.washington.edu/courses/cse440/19wi/assets/projects/laundr/",
+          suffix: "laundr"
+        },
+        {
+          name: "notE",
+          link: "https://courses.cs.washington.edu/courses/cse440/19wi/assets/projects/note/",
+          suffix: "note"
+        },
+        {
+          name: "Pawsitive",
+          link: "https://courses.cs.washington.edu/courses/cse440/19wi/assets/projects/pawsitive/",
+          suffix: "pawsitive"
+        },
+        {
+          name: "SEEK",
+          link: "https://courses.cs.washington.edu/courses/cse440/19wi/assets/projects/seek/",
+          suffix: "seek"
+        }
+      ],
+
       autumn2017: [
         {
           name: "BackTrack",
@@ -65,52 +84,6 @@ class SiteData {
           suffix: "wishingwell"
         }
       ],
-
-      autumn2015: [
-        {
-          name: "Balance",
-          link: "https://courses.cs.washington.edu/courses/cse440/15au/projects/balance/",
-          suffix: "balance"
-        },
-        {
-          name: "Neat",
-          link: "https://courses.cs.washington.edu/courses/cse440/15au/projects/neat/",
-          suffix: "neat"
-        },
-        {
-          name: "Poliscope",
-          link: "https://courses.cs.washington.edu/courses/cse440/15au/projects/poliscope/",
-          suffix: "poliscope"
-        },
-        {
-          name: "School View",
-          link: "https://courses.cs.washington.edu/courses/cse440/15au/projects/schoolview/",
-          suffix: "schoolview"
-        }
-      ],
-
-      autumn2014: [
-        {
-          name: "Aqueous",
-          link: "https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/",
-          suffix: "aqueous"
-        },
-        {
-          name: "IEP Connect",
-          link: "https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/",
-          suffix: "iepconnect"
-        },
-        {
-          name: "Ka-Ching",
-          link: "https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/",
-          suffix: "kaching"
-        },
-        {
-          name: "SoundScape",
-          link: "https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/",
-          suffix: "soundscape"
-        }
-      ]
     }
   };
 }

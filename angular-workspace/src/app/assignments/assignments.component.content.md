@@ -8,4 +8,6 @@
 
 <p>[Assignment 4](/assignments/assignment4)</p>
 
+<!--
 <p>[Readings](/assignments/readings)</p>
+-->

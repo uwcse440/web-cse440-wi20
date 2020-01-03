@@ -1,11 +1,17 @@
 # Assignment 0: Introduction Slide
 
+<!--
+<div class="alert alert-danger">
+This page is still being migrated and developed. All content remains subject to change.
+</div>
+-->
+
 ## Overview
 
 Submit an informal slide that will help us as we get to know you:
 
 - Picture
-- Name (e.g., formal, preferred, pronouns)
+- Name (e.g., preferred, formal, pronouns)
 - Academics (e.g., majors, minors, career goals)
 - Year (e.g., 1,2,3,4,5,6,...)
 - Hometown

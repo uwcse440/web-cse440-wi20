@@ -14,6 +14,11 @@ export const PATHS_DATA:MarkdownPathData[] = [
     ['content']
   ),
   new MarkdownPathData(
+    'src/app/assignment-samples',
+    'assignment-samples.component',
+    ['content']
+  ),
+  new MarkdownPathData(
     'src/app/assignments',
     'assignments.component',
     ['content']

@@ -12,12 +12,7 @@ You are to propose a __problem__ and an __approach__ that could form the basis o
 Successful projects will observe the need for good human-centered design in an interactive computing system, 
 analyze the needs and opportunities in the problem, explore potential designs, and propose a compelling solution.
 
-This assignment is worth __3%__ of your overall course grade:
-
-- __0.5%__ for the proposal brainstorm
-- __2.5%__ for the project proposal
-
-## Milestones
+### Milestones
 
 This is an individual assignment, consisting of three milestones.
 
@@ -33,7 +28,7 @@ This is an individual assignment, consisting of three milestones.
 
   <app-assignment-due-text dueText="{{ page.due_project_1c }}"></app-assignment-due-text>
 
-## Project Description
+### Project Theme
 
 The theme for projects in this course is __self-tracking and everyday interaction with personal intelligences__.
 
@@ -70,34 +65,37 @@ Self-tracking and personal informatics are related to the [Quantified Self](http
 </html>
 
 Instead of limiting self-tracking to dashboards for an isolated self-analyst,
-we ask you to consider the many different ways people might gather and interact with personal data,
+consider the many different ways people might gather and interact with personal data,
 together with how machine intelligence might add meaningful value to these activities.
 
-Tracking can therefore take many mobile forms:
+Tracking can therefore take many forms:
 
 - wearable sensors
 - phone and watch applications
 - appliances and other artifacts in the environment
-- hybrid forms (e.g., semi-automated capture, mobile capture with later annotation or review)
+- hybrid and multi-device forms (e.g., mobile capture with later annotation or review)
 
 Tracking can include many social contexts:
 
+- people seeking help from peers (e.g., social sharing, support networks)
+- people seeking help from experts (e.g., health providers)
 - co-located relationships (e.g., families, friends, co-workers)
 - remote relationships (e.g., families, friends, co-workers)
 - communities organizing (e.g., people in a building, community volunteers)
-- people seeking help from peers (e.g., social sharing, support networks)
-- people seeking help from experts (e.g., health providers)
 
 Tracking can explore new forms of interaction:
 
 - conversational interfaces
 - tangible interfaces
-- ubiquitous computing interfaces (e.g., enabled by the Internet of Things)
+- ubiquitous computing interfaces
 
 Any problem where people gather or seek value in personal data
 introduces opportunities and challenges in designing for effective interaction around that data.
 It can also present opportunities and challenges in 
 how integrated machine intelligence can provide meaningful value to that individual.
+
+<!--
+TODO: move to optional readings
 
 ## Background Material
 
@@ -131,10 +129,11 @@ Researchers have also studied current processes, challenges, and opportunities i
 - [Epstein et al., 2015, A Lived Informatics Model of Personal Informatics](/assets/readings/PersonalInformatics-Epstein2015.pdf)
 - [Pina et al., 2017, From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring](/assets/readings/PersonalInformatics-Pina2017.pdf)
 - [Choe et al., 2017, Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications](/assets/readings/PersonalInformatics-Choe2017.pdf)
+-->
 
-## Thinking Big
+### Thinking Big
  
-Your proposal must go beyond a technology-centric proposal of a webpage, phone application, or interaction. Instead think about
+Your proposal must go beyond a technology-centric proposal of a website, phone application, or interaction. Instead think about
 the problems that people face in their lives, how we can approach those problems, and the role for interactive computing.
 This first assignment is your opportunity to think broadly about identifying a problem. Subsequent assignments will provide
 opportunities to focus on designing a specific technological solution to a specific set of tasks.
@@ -166,22 +165,16 @@ can reasonably gain access to the necessary people.
 
 We encourage you to think big, expanding your thinking to include new ideas for interaction techniques or technology platforms.
 Do not feel constrained by current devices or immediate implementation, but instead aim to explore an exciting design that could potentially
-motivate the development of new enabling technology. For example, see how Artefact presents the Dialog concept.
-This concept has not been implemented, and might not even be immediately possible.
-But it has been developed in substantial detail, understanding implications for design and implementation:
+motivate the development of new enabling technology. Projects from prior offerings can also help you be comfortable thinking beyond immediate implementation:
 
-- [Dialog: Better Decisions, Better Health - Artefact](http://www.artefactgroup.com/content/work/dialog/)
-
-Similarly, projects from prior offerings can help you be comfortable thinking beyond immediate implementation:
-
-<app-assignment-samples sampleToLink="website"></app-assignment-samples>
+<app-assignment-samples sampleToLink="website" format="list-only"></app-assignment-samples>
 
 Finally, the project theme requires your proposal present some opportunity for __self-tracking and everyday interaction with personal intelligences__.
-But you will ultimately follow your design process where it leads you, which may or may not emphasize tracking.
+But you will ultimately follow your design process where it leads you, which may or may not emphasize self-tracking.
 Focusing on problems and opportunities, rather than specific design features,
 will leave room for your design to emerge and be refined in the course of this project.
 
-## Going Forward
+### Going Forward
 
 The course staff will select a subset of submitted proposals for sponsorship. Sponsored proposals will be posted,
 and students will then bid on the projects they want to pursue in this course. Your proposal is thus an effort to 
@@ -201,7 +194,7 @@ Propose three starting points for brainstorming domains, problems, and goals tha
 
 By domain, we mean an aspect of life. Domains that are already common in self-tracking include:
 
-- finances (e.g., tracking investments, spending)
+- finances (e.g., tracking spending, a budget, investments)
 - wellness (e.g., tracking physical activity, sleep, weight)
 - health (e.g., tracking for post-surgical pain management, allergies or other personal triggers, major weight loss)
 - mood (e.g., tracking mood, identifying depressive symptoms)
@@ -217,7 +210,7 @@ One way to help yourself identify a hierarchy of problems and goals is to ask "w
 Each idea should be a single sentence, identifying the domain and the problem or goal.
 At most one of your ideas may come from any of the domains above.
 You other two ideas should be from domains not in this list, in order to broaden the brainstorm.
-Ensure the ideas are significantly different, not small variations on the same idea.
+Also ensure your ideas are significantly different, not small variations on the same idea.
 
 #### Submission
 
@@ -265,15 +258,8 @@ Be sure your presentation looks good:
  - choose appropriate colors, fonts, and styles
  - make liberal use of whitespace 
 
-#### Samples from Prior Offerings
-
-Samples from prior offerings include:
-
+<!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="1b"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 #### Submission
 
