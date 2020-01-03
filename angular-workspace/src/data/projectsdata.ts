@@ -5,6 +5,7 @@ interface Project {
 
 class ProjectsData {
   projects = [
+/*
     {
       name: 'Balance',
       path: 'balance'
@@ -65,6 +66,7 @@ class ProjectsData {
       name: 'WastePlacer',
       path: 'wasteplacer'
     }
+*/
   ]
 }
 

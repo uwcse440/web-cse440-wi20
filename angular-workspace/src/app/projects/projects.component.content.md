@@ -1,8 +1,6 @@
-<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
--->
 
 <html>
 <div class="row">
@@ -20,9 +18,9 @@ This page is still being migrated and developed. All content remains subject to 
 
 Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
 
-Wednesday, March 20, 2019
+`Wednesday, March 20, 2019`
 
-4:30pm to 5:30pm, [CSE Atrium](http://www.washington.edu/maps/#!/cse)
+`4:30pm to 5:30pm`, [CSE Atrium](http://www.washington.edu/maps/#!/cse)
 
 <img src="assets/images/poster_session.jpg" class="posterSessionImage" alt="Photo of Poster Session"/>
 </div>  
@@ -34,14 +32,14 @@ Wednesday, March 20, 2019
 
 ## Project Theme
 
-As a focus for Winter 2019, we asked students to explore __self-tracking and everyday interaction with personal intelligences__.
+As a focus for Winter 2020, we asked students to explore __self-tracking and everyday interaction with personal intelligences__.
 
 People have long sought to better understand themselves, but continuing technology advances enable new approaches.
 Students examined problems people encounter in gathering and gaining value from personal data,
 then explored how a combination of design and machine intelligence can 
 help go beyond simple data fetishes to help people in using personal data as part of reaching their goals.
 
-## Project Websites
+## Projects
 
 <html>
   <div class="row">

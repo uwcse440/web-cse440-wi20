@@ -1,34 +1,16 @@
 # Assignment 2: Getting the Right Design
 
-<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
--->
 
 ## Overview
 
-Even for a well-understood, well-motivated problem, choosing a design to invest time into is a difficult and laborious process. 
+Even when a problem is well-motivated, understanding that problem and choosing a design to pursue is a difficult process. 
 This group assignment, spanning multiple weeks of the course, tackles the problem of selecting the right design through 
 __design research__, __task development__, __generating multiple potential designs__, and finally __selecting a design__ to pursue.
 
-This assignment is worth __21%__ of your overall course grade:
-
-- __15%__ for [Assignment 2h: Final Report](#id-2h-final-report) 
-- __6%__ for the milestones 
-  - __0.5%__ for [Assignment 2a: Project Ideation](#id-2a-project-ideation) 
-  - __0.5%__ for [Assignment 2b: Design Research Plan](#id-2b-design-research-plan)
-  - __1%__ for [Assignment 2c: Design Research Check-In](#id-2c-design-research-check-in)
-  - __1%__ for [Assignment 2d: Design Research Review](#id-2d-design-research-review)
-  - __1%__ for [Assignment 2e: Task Review](#id-2e-task-review)
-  - __1%__ for [Assignment 2f: Design Check-In ("3x4")](#id-2f-design-check-in-3x4)
-  - __1%__ for [Assignment 2g: Design Review ("1x2")](#id-2g-design-review-1x2)
-
-The content of [Assignment 2i: Presentation](#id-2i-presentation) is worth __5%__ of your overall course grade.
-
-Your delivery of a presentation this quarter is worth __2%__ of your overall course grade.
-
-## Milestones
+### Milestones
 
 This is a group assignment, consisting of nine milestones.
 
@@ -60,74 +42,13 @@ This is a group assignment, consisting of nine milestones.
 
   <app-assignment-due-text dueText="{{ page.due_project_2g }}"></app-assignment-due-text>
 
-* [Assignment 2h: Final Report](#id-2h-final-report)
+* [Assignment 2p: Presentation](#id-2p-presentation)
 
-  <app-assignment-due-text dueText="{{ page.due_project_2h }}"></app-assignment-due-text>
+  <app-assignment-due-text dueText="{{ page.due_project_2p }}"></app-assignment-due-text>
 
-* [Assignment 2i: Presentation](#id-2i-presentation)
+* [Assignment 2web: Getting the Right Design](#id-2web-getting-the-right-design)
 
-  <app-assignment-due-text dueText="{{ page.due_project_2i }}"></app-assignment-due-text>
-
-* [Assignment 2j: Team Peer Feedback](#id-2j-team-peer-feedback)
-
-  <app-assignment-due-text dueText="{{ page.due_project_2j }}"></app-assignment-due-text>
-
-## Project Description
-
-In this assignment, you will brainstorm a large set of possible tasks and design ideas for your project. 
-You will then conduct design research to learn more about your problem and the current practices of people who might use your design.
-You will draw upon the ideas developed in your brainstorming and the observations made in your design research
-to help develop a set of potential tasks your design might support. 
-You will next sketch how a set of initial designs might support those tasks.
-You will choose a design to pursue in the remainder of the course and storyboard the details of your design in the context of important tasks.
-Finally, you will present your design process in a report and presentation.
-
-More specifically, you will do the following:
-
-1. Generate ideas for potential problems, tasks, features, and interactions using a group ideation exercise.
-
-   ([Assignment 2a](#id-2a-project-ideation))
-    
-2. Conduct design research (e.g., contextual inquiry, interviews, observations) to learn from at least __three__ people who might use your design.
-
-   ([Assignment 2b](#id-2b-design-research-plan)), ([Assignment 2c](#id-2c-design-research-check-in)), ([Assignment 2d](#id-2d-design-research-review))
-
-3. Develop __six__ tasks that might be performed with your design. 
-
-   Select these to capture the important aspects of the problem you are solving and to provide coverage of the designs 
-   you will explore. Create these based on your observations and analyses of existing tasks as well as your vision for 
-   new tasks enabled by potential designs. Remember that tasks say what is accomplished, while leaving open how to accomplish it.
-
-   As you progress through your project, you can and should consider revising your tasks. 
-   Expect to refine or change your tasks as your understanding of the problem matures or according to feedback you receive.
-   The tasks you report in this assignment therefore must be appropriate but are not necessarily final.
-
-   ([Assignment 2e](#id-2e-task-review)) 
-
-4. Brainstorm and sketch __three__ very different initial designs for your interface. 
-   Each design should support __four__ of your tasks.
-   
-   Do not illustrate the entire design, but instead sketch key aspects needed to illustrate the functionality. 
-   These should be rough sketches on paper (i.e., not digital mockups), including illustrations of their relations 
-   (e.g., arrows showing transitions and relationships).    
-   
-   The purpose of these sketches is to explore the design space before you lock yourself into a single design.
-   They must demonstrate significant consideration of substantially different approaches to your problem.
-
-   ([Assignment 2f](#id-2f-design-check-in-3x4)) 
-
-5. From your sketches, select __one__ design to pursue for the remainder of the quarter and __two__ tasks that emphasize
-   critical functionality of your design. These tasks should be non-trivial, critical to solving your problem, and should 
-   emphasize long-lived or repeated activities. In contrast, a one-time login screen for a social networking application 
-   is not worth being the focus of your project, does not define your project functionality, and is not sufficiently interesting.
-
-   Storyboard your chosen design for your chosen tasks, illustrating how the tasks are accomplished in your design.
-
-   ([Assignment 2g](#id-2g-design-review-1x2))
-    
-6. Summarize your design process in a report and presentation.
-
-   ([Assignment 2h](#id-2h-final-report)), ([Assignment 2i](#id-2i-presentation))
+  <app-assignment-due-text dueText="{{ page.due_project_2web }}"></app-assignment-due-text>
 
 ## Deliverables
 
@@ -151,41 +72,38 @@ A person familiar with your project but not in your group should be able to unde
 
 The goal is to begin exploring the space of possibilities, not attempting to polish some individual possibility. 
 Focus on the quantity of ideas, not the quality of any one idea. 
-You may include ideas from existing products. No two ideas should be alike.
+You may include ideas from existing products, but no two ideas should be alike.
 When you get stuck, find a context to inspire new ideas.
 
-Given a space of possible directions, your project needs to begin to gather information on how to generate and consider ideas. 
+After this brainstorming, you will have a broad space of possible directions.
+Your project will soon need to gather information on how to generate and consider ideas in these directions. 
 Following up on the above, additionally brainstorm:
  
-- People: types of people you might work with to learn more.
-- Focus: on what parts of the problem you might focus your learning.
+- People: types of people you might work with to learn more about problems and opportunities.
+- Focus: what parts of the problems and opportunities you might focus on learning more about.
+- Method: how you might engage those people to learn more about problems and opportunities.
 
-#### Submission
+#### Submission and Grading
 
-At the end of section, capture and submit an image of your brainstorm.
-
-Submit via Canvas here:
-
-<app-assignment-submission-link linkSubmission="{{ page.link_project_2a }}"></app-assignment-submission-link>
-
-You will be able to take your paper with you, and you should continue brainstorming throughout your project.
-
-#### Contribution Statement
-
-This submission does not require a team contribution statement.
-
-#### Grading
-
-This milestone will be graded on a scale of __3 points__ based on participation in generating ideas during the brainstorming exercise.
+There is no submission for this milestone. 
+It will be completed in section and graded as part of participation.
 
 ### 2b: Design Research Plan
 
 <app-assignment-due-text dueText="{{ page.due_project_2b }}"></app-assignment-due-text>
 
-The goal of this milestone is to develop an initial plan for your design research.
+The goal of this milestone is to develop an initial plan for your design research,
+encouraging you to work through details of how you would conduct that research
+and improving those details through critique and peer feedback.
+
+As part of Assignment 2, you are required to conduct design research
+(e.g., contextual inquiry, interviews, observations)
+to learn from at least __three__ people who might use your design.
 
 In one paragraph, describe the people who might use your design and other stakeholders to consider in your design. 
-Among potential stakeholders, describe the __participants__ you plan to pursue, including such details as their background and the environment where you will examine their current practices. Give enough information to convince us that you can actually find and engage with your target participants in the next week.
+Among potential stakeholders, describe the __participants__ you plan to pursue,
+including such details as their background and the environment where you will examine their current practices.
+Give enough information to convince us that you can actually find and engage with your target participants in the next week.
 
 - For example, your target participants should not be "doctors" but instead a specific group of doctors 
   (e.g., Family Practitioners in the UW Roosevelt Clinic). 
@@ -193,7 +111,10 @@ Among potential stakeholders, describe the __participants__ you plan to pursue, 
   describe the steps you have already taken to gain access and your plans to recover if you are unable to gain access.
   Indicate when you will be conducting your design research, being as specific as possible.
 
-In another paragraph, describe the __specific design research methods__ you will use to engage with and learn from these people. The most common method used is contextual inquiry with three participants. However,  we encourage you to propose alternative or additional design research methods according to your needs. Please be as specific as possible, providing relevant details for you proposed methods. For example:
+In another paragraph, describe the __specific design research methods__ you will use to engage with and learn from these people.
+A typical expected method would be contextual inquiry with three participants.
+However,  we encourage you to propose alternative or additional design research methods according to your needs.
+Please be as specific as possible, providing relevant details for you proposed methods. For example:
 
 - If you propose contextual inquiries, discuss current behaviors you want to observe and your planned focus.
 - If you propose interviews, discuss the types of questions you plan to explore.
@@ -203,36 +124,12 @@ On a second page, provide more detail regarding your primary proposed method. Fo
 
 - If you propose contextual inquiries, enumerate what activities you intend to observe, 
   what focus you intend to bring to observation of each activity,
-  how you will approach the development of partnership, 
-  and any other strategies you intend to pursue for gaining insight through your observations.
-- If you propose interviews, give an example set of talking points, such as these
-  (note these are all longer than a page, but intended to illustrate a thorough script):
-  
-  - [Menstrual Interview Protocol](https://canvas.uw.edu/files/53396968/download?download_frd=1)
-  - [Migraine Interview Protocol](https://canvas.uw.edu/files/53396967/download?download_frd=1)
-  - [Migraine Provider Protocol](https://canvas.uw.edu/files/53396970/download?download_frd=1)
-  
+  and any strategies you intend to pursue for gaining insight through your observations.
+- If you propose interviews, give an example set of planned talking points.  
 - If you propose a diary study, give details of what and how you will ask participants to diary.  
 
-#### Samples from Prior Offerings
-
-<div class="alert alert-warning" markdown="1">
-
-The request for a second page of more detail regarding the proposed primary method was new in the Autumn 2017 offering. It does not appear in prior samples.
-
-The goal in soliciting this additional detail is to:
-- Encourage you to work through more of the details.
-- Help improve those details through critique and peer feedback prior to your initial design research.
-
-</div>
-
-Samples from prior offerings include:
-
+<!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="2b"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 #### Submission
 
@@ -242,17 +139,23 @@ No more than two pages of text in PDF format. Submit via Canvas here:
 
 Be prepared to discuss your design research with other teams and the course staff.
 
-#### Contribution Statement
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
+
+**In-Class Exercise**: 
+In addition to your submission, bring two printed copies of your Design Research Plan to class.
+You will need these for in-class critique.
 
 #### Grading
 
 This milestone will be graded on a scale of __10 points__:
 
-1. __Feasibility and Specificity of People__: (3 points)
-2. __Feasibility and Specificity of Design Methods__: (3 points)
-3. __Protocol__: (2 points)
+1. __Overall Feasibility and Specificity of People__: (3 points)
+2. __Overall Feasibility and Specificity of Design Methods__: (3 points)
+3. __Primary Method Details__: (2 points)
 4. __Clarity and Presentation__: (2 points)
 
 ### 2c: Design Research Check-In
@@ -281,15 +184,8 @@ can be difficult to get right and often important topics are left unresolved.
 - What are your plans for the remaining participants?
 - How do you plan to change your design research plan based on what you learned with your first participant?
 
-#### Samples from Prior Offerings
-
-Samples from prior offerings include:
-
+<!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="2c"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 #### Submission
 
@@ -297,13 +193,12 @@ No more than one page of text in PDF format. Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2c }}"></app-assignment-submission-link>
 
+Be prepared to discuss your design research with other teams and the course staff.
+
 Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
-Be prepared to discuss your design research with other teams and the course staff.
-
-#### Contribution Statement
-
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
@@ -319,7 +214,7 @@ This milestone will be graded on a scale of __8 points__:
 <app-assignment-due-text dueText="{{ page.due_project_2d }}"></app-assignment-due-text>
 
 The goal of this milestone is to reflect on what you observed and learned in your design research,
-organizing observations around themes to tasks to help inform your design.
+organizing observations around themes and developing insights into tasks that can help inform your design.
 
 #### Themes
 
@@ -327,6 +222,8 @@ Complete design research with a total of at least three participants. Discuss yo
 
 - Who you observed or interviewed, their background, and the environment.
 - Note anything unique about each participant and comment on the rationale behind these observations.
+- What did you learn? 
+- What tasks, problems, or opportunities did you uncover? 
 
 Across your participants, we expect some emergence of common themes, problems, and practices.
 
@@ -355,15 +252,8 @@ These should help you begin to identify tasks essential to your design.
 10. What are the time constraints on the tasks?
 11. What happens when things go wrong?
 
-#### Samples from Prior Offerings
-
-Samples from prior offerings include:
-
+<!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="2d"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 #### Submission
 
@@ -378,13 +268,12 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2d }}"></app-assignment-submission-link>
 
+Be prepared to discuss your design research with other teams and the course staff.
+
 Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
-Be prepared to discuss your design research with other teams and the course staff.
-
-#### Contribution Statement
-
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
@@ -402,25 +291,26 @@ This milestone will be graded on a scale of __12 points__:
 
 The goal of this milestone is to develop a set of tasks that you will explore in a set of potential designs.
 
-Building on what you learned in your design research, design __six tasks__ that you believe are integral to your overall design goal:
+Building on what you learned in your design research, design __six tasks__ that you believe are important to your design goal:
 
- - You should include existing tasks (i.e., tasks people already do) and new tasks (i.e., tasks that will be enabled by your design). 
- - These should be real world tasks that have details (e.g., instead of "programming a DVR", details like "programming a DVR to record the Simpsons on Sundays"). 
- - These tasks should not have any specific relation to the exact design sketches you will brainstorm next. 
- - Your six tasks should span a wide range of functionality and difficulty, from easy to hard tasks.
+ - Remember that tasks say what is accomplished, while leaving open how to accomplish it.
+ - Select tasks to capture the important aspects of the problem you are solving and to provide coverage of designs you will explore.
+ - Create tasks based on your observations and analyses of existing tasks (i.e., tasks people already do) 
+   as well as your vision for new tasks (i.e., tasks that will be enabled by your design). 
+ - These should be real world tasks that include details
+   (e.g., instead of "programming a DVR", details like "programming a DVR to record Spongebob on Sundays"). 
+ - These tasks should not have any specific relation to the potential designs you will brainstorm in later milestones. 
+ - Your six tasks should span a wide range of functionality and difficulty, from easy tasks to hard tasks.
 
-Each task should be described in text. Tasks say what is accomplished, leaving open how to accomplish it.
+Each task should be described in text.
 Be sure that your task conveys a problem and what is accomplished, rather than a step-by-step walkthrough of scenario with a specific design.
 
-#### Samples from Prior Offerings
+As you progress in your project, you can and should consider revising your tasks. 
+Expect to refine or change your tasks as your understanding of the problem matures or according to feedback you receive.
+The tasks you develop in this milestone therefore must be appropriate but are not necessarily final.
 
-Samples from prior offerings include:
-
+<!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="2e"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 #### Submission
 
@@ -432,10 +322,12 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2e }}"></app-assignment-submission-link>
 
-Be prepared to discuss your design research with other teams and the course staff.
+Be prepared to discuss your design research and tasks with other teams and the course staff.
 
-#### Contribution Statement
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
@@ -455,21 +347,16 @@ You have identified and described six important tasks for your design problem.
 You will now brainstorm and sketch three very different __initial designs__ for your interface:
  
  - Each design should support four of your tasks, but they do not necessarily need to all support the same four tasks.
- - Sketch key aspects needed to illustrate the functionality in your four tasks. A design may imply additional tasks, but do not illustrate the entire design. 
- - These should be rough sketches on paper (i.e., not digital mockups), including illustrations of their relations (e.g., arrows showing transitions and relationships).
+ - Sketch key aspects needed to illustrate the functionality in your four tasks.
+   A design may imply additional tasks, but do not illustrate the entire design. 
+ - These should be rough sketches on paper (i.e., not digital mockups), 
+   including illustrations of their relations (e.g., arrows showing transitions and relationships).
 
 The purpose of these sketches is to explore the design space before you lock yourself into a single design.
 They must demonstrate significant consideration of substantially different approaches to your problem.
 
-#### Samples from Prior Offerings
-
-Samples from prior offerings include:
-
+<!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="2f"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 #### Submission
 
@@ -491,8 +378,10 @@ Submit via Canvas here:
 
 Be prepared to discuss your designs with other teams and the course staff.
 
-#### Contribution Statement
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
@@ -500,7 +389,7 @@ Be prepared to discuss your designs with other teams and the course staff.
 This milestone will be graded on a scale of __10 points__:
 
 1. __Six Task Descriptions__: (2 points)
-2. __Each of 3 Designs__: (2 points)
+2. __Each of 3 Designs is Substantially Different and Clearly Communicated__: (2 points)
 3. __Clarity and Presentation__: (2 points)
 
 ### 2g: Design Review ("1x2")
@@ -512,8 +401,11 @@ The goal of this milestone is to choose a design idea to pursue in the remainder
 From your design sketches, select one design that you will refine in the remainder of this course. 
 Then select two tasks that will be the focus of your design refinement. 
 The selected tasks need to be representative of the experience of using your design. 
+They should be non-trivial, critical to solving your problem, and should emphasize long-lived or repeated activities.
+In contrast, a one-time login screen for a social networking application 
+is not worth being the focus of your project, does not define your project functionality, and is not sufficiently interesting.
 
-Prepare one paragraph describing _why you selected the design_ you did. 
+Prepare one paragraph describing _why you selected the design and tasks_ you did. 
 Draw upon feedback from critiques and data from your design research.
 
  - Why this design and these tasks? 
@@ -529,15 +421,8 @@ conveying the major aspects of the design in enough detail that a person not in 
 how the design supports each task. 
 As needed, add descriptions that explicitly reference the storyboard, add more sketches, or annotate them in multiple colors.
 
-#### Samples from Prior Offerings
-
-Samples from prior offerings include:
-
+<!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="2g"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 #### Submission
 
@@ -556,8 +441,10 @@ Submit via Canvas here:
 
 Be prepared to discuss your choices and storyboards with other teams and the course staff.
 
-#### Contribution Statement
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
@@ -568,9 +455,123 @@ This milestone will be graded on a scale of __8 points__:
 2. __Each of 2 Storyboards__: (2 points)
 3. __Clarity and Presentation__: (2 points)
 
-### 2h: Final Report
+### 2p: Presentation
 
-<app-assignment-due-text dueText="{{ page.due_project_2h }}"></app-assignment-due-text>
+<app-assignment-due-text dueText="{{ page.due_project_2p }}"></app-assignment-due-text>
+
+Prepare a presentation of your process in getting the right design. It should encompass all of your work in Assignment 2.
+
+- Two members of your team should deliver the presentation, each speaking to relatively equal portions.
+- A seven minute time limit will be strictly enforced, with additional time for questions.
+
+A suggested organization of this presentation is:
+
+1. __Title__: 
+ 
+   A short, creative, and marketable title capturing the key idea. Include team member names.
+ 
+2. __Overall Problem__:  
+
+   Tell this as a story, instead of simply reading the slide. Motivate your audience to be interested in your problem.
+
+3. __Design Research__:
+ 
+   Include images that give your audience a feeling for your fieldwork. Convey that you have seen and understand the challenge.
+ 
+4. __6 Tasks__:
+ 
+   At most one sentence per task. Convey the breadth of tasks you have considered.
+ 
+5. __3 Design Sketches__: 
+
+   Convey the breadth of designs you considered.
+
+6. __Selected Design Storyboards and Tasks__:
+ 
+   Convey your rationale for choosing a design focus.
+
+   Present your storyboards, ensuring they effectively illustrate your selected design and tasks.
+ 
+7. __Summary__: 
+
+   Summarize the lessons learned in your design process.
+
+We strongly recommend rehearsing your presentation beforehand. 
+For example, arrange to practice together with another group or two, giving each other feedback on your presentations.
+
+Note that we have not set a required number of slides in each section of this presentation.
+You can deliver your presentation using as many or as few slides as you want,
+as long as your presentation successfully address the above points in the allowed time.
+
+<!-- Samples from Prior Offerings -->
+<app-assignment-samples sampleToLink="2p"></app-assignment-samples>
+
+#### Submission
+
+Your presentation may be in PPT, PPTX, or PDF format. 
+
+To minimize switching time, we will have all presentations on a single laptop running Microsoft Windows.
+You should optimize your presentation for portability (e.g., ensure any necessary fonts are embedded).
+If we detect any obvious formatting issues on the presentation machine, we may fix them or contact you to fix them.
+But you are ultimately responsible for your presentation.
+
+Submit via Canvas here: 
+
+<app-assignment-submission-link linkSubmission="{{ page.link_project_2p }}"></app-assignment-submission-link>
+
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
+
+<!-- Contribution Statement -->
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
+#### In-Class Feedback Forms
+
+The course staff will have a feedback form they keep during your presentation:
+
+<div class="alert alert-danger" markdown="1">
+
+<p>[2i-presentation-staff-form.pdf](/assets/assignments/2i-presentation-staff-form.pdf)</p>
+
+</div>
+
+### Grading
+
+<div class="alert alert-danger" markdown="1">
+
+The content of this presentation will be graded on a scale of __10 points__:
+
+- Presentation shows appropriate preparation, with visual aids that are effective, properly prepared, and properly employed.
+- Slides are legible, such that people in the back of the room can still see them.
+- Presentation should not have an outline slide.
+  It is short enough to be told as a story of your process, and your outline is the same as every other presentation.
+  Instead use that time to tell us about your project.
+- Problem is presented in a manner that is compelling and achievable.
+- Design research is carried out in an appropriate manner.
+- Design research results are illuminating in terms of the problem.
+- Tasks presented provide coverage of the functionality.
+- Tasks were neither too easy nor too hard.
+- Tasks were motivated by the design research.
+- Design ideas have a strong connection to results of design research.
+- Design ideas are appropriate for the supported tasks.
+- Design ideas and storyboards were at the proper fidelity.
+- Presentation covered the required scope within the allowed time period.
+
+The delivery of this presentation will be graded on a scale of __4 points__:
+
+- Presenter makes eye contact with the audience.
+- Presenter projects their voice well and is audible throughout the room.
+- Presenter feels casual and engaged with the content, not just reading it.
+- Presentation covered the required scope within the allowed time period.
+
+</div>
+
+### 2web: Getting the Right Design
+
+<html>
+<div class="alert alert-danger" markdown="1">
+
+<app-assignment-due-text dueText="{{ page.due_project_2web }}"></app-assignment-due-text>
 
 The goal of this milestone is to communicate the design research that motivates your design.
 
@@ -645,15 +646,8 @@ Be sure your presentation looks good:
  - choose appropriate colors, fonts, and styles
  - make liberal use of whitespace 
 
-#### Samples from Prior Offerings
-
-Samples from prior offerings include:
-
-<app-assignment-samples sampleToLink="2h"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
+<!-- Samples from Prior Offerings -->
+<app-assignment-samples sampleToLink="2web"></app-assignment-samples>
 
 #### Submission
 
@@ -665,13 +659,12 @@ The limit applies to the approximate amount of text you would have if all images
 
 Submit via Canvas here: 
 
-<app-assignment-submission-link linkSubmission="{{ page.link_project_2h }}"></app-assignment-submission-link>
+<app-assignment-submission-link linkSubmission="{{ page.link_project_2web }}"></app-assignment-submission-link>
 
 Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
-#### Contribution Statement
-
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
@@ -689,119 +682,5 @@ This report will be graded on a scale of __25 points__:
 9.  __Storyboards of the Selected Design__: (3 points)
 10. __Clarity and Presentation__: (4 points)
 
-### 2i: Presentation
-
-<app-assignment-due-text dueText="{{ page.due_project_2i }}"></app-assignment-due-text>
-
-Prepare a presentation of your process in getting the right design. It should encompass all of your work in Assignment 2.
-
-- Two members of your team should deliver the presentation, each speaking to relatively equal portions.
-- A seven minute time limit will be strictly enforced, with additional time for questions.
-
-A suggested organization of this presentation is:
-
-1. __Title__: 
- 
-   A short, creative, and marketable title capturing the key idea. Include team member names.
- 
-2. __Overall Problem__:  
-
-   Tell this as a story, instead of simply reading the slide. Motivate your audience to be interested in your problem.
-
-3. __Design Research__:
- 
-   Include images that give your audience a feeling for your fieldwork. Convey that you have seen and understand the challenge.
- 
-4. __6 Tasks__:
- 
-   At most one sentence per task. Convey the breadth of tasks you have considered.
- 
-5. __3 Design Sketches__: 
-
-   Convey the breadth of designs you considered.
-
-6. __Selected Design Storyboards and Tasks__:
- 
-   Convey your rationale for choosing a design focus.
-
-   Present your storyboards, ensuring they effectively illustrate your selected design and tasks.
- 
-7. __Summary__: 
-
-   Summarize the lessons learned in your design process.
-
-We strongly recommend rehearsing your presentation beforehand. 
-For example, arrange to practice together with another group or two, giving each other feedback on your presentations.
-
-Note that we have not provided recommendations for the number of slides in each section of this presentation.
-You can deliver your presentation using as many or as few slides as you want,
-as long as you successfully address the above points and the presentation falls within the time restriction.
-
-#### Samples from Prior Offerings
-
-Samples from prior offerings include:
-
-<app-assignment-samples sampleToLink="2i"></app-assignment-samples>
-
-Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
-
-#### Submission
-
-Your presentation may be in PPT, PPTX, or PDF format. 
-
-To minimize switching time, we will have all presentations on a single laptop running Microsoft Windows.
-You should optimize your presentation for portability (e.g., ensure any necessary fonts are embedded).
-If we detect any obvious formatting issues on the presentation machine, we may fix them or contact you to fix them.
-But you are ultimately responsible for your presentation.
-
-Submit via Canvas here: 
-
-<app-assignment-submission-link linkSubmission="{{ page.link_project_2i }}"></app-assignment-submission-link>
-
-Names of participants should be replaced with pseudonyms in all documents.
-It is important to protect participant anonymity, even in the case that reporting seems harmless.
-
-#### Contribution Statement
-
-<app-assignment-contribution-statement></app-assignment-contribution-statement>
-
-#### In-Class Feedback Forms
-
-The course staff will have a feedback form they keep during your presentation:
-
-<p>[2i-presentation-staff-form.pdf](/assets/assignments/2i-presentation-staff-form.pdf)</p>
-
-### Grading
-
-The content of this presentation will be graded on a scale of __10 points__:
-
-- Presentation shows appropriate preparation, with visual aids that are effective, properly prepared, and properly employed.
-- Slides are legible, such that people in the back of the room can still see them.
-- Presentation should not have an outline slide. It is short enough to be told as a story of your process.
-- Problem is presented in a manner that is compelling and achievable.
-- Design research is carried out in an appropriate manner.
-- Design research results are illuminating in terms of the problem.
-- Tasks presented provide coverage of the functionality.
-- Tasks were neither too easy nor too hard.
-- Tasks were motivated by the design research.
-- Design ideas have a strong connection to results of design research.
-- Design ideas are appropriate for the supported tasks.
-- Design ideas and storyboards were at the proper fidelity.
-- Presentation covered the required scope within the allowed time period.
-
-The delivery of this presentation will be graded on a scale of __4 points__:
-
-- Presenter makes eye contact with the audience.
-- Presenter projects their voice well and is audible throughout the room.
-- Presenter feels casual and engaged with the content, not just reading it.
-- Presentation covered the required scope within the allowed time period.
-
-### 2j: Team Peer Feedback
-
-<app-assignment-due-text dueText="{{ page.due_project_2j }}"></app-assignment-due-text>
-
-Submit peer feedback using the form distributed to the class by email.
-
-Course staff will request a second round of team peer feedback at the end of the course.
+</div>
+</html>
