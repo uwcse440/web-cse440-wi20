@@ -224,63 +224,6 @@ Present your pitch to a team of judges,
 and take the opportunity to discuss your work with classmates and visitors while reflecting on a busy and productive quarter.</p>
 <h4 id="grading-5">Grading</h4>
 <p>The poster session will be graded as part of participation. We intentionally will not conduct any evaluation at the poster session itself.</p>
-<div class="alert alert-danger" markdown="1">
-<ol>
-<li>
-<p>Create a project website that provides an overview of the project,
-presents your design process, and introduces team members.
-At a minimum, it must include links to
-your <app-generated-link linkHREF="/assignments/assignment2/">Assignment 2</app-generated-link> report,
-your <app-generated-link linkHREF="/assignments/assignment3/">Assignment 3</app-generated-link> report, your video prototype, and your poster.
-Optionally, also include your presentations or other materials.
-Ideally, much of this same content will also be presented in a manner more appropriate for the web.</p>
-<p>Be sure you have updated any documents that course staff said needed fixed before posting
-(e.g., any report that accidentally included participant identifying information).</p>
-</li>
-</ol>
-<h3 id="id-4a-initial-website">4a: Initial Website</h3>
-<p><app-assignment-due-text dueText="{{ page.due_project_4a }}"></app-assignment-due-text></p>
-<p>The goal of this milestone is to post an initial project website as part of the course website.</p>
-<p>We will use your websites to advertise the poster session.
-Although this is an initial website on which you will get feedback and will be able to update,
-you should submit a complete and high-quality version of your website appropriate for advertising the course projects.</p>
-<p>Your website will be served from a subdirectory of this course website.</p>
-<p>Within the GitHub repository of the course:</p>
-<p><app-generated-link linkHREF="https://github.com/uwcse440/web-cse440-wi19">https://github.com/uwcse440/web-cse440-wi19</app-generated-link></p>
-<p>You will submit your website as a set of static files in your project directory:</p>
-<p><code>angular-workspace/src/assets/projects/**projectpath**</code></p>
-<p>It is also linked via a thumb from the projects page:</p>
-<p><app-generated-link linkHREF="/projects.html">Projects Page</app-generated-link></p>
-<p>You should provide an appropriate 150x150 thumb at:</p>
-<p><code>angular-workspace/src/assets/projects/**projectpath**/project_thumb.png</code></p>
-<p>You can build your website however you like, but everything needed for your site must be in your directory.
-Do not attempt to integrate with the functionality used for this course website.
-Simply build your website and submit the set of static files to be served from your directory.
-Because you must provide a set of static files for your website, you may not use external site builders (e.g., Wix).</p>
-<p>Because your website will be served from a directory, be sure to use relative paths within your source.</p>
-<p>You will later add your video to the website. You may want to plan ahead for that additional content.</p>
-<!-- Samples from Prior Offerings -->
-<p><app-assignment-samples sampleToLink="website"></app-assignment-samples></p>
-<h4 id="submission-5">Submission</h4>
-<p>Submit a pull request containing your website. We will merge as quickly as possible.
-You can submit multiple requests as needed to fix issues or improve your website.
-Your request should not modify anything outside your project website.</p>
-<p>Submit simple pull requests early so that you become familiar with this functionality.
-Do not wait until the final moments to begin to learn how to do this.</p>
-<p>If you are absolutely unable to submit a pull request, submit via Canvas here:</p>
-<p><app-assignment-submission-link linkSubmission="{{ page.link_project_4a }}"></app-assignment-submission-link></p>
-<h4 id="contribution-statement-5">Contribution Statement</h4>
-<p><app-assignment-contribution-statement></app-assignment-contribution-statement></p>
-<h4 id="grading-6">Grading</h4>
-<p>This milestone will be graded on a scale of <strong>8 points</strong>:</p>
-<ol>
-<li><strong>Completeness of Content</strong>: (3 points)</li>
-<li><strong>Appropriately Clear and Polished Presentation</strong>: (3 points)</li>
-<li><strong>Submitted via Pull Request</strong>: (2 points)</li>
-</ol>
-<p>Your website should be complete and will be evaluated as such.
-But later critique and refinement will help further improve it before the final poster session.</p>
-</div>
 </ng-template>
 
 <ng-container *ngTemplateOutlet="content"></ng-container>
