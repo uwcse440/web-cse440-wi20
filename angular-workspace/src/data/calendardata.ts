@@ -158,12 +158,15 @@ class CalendarData {
   lectures: Lecture[] = [
     {
       date: moment('2020-01-07', 'YYYY-MM-DD'),
-      // name: '',
-      // slides: ''
+      name: 'Introduction,<br>Project Overview',
+      slides: 'https://canvas.uw.edu/files/60961965/download?download_frd=1'
     },
     {
       date: moment('2020-01-09', 'YYYY-MM-DD'),
-      // name: '',
+      name: 'Design Diamond',
+      // Theoretical basis for expand/contract in design, should go early
+      // Includes IDEO video, which works well early
+      // Allows explaining the assignment milestones if needed
       // slides: ''
     },
     {
@@ -239,13 +242,6 @@ class CalendarData {
       name: 'Video Critique',
       // slides: ''
     },
-
-//      name: 'Introduction,<br>Project Overview',
-
-//      name: 'Design Diamond',
-      // Theoretical basis for expand/contract in design, should go early
-      // Includes IDEO video, which works well early
-      // Allows explaining the assignment milestones if needed
 
 //      name: 'Contextual Inquiry,<br>Design Research',
       // Required for 2b planning of design research over weekend

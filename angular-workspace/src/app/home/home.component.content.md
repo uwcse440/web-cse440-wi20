@@ -1,6 +1,8 @@
+<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Course Description
 
@@ -14,7 +16,7 @@ The course is overwhelmingly organized around a group project, in which students
 - Study Existing Practices and Challenges
 - Explore Potential Design Opportunities and Tradeoffs
 - Evaluate and Improve a Design
-- Communicate their Problem and Resulting Design
+- Communicate Their Problem and Resulting Design
 
 ## Learning Objectives
 
@@ -180,7 +182,7 @@ The overall course grade will be computed as follows:
     - 2c: Design Research Check-In (1%)
     - 2d: Design Research Review (2%)
     - 2e: Task Review (1%)
-    - 2f: Design Check-In (2%)
+    - 2f: Design Check-In (3%)
     - 2g: Design Review (1%)
     - 2web: Getting the Right Design (10%)
   - __18%__: Assignment 3, Getting the Design Right

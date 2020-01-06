@@ -14,7 +14,7 @@
             Proposal that ultimately became
           </ng-container>
 <!-- spacing -->
-          <ng-container *ngIf="['1b', '2b', '2c', '2d', '2e', '2f', '2g', '2h', '2i', '3a', '3c', '3d', '3e', '3f', '3g', '4a'].includes(sampleToLink)">
+          <ng-container *ngIf="['1b', '2b', '2c', '2d', '2e', '2f', '2g', '2p', '3a', '3c', '3d', '3e', '3p', '4a'].includes(sampleToLink)">
             <app-generated-link linkHREF="{{ projectCurrent.link }}">{{ projectCurrent.name }}</app-generated-link>:
             <app-generated-link linkHREF="/assets/samples/{{ sampleToLink }}/{{ sampleToLink }}_{{ projectCurrent.suffix }}.pdf">
               {{ sampleToLink }}_{{ projectCurrent.suffix }}.pdf

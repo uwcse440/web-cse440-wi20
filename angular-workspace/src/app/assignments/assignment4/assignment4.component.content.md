@@ -77,7 +77,7 @@ Submit your poster via Canvas here:
 
 Due to challenges that frequently arise in printing, submit both:
 
-- a PDF a your poster
+- a PDF of your poster
 - the source file for your poster (e.g., PPT, PPTX)
 
 **In-Class Exercise**: 
@@ -126,7 +126,7 @@ You are required to include appropriate captions for the accessibility of your v
 The staff has prepared simple instructions on how to do that using a script of your video together with YouTube's captioning tools:
 
 <div class="alert alert-danger" markdown="1">
-<p>[https://canvas.uw.edu/files/53767196/download?download_frd=1](https://canvas.uw.edu/files/53767196/download?download_frd=1)</p>`
+<p>[https://canvas.uw.edu/files/53767196/download?download_frd=1](https://canvas.uw.edu/files/53767196/download?download_frd=1)</p>
 </div>
 
 Be sure to check the quality of the resulting captions and correct them as necessary.
@@ -190,7 +190,7 @@ Submit your poster via Canvas here:
 
 Due to challenges that frequently arise in printing, submit both:
 
-- a PDF a your poster
+- a PDF of your poster
 - the source file for your poster (e.g., PPT, PPTX)
 
 We will then coordinate with you for proofreading and printing.

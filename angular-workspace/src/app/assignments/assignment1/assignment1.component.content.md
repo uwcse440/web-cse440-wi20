@@ -209,7 +209,7 @@ One way to help yourself identify a hierarchy of problems and goals is to ask "w
 
 Each idea should be a single sentence, identifying the domain and the problem or goal.
 At most one of your ideas may come from any of the domains above.
-You other two ideas should be from domains not in this list, in order to broaden the brainstorm.
+Your other two ideas should be from domains not in this list, in order to broaden the brainstorm.
 Also ensure your ideas are significantly different, not small variations on the same idea.
 
 #### Submission
