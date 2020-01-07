@@ -366,7 +366,7 @@ No more than three pages of text in PDF format:
  - for each of three initial designs
    - the high-level idea of the design (one paragraph)
    - scanned images of the design (sketches, not digital mockups)
-   - how to complete each the four sketched tasks (e.g., a list of steps, one or two sentences per task)
+   - how to complete each of the four sketched tasks (e.g., a list of steps, one or two sentences per task)
 
 Images do not count against your page limit, and are therefore effectively free. 
 You should embed images throughout your PDF, keeping them near the text that references them.

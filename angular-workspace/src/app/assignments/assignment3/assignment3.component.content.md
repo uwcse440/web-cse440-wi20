@@ -56,7 +56,7 @@ It should convey all critical aspects of your design, including support for test
 
 This prototype has been informed by your prior sketching and storyboarding.
 But it also contains more details than your prior exploratory designs.
-If necessary or appropriate, revise your tasks or scenarios based on what your learn in prototyping.
+If necessary or appropriate, revise your tasks or scenarios based on what you learn in prototyping.
 
 <!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="3a"></app-assignment-samples>
@@ -108,7 +108,7 @@ Each team will therefore conduct and receive one heuristic evaluation.
 
 We will provide a worksheet with Nielsen's heuristics:
 
-[3b-nielsen-heuristics.pdf](/assignments/assignment3/3b-nielsen-heuristics.pdf)
+[3b-nielsen-heuristics.pdf](/assets/assignments/3b-nielsen-heuristics.pdf)
 
 For each issue identified in evaluation, record:
 - The heuristic that is violated.
