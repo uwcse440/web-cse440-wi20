@@ -171,114 +171,70 @@ class CalendarData {
     },
     {
       date: moment('2020-01-14', 'YYYY-MM-DD'),
-      // name: '',
+      name: 'Design of Everyday Things',
       // slides: ''
     },
     {
       date: moment('2020-01-16', 'YYYY-MM-DD'),
-      // name: '',
+      name: 'Contextual Inquiry,<br>Design Research',
+      // Required for 2b planning of design research over weekend
+      // Can allow pre-project-team in-class exercise considering
+      // strengths/weakness of different design research methods for a project
       // slides: ''
     },
-    {
-      date: moment('2020-01-21', 'YYYY-MM-DD'),
-      name: 'Critique',
-      // slides: ''
-    },
+    // Critique
     {
       date: moment('2020-01-23', 'YYYY-MM-DD'),
-      // name: '',
+      name: 'Task Analysis',
+      // Required for Project 2d
       // slides: ''
     },
     {
       date: moment('2020-01-28', 'YYYY-MM-DD'),
-      // name: '',
+      name: 'Models and<br>Human Performance',
       // slides: ''
     },
     {
       date: moment('2020-01-30', 'YYYY-MM-DD'),
-      // name: '',
+      name: 'Storyboarding,<br>Video Prototyping',
+      // Required for 2g
+      // Doing before 2f allows including a bit of a refresh on sketching
+
       // slides: ''
     },
     {
       date: moment('2020-02-04', 'YYYY-MM-DD'),
+      name: 'Presentations,<br>Paper Prototyping,<br>Testing,<br>Patterns',
+      // Should be week before Assignment 2 presentations,
+      // so they can benefit from this as this as they make their presentations
+      // Required for 3a
+
       // name: '',
       // slides: ''
     },
     {
       date: moment('2020-02-06', 'YYYY-MM-DD'),
+      name: 'Interface Implementation',
       // name: '',
       // slides: ''
     },
     {
       date: moment('2020-02-11', 'YYYY-MM-DD'),
-      // name: '',
+      name: 'History',
       // slides: ''
     },
     // Presentations
-    {
-      date: moment('2020-02-18', 'YYYY-MM-DD'),
-      // name: '',
-      // slides: ''
-    },
-    {
-      date: moment('2020-02-20', 'YYYY-MM-DD'),
-      // name: '',
-      // slides: ''
-    },
+    // Inspection
+    // Usability Evaluation Considered Harmful
     // Exam
     {
       date: moment('2020-02-27', 'YYYY-MM-DD'),
       name: 'Designing for Diverse Needs',
       // slides: ''
     },
-    {
-      date: moment('2020-03-03', 'YYYY-MM-DD'),
-      // name: '',
-      // slides: ''
-    },
+    // Visual Critique
     // Presentations
-    {
-      date: moment('2020-03-10', 'YYYY-MM-DD'),
-      name: 'Video Critique',
-      // slides: ''
-    },
-
-//      name: 'Contextual Inquiry,<br>Design Research',
-      // Required for 2b planning of design research over weekend
-      // Can allow pre-project-team in-class exercise considering strengths/weakness of different design research methods for a project
-
-//      name: 'Design of Everyday Things',
-
-//      name: 'Critique',
-      // Required to be day that 2b is due, includes in-class critique of 2b
-
-//      name: 'Task Analysis',
-      // Required for Project 2d
-
-//      name: 'Additional Background<br>in Personal Informatics<br>and Machine Learning',
-
-//      name: 'Storyboarding,<br>Video Prototyping',
-      // Required for 2g
-      // Doing before 2f allows including a bit of a refresh on sketching
-
-//      name: 'Presentations,<br>Paper Prototyping,<br>Testing',
-      // Should be week before Assignment 2 presentations,
-      // so they can benefit from this as this as they make their presentations
-      // Required for 3a
-
-//      name: 'Testing,<br>Patterns',
-
-//      name: 'Inspection',
-      // Required to be day that 3a is due, includes in-class start on 3b'
-
-//      name: 'Human Performance'
-
-//      name: 'Designing for Diverse Needs',
-
-//      name: 'History',
-
-//      name: 'Interface Implementation',
-
+    // Video Critique
   ];
 
   sections: Section[] = [
@@ -287,6 +243,13 @@ class CalendarData {
     },
     {
       date: moment('2020-01-17', 'YYYY-MM-DD'),
+    },
+    {
+      date: moment('2020-01-21', 'YYYY-MM-DD'),
+      name: 'Critique',
+      locationName: 'lecture'
+      // Required to be day that 2b is due, includes in-class critique of 2b
+      // slides: ''
     },
     {
       date: moment('2020-01-24', 'YYYY-MM-DD'),
@@ -299,12 +262,37 @@ class CalendarData {
     },
     // Presentations
     {
+      date: moment('2020-02-18', 'YYYY-MM-DD'),
+      name: 'Inspection',
+      locationName: 'lecture'
+      // Required to be day that 3a is due, includes in-class start on 3b'
+      // slides: ''
+    },
+    {
+      date: moment('2020-02-20', 'YYYY-MM-DD'),
+      name: 'Usability Evaluation<br>Considered Harmful',
+      locationName: 'lecture'
+      // slides: ''
+    },
+    {
       date: moment('2020-02-21', 'YYYY-MM-DD'),
     },
     {
       date: moment('2020-02-28', 'YYYY-MM-DD'),
     },
     // Presentations
+    {
+      date: moment('2020-03-03', 'YYYY-MM-DD'),
+      name: 'Visual Critique',
+      locationName: 'lecture'
+      // slides: ''
+    },
+    {
+      date: moment('2020-03-10', 'YYYY-MM-DD'),
+      name: 'Video Critique',
+      locationName: 'lecture'
+      // slides: ''
+    },
     {
       date: moment('2020-03-13', 'YYYY-MM-DD'),
     },
