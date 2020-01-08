@@ -44,8 +44,13 @@ This page is still being migrated and developed. All content remains subject to 
             <!-- Name or placeholder 'Lecture' -->
             <p *ngIf="currentLecture.name" [innerHTML]="currentLecture.name"></p>
             <p *ngIf="!(currentLecture.name)">Lecture</p>
-            <div *ngIf="currentLecture.slides" class="slides">
-              <p>[<app-generated-link linkHREF="{{ currentLecture.slides }}">slides</app-generated-link>]</p>
+            <div *ngIf="currentLecture.slides || currentLecture.panopto" class="links">
+                <span *ngIf="currentLecture.slides" class="slides">
+                  [<app-generated-link linkHREF="{{ currentLecture.slides }}">slides</app-generated-link>]
+                </span>
+                <span *ngIf="currentLecture.panopto" class="video">
+                  [<app-generated-link linkHREF="{{ currentLecture.panopto }}">video</app-generated-link>]
+                </span>
             </div>
             <div *ngIf="currentLecture.location" class="location">
               <div *ngFor="let currentLocation of currentLecture.location">
