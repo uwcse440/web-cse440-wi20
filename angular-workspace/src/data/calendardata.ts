@@ -12,6 +12,7 @@ interface Lecture {
   location?: Location[];
   locationName?: string;
   slides?: string;
+  panopto?: string;
 }
 
 interface Major {
@@ -159,7 +160,8 @@ class CalendarData {
     {
       date: moment('2020-01-07', 'YYYY-MM-DD'),
       name: 'Introduction,<br>Project Overview',
-      slides: 'https://canvas.uw.edu/files/60961965/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/60961965/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31ab7564-8ef6-4af9-b6fb-ab3701635630'
     },
     {
       date: moment('2020-01-09', 'YYYY-MM-DD'),
