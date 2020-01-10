@@ -169,7 +169,8 @@ class CalendarData {
       // Theoretical basis for expand/contract in design, should go early
       // Includes IDEO video, which works well early
       // Allows explaining the assignment milestones if needed
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61053889/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=574a2073-b4f8-4066-8af1-ab3d01653ac7'
     },
     {
       date: moment('2020-01-14', 'YYYY-MM-DD'),
