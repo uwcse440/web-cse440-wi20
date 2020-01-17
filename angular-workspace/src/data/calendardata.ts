@@ -174,16 +174,18 @@ class CalendarData {
     },
     {
       date: moment('2020-01-14', 'YYYY-MM-DD'),
-      name: 'Design of Everyday Things',
-      // slides: ''
-    },
-    {
-      date: moment('2020-01-16', 'YYYY-MM-DD'),
-      name: 'Contextual Inquiry,<br>Design Research',
+      name: 'Design Research,<br>Contextual Inquiry',
       // Required for 2b planning of design research over weekend
       // Can allow pre-project-team in-class exercise considering
       // strengths/weakness of different design research methods for a project
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61128340/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2c8b42e-b50c-44ab-b5b7-ab3701635fd1'
+    },
+    {
+      date: moment('2020-01-16', 'YYYY-MM-DD'),
+      name: 'Design of Everyday Things',
+      slides: 'https://canvas.uw.edu/files/61228282/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30a24020-cd53-4c77-b246-ab370163624e'
     },
     // Critique
     {
