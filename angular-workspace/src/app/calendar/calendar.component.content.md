@@ -61,28 +61,19 @@ This page is still being migrated and developed. All content remains subject to 
         </div>
         <!-- 
           -- Section
-          --
-            <div class="item section">
-              {% if currentsection.slides != nil %}
-                <a href="{{ site.baseurl }}/{{ currentsection.slides }}">
-              {% endif %}
-                {% if currentsection.name != nil %}
-                  {{ currentsection.name }}<br>
-                {% else %}
-                  Section<br>
-                {% endif %}
-              {% if currentsection.slides != nil %}
-                </a>
-              {% endif %}
-            </div>
           -->
         <div *ngFor="let currentSection of getSectionsForDay(currentDay)">
           <div class="section">
             <!-- Name or placeholder 'Section' -->
             <p *ngIf="currentSection.name" [innerHTML]="currentSection.name"></p>
             <p *ngIf="!(currentSection.name)">Section</p>
-            <div *ngIf="currentSection.slides" class="slides">
-              <p>[<app-generated-link linkHREF="{{ currentSection.slides }}">slides</app-generated-link>]</p>
+            <div *ngIf="currentSection.slides || currentSection.panopto" class="links">
+                <span *ngIf="currentSection.slides" class="slides">
+                  [<app-generated-link linkHREF="{{ currentSection.slides }}">slides</app-generated-link>]
+                </span>
+                <span *ngIf="currentSection.panopto" class="video">
+                  [<app-generated-link linkHREF="{{ currentSection.panopto }}">video</app-generated-link>]
+                </span>
             </div>
             <div *ngIf="currentSection.location" class="location">
               <div *ngFor="let currentLocation of currentSection.location">

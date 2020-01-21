@@ -36,6 +36,7 @@ interface Section {
   location?: Location[];
   locationName?: string;
   slides?: string;
+  panopto?: string;
 }
 
 class CalendarData {
@@ -253,7 +254,8 @@ class CalendarData {
       name: 'Critique',
       locationName: 'lecture',
       // Required to be day that 2b is due, includes in-class critique of 2b
-      slides: 'https://canvas.uw.edu/files/61308777/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/61308777/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a08804f4-a7ee-4421-bc3b-ab37016369e1'
     },
     {
       date: moment('2020-01-24', 'YYYY-MM-DD'),
