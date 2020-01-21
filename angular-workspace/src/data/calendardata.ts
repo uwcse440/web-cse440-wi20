@@ -115,6 +115,12 @@ class CalendarData {
         location: "Allen 632"
       }
     ],
+    officeHourJames230: [
+      {
+        time: "2:30 - 3:30",
+        location: "Allen 632"
+      }
+    ],
     officeHourJesse: [
       {
         time: "2:00 to 3:00",
@@ -129,13 +135,6 @@ class CalendarData {
     ],
 
     /*
-        officeHourJamesAt200: [
-          {
-            time: "2:00 - 3:00",
-            location: "CSE 632"
-          }
-        ],
-
         officeHourJamesAt300: [
           {
             time: "3:00 - 4:00",
@@ -584,12 +583,12 @@ class CalendarData {
     {
       date: moment('2020-02-11', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJames'
+      locationName: 'officeHourJames230'
     },
     {
       date: moment('2020-02-18', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJames'
+      locationName: 'officeHourJames230'
     },
     {
       date: moment('2020-02-25', 'YYYY-MM-DD'),
@@ -696,6 +695,10 @@ class CalendarData {
     {
       date: moment('2020-01-07', 'YYYY-MM-DD'),
       name: 'Jena Away',
+    },
+    {
+      date: moment('2020-02-10', 'YYYY-MM-DD'),
+      name: 'Jesse Away',
     },
 /*
     {
