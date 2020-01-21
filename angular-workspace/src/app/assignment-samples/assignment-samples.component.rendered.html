@@ -57,6 +57,11 @@
           </ng-container>
         </a>
         <div class="card-body" id="listCollapse" [ngbCollapse]="isListCollapsed">
+          <p>
+            Note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+            Also note that details of assignments may have changed since prior offerings, so these samples may not completely correspond to the current project.
+            Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
+          </p>
           <ng-container *ngIf="sampleToLink==='2b'">
             <div class="alert alert-warning" markdown="1">
               Detail regarding the primary proposed method was new in the Autumn 2017 offering. It is not in prior samples.
@@ -66,11 +71,6 @@
           <p>Samples from prior offerings include:</p>
           <ng-container *ngTemplateOutlet="listTemplate">
           </ng-container>
-          <p>
-            Note that details of assignments may have changed since prior offerings, so these samples may not completely correspond to the current project.
-            Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
-            Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
-          </p>
         </div>
       </div>
     </div>    
