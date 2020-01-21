@@ -192,7 +192,7 @@ class CalendarData {
       date: moment('2020-01-23', 'YYYY-MM-DD'),
       name: 'Task Analysis',
       // Required for Project 2d
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61308777/download?download_frd=1'
     },
     {
       date: moment('2020-01-28', 'YYYY-MM-DD'),
