@@ -192,7 +192,7 @@ class CalendarData {
       date: moment('2020-01-23', 'YYYY-MM-DD'),
       name: 'Task Analysis',
       // Required for Project 2d
-      slides: 'https://canvas.uw.edu/files/61308777/download?download_frd=1'
+      // slides: ''
     },
     {
       date: moment('2020-01-28', 'YYYY-MM-DD'),
@@ -252,9 +252,9 @@ class CalendarData {
     {
       date: moment('2020-01-21', 'YYYY-MM-DD'),
       name: 'Critique',
-      locationName: 'lecture'
+      locationName: 'lecture',
       // Required to be day that 2b is due, includes in-class critique of 2b
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61308777/download?download_frd=1'
     },
     {
       date: moment('2020-01-24', 'YYYY-MM-DD'),
