@@ -247,7 +247,7 @@ If necessary, we may also further adjust an individual's grade for the Group Pro
 
 ### Contribution Statements
 
-Group submissions will generally require a contribution statement.
+Group submissions will require a contribution statement.
 This statement should indicate the name of each member of your team, 
 the percentage of effort that each member contributed in that specific assignment,
 and a corresponding list of specific activities. 
@@ -262,8 +262,9 @@ Contribution statements should be submitted together with your milestone submiss
 as a separate PDF using the Canvas "Add Another File" capability.
 When a contribution statement is required, we will not grade submissions until the contribution statement is provided.
 
-Contribution statements are intended to support your own reflection as a team as well as staff awareness of your efforts.
-You should therefore discuss and agree upon this statement of what you each contributed and how much this contributed to the overall assignment. 
+You should discuss and agree upon this statement of what you each contributed and how much this contributed to the overall assignment.
+
+Contribution statements are intended to support your own reflection as a team as well as staff awareness of your efforts. 
 The staff does not necessarily expect each person to contribute equally to each assignment, 
 but does expect all members will appropriately contribute over the quarter and will work as a team to support each other.
 The staff also understands that percentages are incomplete and subjective, 
