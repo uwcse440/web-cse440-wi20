@@ -192,12 +192,13 @@ class CalendarData {
       date: moment('2020-01-23', 'YYYY-MM-DD'),
       name: 'Task Analysis',
       // Required for Project 2d
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61382938/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e534607f-6964-4bdb-90bf-ab3701636c2b'
     },
     {
       date: moment('2020-01-28', 'YYYY-MM-DD'),
       name: 'Models and<br>Human Performance',
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61520093/download?download_frd=1'
     },
     {
       date: moment('2020-01-30', 'YYYY-MM-DD'),
@@ -696,6 +697,10 @@ class CalendarData {
   aways = [
     {
       date: moment('2020-01-07', 'YYYY-MM-DD'),
+      name: 'Jena Away',
+    },
+    {
+      date: moment('2020-01-28', 'YYYY-MM-DD'),
       name: 'Jena Away',
     },
     {
