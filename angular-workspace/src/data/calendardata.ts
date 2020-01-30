@@ -198,15 +198,15 @@ class CalendarData {
     {
       date: moment('2020-01-28', 'YYYY-MM-DD'),
       name: 'Models and<br>Human Performance',
-      slides: 'https://canvas.uw.edu/files/61520093/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/61520093/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cc11c102-4505-4fe1-8849-ab370163705d'
     },
     {
       date: moment('2020-01-30', 'YYYY-MM-DD'),
       name: 'Storyboarding,<br>Video Prototyping',
       // Required for 2g
       // Doing before 2f allows including a bit of a refresh on sketching
-
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61594332/download?download_frd=1'
     },
     {
       date: moment('2020-02-04', 'YYYY-MM-DD'),
