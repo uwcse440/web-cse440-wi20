@@ -206,21 +206,20 @@ class CalendarData {
       name: 'Storyboarding,<br>Video Prototyping',
       // Required for 2g
       // Doing before 2f allows including a bit of a refresh on sketching
-      slides: 'https://canvas.uw.edu/files/61594332/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/61594332/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b4c495b-3bff-4840-9ec8-ab3701637161'
     },
     {
       date: moment('2020-02-04', 'YYYY-MM-DD'),
-      name: 'Presentations,<br>Paper Prototyping,<br>Testing,<br>Patterns',
-      // Should be week before Assignment 2 presentations,
-      // so they can benefit from this as this as they make their presentations
+      name: 'Paper Prototyping,<br>Testing,<br>Patterns',
       // Required for 3a
-
-      // name: '',
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61688739/download?download_frd=1'
     },
     {
       date: moment('2020-02-06', 'YYYY-MM-DD'),
-      name: 'Interface Implementation',
+      // Should be week before Assignment 2 presentations,
+      // so they can benefit from this as this as they make their presentations
+      name: 'Presentations,<br>Interface Implementation',
       // name: '',
       // slides: ''
     },
@@ -429,16 +428,16 @@ class CalendarData {
       link: '/assignments/assignment2#id-2g-design-review-1x2'
     },
     {
-      date: moment('2020-02-10', 'YYYY-MM-DD'),
-      name: '2web - Getting the Right Design',
-      dueNote: '[due night before class]',
-      link: '/assignments/assignment2#id-2web-getting-the-right-design'
-    },
-    {
       date: moment('2020-02-12', 'YYYY-MM-DD'),
       name: '2p - Presentation',
       dueNote: '[due night before class]',
       link: '/assignments/assignment2#id-2p-presentation'
+    },
+    {
+      date: moment('2020-02-17', 'YYYY-MM-DD'),
+      name: '2web - Getting the Right Design',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment2#id-2web-getting-the-right-design'
     },
 
     // Assignment 3
@@ -581,7 +580,7 @@ class CalendarData {
     {
       date: moment('2020-02-04', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJames'
+      locationName: 'officeHourJames230'
     },
     {
       date: moment('2020-02-11', 'YYYY-MM-DD'),
@@ -594,14 +593,9 @@ class CalendarData {
       locationName: 'officeHourJames230'
     },
     {
-      date: moment('2020-02-25', 'YYYY-MM-DD'),
-      name: 'Office Hour - James',
-      locationName: 'officeHourJames'
-    },
-    {
       date: moment('2020-03-03', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJames'
+      locationName: 'officeHourJames230'
     },
     {
       date: moment('2020-03-10', 'YYYY-MM-DD'),
@@ -632,11 +626,6 @@ class CalendarData {
     },
     {
       date: moment('2020-02-19', 'YYYY-MM-DD'),
-      name: 'Office Hour - Qisheng',
-      locationName: 'officeHourQisheng'
-    },
-    {
-      date: moment('2020-02-26', 'YYYY-MM-DD'),
       name: 'Office Hour - Qisheng',
       locationName: 'officeHourQisheng'
     },
@@ -674,11 +663,6 @@ class CalendarData {
     },
     {
       date: moment('2020-02-20', 'YYYY-MM-DD'),
-      name: 'Office Hour - Jesse',
-      locationName: 'officeHourJesse'
-    },
-    {
-      date: moment('2020-02-27', 'YYYY-MM-DD'),
       name: 'Office Hour - Jesse',
       locationName: 'officeHourJesse'
     },
