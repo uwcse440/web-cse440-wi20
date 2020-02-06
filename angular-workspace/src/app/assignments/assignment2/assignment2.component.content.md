@@ -464,44 +464,54 @@ Prepare a presentation of your process in getting the right design. It should en
 - Two members of your team should deliver the presentation, each speaking to relatively equal portions.
 - A seven minute time limit will be strictly enforced, with additional time for questions.
 
-A suggested organization of this presentation is:
+Your presentation should include:
 
-1. __Title__: 
+1. __Title Slide__: 
  
-   A short, creative, and marketable title capturing the key idea. Include team member names.
+   A short, creative, and marketable title capturing the key idea.
+   
+   Include team member names. Be clear which team members are presenting.
  
 2. __Overall Problem__:  
 
-   Tell this as a story, instead of simply reading the slide. Motivate your audience to be interested in your problem.
+   Convey that your problem is both important and appropriate for a design investigation.
+
+   Motivate your audience to be interested in your problem.
+   Consider using data or statistics regarding importance of the problem.
+   Consider using a scenario or story to convey an emotional or human perspective on the problem.
+   Be sure to avoid simply reading slide bullets, as you need to develop a connection to your audience. 
 
 3. __Design Research__:
- 
-   Include images that give your audience a feeling for your fieldwork. Convey that you have seen and understand the challenge.
+
+   Convey what design research you conducted. This should include: 
+   - your methods (i.e., what design research did you do),
+   - your participants (i.e., what participants did you engage),
+   - your key findings (i.e., what key things did you learn that will inform your design).
+   
+   Consider including images that give your audience a feeling for your work.
  
 4. __6 Tasks__:
  
-   At most one sentence per task. Convey the breadth of tasks you have considered.
+   Convey the breadth of tasks you have considered, in at most one sentence per task.
  
 5. __3 Design Sketches__: 
 
    Convey the breadth of designs you considered.
+   
+   Be clear what is the key idea or difference in each of your three designs.
 
 6. __Selected Design Storyboards and Tasks__:
  
-   Convey your rationale for choosing a design focus.
-
    Present your storyboards, ensuring they effectively illustrate your selected design and tasks.
+   
+   Convey your rationale for choosing this as a design focus.
  
-7. __Summary__: 
-
-   Summarize the lessons learned in your design process.
-
 We strongly recommend rehearsing your presentation beforehand. 
 For example, arrange to practice together with another group or two, giving each other feedback on your presentations.
 
 Note that we have not set a required number of slides in each section of this presentation.
 You can deliver your presentation using as many or as few slides as you want,
-as long as your presentation successfully address the above points in the allowed time.
+as long as your presentation successfully addresses the above points in the allowed time.
 
 <!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="2p"></app-assignment-samples>
@@ -525,46 +535,33 @@ It is important to protect participant anonymity, even in the case that reportin
 <!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
-#### In-Class Feedback Forms
-
-The course staff will have a feedback form they keep during your presentation:
-
-<div class="alert alert-danger" markdown="1">
-
-<p>[2i-presentation-staff-form.pdf](/assets/assignments/2i-presentation-staff-form.pdf)</p>
-
-</div>
-
 ### Grading
 
-<div class="alert alert-danger" markdown="1">
+The course staff will have a grading form they keep during your presentation:
 
-The content of this presentation will be graded on a scale of __10 points__:
+<p>[2p-presentation-staff-form.pdf](/assets/assignments/2p-presentation-staff-form.pdf)</p>
 
-- Presentation shows appropriate preparation, with visual aids that are effective, properly prepared, and properly employed.
-- Slides are legible, such that people in the back of the room can still see them.
-- Presentation should not have an outline slide.
-  It is short enough to be told as a story of your process, and your outline is the same as every other presentation.
+The content of this presentation will be graded on a scale of __16 points__:
+
+- Presentations should not have an outline slide.
+  They are short enough to be told as a story of your process, and your outline is the same as every other presentation.
   Instead use that time to tell us about your project.
-- Problem is presented in a manner that is compelling and achievable.
-- Design research is carried out in an appropriate manner.
-- Design research results are illuminating in terms of the problem.
-- Tasks presented provide coverage of the functionality.
-- Tasks were neither too easy nor too hard.
-- Tasks were motivated by the design research.
-- Design ideas have a strong connection to results of design research.
-- Design ideas are appropriate for the supported tasks.
-- Design ideas and storyboards were at the proper fidelity.
-- Presentation covered the required scope within the allowed time period.
+- The problem should be presented in a manner that is compelling and achievable.
+- Design research should be carried out and presented in an appropriate manner.
+  This should include methods, participants, and key findings.
+- Tasks should provide coverage of envisioned functionality and be motivated by the design research.
+- Design ideas should be distinct and have a connection to results of design research.
+- The selected design and task storyboards should be compelling and have a connection to results of design research.
+- Presentations should show appropriate preparation, 
+  with slides that are legible and content that is effective, properly prepared, and properly employed.
+- Presentations should cover the required scope within the allowed time.
 
 The delivery of this presentation will be graded on a scale of __4 points__:
 
 - Presenter makes eye contact with the audience.
 - Presenter projects their voice well and is audible throughout the room.
-- Presenter feels casual and engaged with the content, not just reading it.
-- Presentation covered the required scope within the allowed time period.
-
-</div>
+- Presenter feels engaged with the content, not just reading slides.
+- Presenter covers the required scope within the allowed time.
 
 ### 2web: Getting the Right Design
 
