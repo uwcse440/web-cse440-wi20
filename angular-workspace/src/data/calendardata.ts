@@ -211,17 +211,17 @@ class CalendarData {
     },
     {
       date: moment('2020-02-04', 'YYYY-MM-DD'),
-      name: 'Paper Prototyping,<br>Testing,<br>Patterns',
+      name: 'Paper Prototyping,<br>Usability Testing',
       // Required for 3a
-      slides: 'https://canvas.uw.edu/files/61688739/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/61688739/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9fb82521-aeb4-4881-9c23-ab370163747d'
     },
     {
       date: moment('2020-02-06', 'YYYY-MM-DD'),
+      name: 'Presentations,<br>Patterns,<br>Interface Implementation',
       // Should be week before Assignment 2 presentations,
       // so they can benefit from this as this as they make their presentations
-      name: 'Presentations,<br>Interface Implementation',
-      // name: '',
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61790464/download?download_frd=1'
     },
     {
       date: moment('2020-02-11', 'YYYY-MM-DD'),
