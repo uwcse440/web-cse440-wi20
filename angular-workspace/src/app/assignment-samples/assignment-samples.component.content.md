@@ -64,7 +64,16 @@
           </p>
           <ng-container *ngIf="sampleToLink==='2b'">
             <div class="alert alert-warning" markdown="1">
-              Detail regarding the primary proposed method was new in the Autumn 2017 offering. It is not in prior samples.
+              <p>Detail regarding the primary proposed method was new in the Autumn 2017 offering.</p>
+<!-- spacing -->
+              <p>Prior samples do not include that information.</p>
+            </div>
+          </ng-container>
+          <ng-container *ngIf="sampleToLink==='2p'">
+            <div class="alert alert-warning" markdown="1">
+              <p>Detail regarding information expected in presentations was clarified in the Winter 2020 offering.</p>
+<!-- spacing -->
+              <p>Prior samples are more likely to be missing information that is expected in presentations.</p>
             </div>
           </ng-container>
 <!-- spacing -->

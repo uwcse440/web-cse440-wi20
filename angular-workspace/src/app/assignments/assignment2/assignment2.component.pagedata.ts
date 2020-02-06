@@ -22,7 +22,7 @@ class PageData {
   due_project_2p: string = "Uploaded Wednesday, February 12, 2020";
   link_project_2p: string = "https://canvas.uw.edu/courses/1352267/assignments/5159945";
 
-  due_project_2web: string = "Submitted Monday, February 10, 2020";
+  due_project_2web: string = "Submitted Monday, February 17, 2020";
   link_project_2web: string = "https://canvas.uw.edu/courses/1352267/assignments/5159923";
 }
 
