@@ -1,8 +1,10 @@
 # Assignment 2: Getting the Right Design
 
+<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Overview
 
@@ -459,6 +461,8 @@ This milestone will be graded on a scale of __8 points__:
 
 <app-assignment-due-text dueText="{{ page.due_project_2p }}"></app-assignment-due-text>
 
+The goal of this milestone is to effectively communicate your design research in a presentation.
+
 Prepare a presentation of your process in getting the right design. It should encompass all of your work in Assignment 2.
 
 - Two members of your team should deliver the presentation, each speaking to relatively equal portions.
@@ -565,94 +569,144 @@ The delivery of this presentation will be graded on a scale of __4 points__:
 
 ### 2web: Getting the Right Design
 
-<html>
-<div class="alert alert-danger" markdown="1">
-
 <app-assignment-due-text dueText="{{ page.due_project_2web }}"></app-assignment-due-text>
 
-The goal of this milestone is to communicate the design research that motivates your design.
+The goal of this milestone is to effectively communicate your design research in a post appropriate for a web portfolio.
 
-Prepare a report documenting your process of getting the right design.
-Your report should follow the outline below, and will be graded using the guidelines that follow.
-The provided page allocations are estimates, intended to help convey how to divide up the space.
+Prepare a post documenting your process of getting the right design. 
+Your post will be integrated into the course website via a Projects page,
+used to both advertise the course poster session and to provide an archive of course projects. 
+Your post should follow the outline below, and you will also need to provide:
+(1) a project title, (2) a project thumbnail, and (3) an image and preferred name for each member of the project team.
 
-If you completed all of your milestones above, you will have much of the content for this report.
-But it is critical that you revise and update that content.
-You have received extensive feedback throughout your design process, and evaluation of your report will 
-include how you have addressed and incorporated that feedback to improve relative to your prior milestones.
+The outline and its description of what to include in each section is intended to help convey your design process.
+For example, you might begin your section on identified tasks by saying "_We focused our design exploration around 6 tasks._",
+thus mirroring the outline's language regarding your overall design process.
+Each section suggests an organization that will often be effective,
+but you should adapt the section as appropriate to your specific design process.
+
+Your prior milestones provide significant content you can draw upon in this post,
+but this post is intended for an audience of future readers reviewing your design work.
+Not all of the content from prior milestones is included (e.g., the Task Analysis is not included),
+you should update your prior work based on feedback received throughout your design process,
+and you may choose to omit elements of your work that were ultimately less relevant to your design process.
 
 1. __Title__ 
 
    A short, creative, and marketable title capturing the key idea.
 
-2. __Each Team Member’s Name__
+2. __Problem and Solution Overview__:
 
-3. __Problem and Solution Overview__: (1 paragraph)
-
-   A concise statement of the problem you are tackling and a brief synopsis of your proposed solution.
-
-4. __Design Research Goals, Stakeholders, and Participants__: (1 page)
-
-   Describe your design research, including the participants, their background, and their environment.
-    
-   Describe why you chose the specific methods and participants in your design research.
-
-5. __Design Research Results and Themes__: (1 page)
-
-   Discuss common themes, problems, and practices that emerged in your design research.
+   A concise statement of the problem you are addressing and a brief introduction of your proposed solution.
    
-   Include any updated themes that emerged when considering your design research in your design process.
+   This could be organized as two short paragraphs: one introducing the problem and one introducing your solution.
 
-6. __Answers to Task Analysis Questions__: (2 pages)
+3. __Design Research Goals, Methods, and Participants__:
 
-   Provide brief answers to the task analysis questions.
+   Describe the goals of your design research (i.e., your focus, your primary need for additional understanding), 
+   the methods you applied in your design research toward these goals,
+   and the participants you engaged in your design research.
+   Describe why you chose your specific methods and participants.
    
-   These should be updated according to your evolved understanding of the problem and your design.
-
-7. __Proposed Design Sketches - "3x4"__: (1 page)
-
-   Present scanned images of your three initial designs in the context of their four tasks.
+   This could be a chronological account of your design research,
+   explaining how you combined multiple methods over time (e.g., a survey and then follow-up interviews)
+   or how your design research goals evolved across participants (e.g., a major pivot after an interview).
    
-   Include one paragraph for each design, discussing how it supports your tasks.
+   Minimize how much this section reveals about your results,
+   including only what may be necessary to explain your methods and participants.   
+
+4. __Design Research Results and Themes__:
+
+   Discuss the key insights and themes that emerged in your design research
+   (e.g., common needs, common practices, critical breakdowns, identified opportunities).
+   Use specific evidence whenever possible 
+   (e.g., quotes or stories from participants, pictures captured during observations),
+   so that readers know that insights and themes are based in design research data.
    
-   Include one paragraph discussing your choice of design and tasks to further pursue.
+   This could be organized as a short introduction followed by a paragraph for each insight or theme.
+   Each paragraph could begin with a single bolded sentence summarizing the insight or theme, 
+   then several sentences explaining the specific evidence or other design research data supporting the insight or theme.  
 
-8. __Written Scenarios - "1x2"__: (1 page)
+5. __Identified Tasks__:
 
-   Convert your two tasks into written scenarios for your design.
-   Scenarios include the steps a person will go through to accomplish the task, including references to your design.
+   Present 6 tasks around which you decided to focus your design exploration.
+   Provide brief justification for each task, based in your design research.
+   
+   This could be organized as a short introduction followed by a short paragraph for each task.
+   Each paragraph could begin with a single bolded sentence summarizing the task, 
+   then another sentence explaining the specific evidence or other design research data supporting the task.
+   For example, the latter sentence might explain that an existing task was commonly described by participants,
+   might explain how a critical breakdown identified by a participant motivates importance of the task,
+   or might describe how a theme identified in design research suggests a new task.
 
-   Scenarios do not need to detail every little step, but should be realistic, should be dependent upon the design 
-   you have chosen, should appropriately reference elements of your design, and should communicate how a person
-   will accomplish the task using your design.
+   Remember tasks describe design-agnostic objectives that people accomplish.
+   Although you may have also developed detailed scenarios or personas,
+   tasks in this section should be relatively brief and focused on
+   what people need or want to accomplish in the space your designs will address.  
 
-9. __Storyboards of the Selected Design__
+6. __Proposed Design Sketches__:
 
-   Include updated storyboards of your design. Reference these appropriately in your scenarios.
+   Present 3 distinct designs that each take a different approach to your problem
+   and are each motivated by your design research.
+   Explain the key ideas in each design
+   and include one or more images of your sketches for each design.
+   Be sure your explanation and images are sufficient for understanding each design
+   and for also understanding how the designs are distinct from each other.
 
-Ensure your report is appropriately clear and easy to read. This includes:
+   This could be organized as a short introduction that names each design followed by a paragraph for each design.
+   Each paragraph could include one or more images of your sketches for that design. 
+   
+7. __Selected Design and Storyboards__:
+
+   Present: (1) the design you will develop in the remainder of the course,
+   (2) a justification for why you chose that design based on your design research,
+   and (3) images of your storyboards illustrating 2 tasks with your design. 
+   Be sure your storyboards appropriately illustrate key elements of your design
+   and communicate how a person will accomplish the task using your design.
+   
+   This could be organized as an introductory paragraph justifying a selected design,
+   or could instead justify a decision to take key elements from multiple designs in a new design.
+   Storyboards could be presented together with written scenarios 
+   describing steps a person will go through to accomplish the tasks using your design,
+   thus providing additional detail necessary for interpreting and understanding your storyboards.
+  
+Ensure your post is appropriately clear and easy to read. This includes:
 
  - text should be clear and concise
- - use section headings as appropriate
- - include images in the body of the write-up with appropriate figure numbers and captions
- - refer to the figures in the body of your text
+ - use section headings and formatting as appropriate
+ - include images in the body of the post
  - check for typos, spelling, and grammar errors
-
-Be sure your presentation looks good:
-
- - choose appropriate colors, fonts, and styles
- - make liberal use of whitespace 
 
 <!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="2web"></app-assignment-samples>
 
 #### Submission
 
-No more than eight pages of text in PDF format, following the above outline.
+Evidence suggests that effective posts can be read in approximately 7 minutes:
 
-Images do not count against your page limit, and are therefore effectively free. 
-You should embed images throughout your PDF, keeping them near the text that references them.
-The limit applies to the approximate amount of text you would have if all images were removed.
+[https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b](https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b)
+
+Author your post such that it conveys the necessary content while remaining easy to skim and read within approximately 7 minutes.
+We estimate posts will be between 1500 and 2000 words in length.
+
+You post must be a plain text file, formatted in Markdown syntax:
+
+[https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
+
+Name the file `gettingtherightdesign.md`. In addition to your Markdown file, you will also need to provide:
+
+1. __A Project Thumbnail__: 
+   A 150x150 image appropriate as a thumbnail for your project, named `project_thumb.png`.
+
+2. __An image and preferred name for each member of the project team__: 
+   Similar to the images of the course staff on the overall course website, these will be included in the pages generated for your project.
+   Provide a file `names.txt` that includes how you want your names presented on the course website.
+   Then provide an appropriately named image for each member of the project team (e.g., `james.png`).
+
+3. __All images referenced by your Markdown file__: 
+   These will be placed in the same directory as your rendered Markdown file.
+   Instead of Markdown's image syntax, consider incorporating `img` tags directly in your Markdown,
+   thus allowing you to specify the rendering size of the image.
 
 Submit via Canvas here: 
 
@@ -664,102 +718,21 @@ It is important to protect participant anonymity, even in the case that reportin
 <!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
+Your post should be complete and will be evaluated as such.
+But you will also be able to make later modifications as we integrate your post into the course website (e.g., to correct any formatting issues) or as your project evolves (e.g., if your project title later changes).
+
 #### Grading
 
-This report will be graded on a scale of __25 points__:
+The content for this post will be graded on a scale of __24 points__:
 
-1.  __Title__: (1 point) 
-2.  __Team Member Names__: (1 point)  
+1.  __Title__: (1 point)
+2.  __Project Thumbnail__: (1 point) 
+2.  __Team Member Images and Names__: (1 points)  
 3.  __Problem and Solution Overview__: (2 points) 
-4.  __Design Research Goals, Stakeholders, and Participants__: (2 points)
+4.  __Design Research Goals, Methods, and Participants__: (3 points)
 5.  __Design Research Results and Themes__: (3 points)
-6.  __Answers to Task Analysis Questions__: (3 points)
-7.  __Proposed Design Sketches - "3x4"__: (3 points)
-8.  __Written Scenarios - "1x2"__: (3 points)
-9.  __Storyboards of the Selected Design__: (3 points)
+6.  __Identified Tasks__: (3 points)
+7.  __Proposed Design Sketches__: (3 points)
+8.  __Justification of Selected Design__: (1 points)
+9.  __Storyboards of the Selected Design__: (2 points)
 10. __Clarity and Presentation__: (4 points)
-
-</div>
-</html>
-
-<!--
-1. Create a project website that provides an overview of the project, 
-   presents your design process, and introduces team members. 
-   At a minimum, it must include links to
-   your [Assignment 2](/assignments/assignment2/) report, 
-   your [Assignment 3](/assignments/assignment3/) report, your video prototype, and your poster.
-   Optionally, also include your presentations or other materials.
-   Ideally, much of this same content will also be presented in a manner more appropriate for the web. 
-   
-   Be sure you have updated any documents that course staff said needed fixed before posting 
-   (e.g., any report that accidentally included participant identifying information). 
-
-### 4a: Initial Website
-
-<app-assignment-due-text dueText="{{ page.due_project_4a }}"></app-assignment-due-text>
-
-The goal of this milestone is to post an initial project website as part of the course website.
-
-We will use your websites to advertise the poster session.
-Although this is an initial website on which you will get feedback and will be able to update,
-you should submit a complete and high-quality version of your website appropriate for advertising the course projects.
-
-Your website will be served from a subdirectory of this course website.
-
-Within the GitHub repository of the course:
-
-<p>[https://github.com/uwcse440/web-cse440-wi19](https://github.com/uwcse440/web-cse440-wi19)</p>
-
-You will submit your website as a set of static files in your project directory:
-
-`angular-workspace/src/assets/projects/**projectpath**`
- 
-It is also linked via a thumb from the projects page:
-
-<p>[Projects Page](/projects.html)</p>
-
-You should provide an appropriate 150x150 thumb at:
-
-`angular-workspace/src/assets/projects/**projectpath**/project_thumb.png`
-
-You can build your website however you like, but everything needed for your site must be in your directory.
-Do not attempt to integrate with the functionality used for this course website.
-Simply build your website and submit the set of static files to be served from your directory. 
-Because you must provide a set of static files for your website, you may not use external site builders (e.g., Wix).
-
-Because your website will be served from a directory, be sure to use relative paths within your source.
-
-You will later add your video to the website. You may want to plan ahead for that additional content.
-
-<!-- Samples from Prior Offerings
-<app-assignment-samples sampleToLink="website"></app-assignment-samples>
-
-#### Submission
-
-Submit a pull request containing your website. We will merge as quickly as possible. 
-You can submit multiple requests as needed to fix issues or improve your website.
-Your request should not modify anything outside your project website.
-
-Submit simple pull requests early so that you become familiar with this functionality.
-Do not wait until the final moments to begin to learn how to do this.
-
-If you are absolutely unable to submit a pull request, submit via Canvas here:
-
-<app-assignment-submission-link linkSubmission="{{ page.link_project_4a }}"></app-assignment-submission-link>
-
-#### Contribution Statement
-
-<app-assignment-contribution-statement></app-assignment-contribution-statement>
-
-#### Grading
-
-This milestone will be graded on a scale of __8 points__:
-
-1.  __Completeness of Content__: (3 points)
-2.  __Appropriately Clear and Polished Presentation__: (3 points)
-3.  __Submitted via Pull Request__: (2 points)
-
-Your website should be complete and will be evaluated as such.
-But later critique and refinement will help further improve it before the final poster session.
-
--->
