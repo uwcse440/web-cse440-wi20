@@ -221,12 +221,14 @@ class CalendarData {
       name: 'Presentations,<br>Patterns,<br>Interface Implementation',
       // Should be week before Assignment 2 presentations,
       // so they can benefit from this as this as they make their presentations
-      slides: 'https://canvas.uw.edu/files/61790464/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/61790464/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e845f40f-ec29-4497-b38f-ab37016374d6'
     },
     {
       date: moment('2020-02-11', 'YYYY-MM-DD'),
       name: 'History',
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/61913669/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a4a66e0-9474-4bfb-8906-ab3701637731'
     },
     // Presentations
     // Inspection
@@ -512,7 +514,7 @@ class CalendarData {
 
     // Group Feedback
     {
-      date: moment('2020-02-14', 'YYYY-MM-DD'),
+      date: moment('2020-02-17', 'YYYY-MM-DD'),
       name: 'Group Feedback',
       dueNote: '[due end of day]',
       link: '/#group-feedback'
