@@ -55,17 +55,17 @@ We came up with three different designs to address the problems we have learnt f
 #### Design 1 - Travel Photo Management App
 The first design is a mobile app focused on the improvement of existing mobile camera and album applications. It enables a few tasks that the users wish they could perform, including capturing stories, organizing, sharing and searching for photos. Users can record a voice memo when taking photos and the app will automatically transcribe it to a textual description of the photo. Users can then share the photos and the descriptions to others in a story format. Having the descriptions, the app allows more specific search function based on the keywords in photo descriptions. Moreover, the app can suggest blurred and duplicate photos to users for deletion.
 
-<p><img src="assets/projects/{{ project.path }}/design1.png" width="100%" style="max-width: 620px; display: block; margin: auto;"></p>
+<p><img src="assets/projects/{{ project.path }}/design1.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 #### Design 2 - Wearable Mini Camera
 The wearable mini camera is a portable camera that can be attached to any model of glasses or pinned to the clothes. It is as lightweight and un-intrusive as possible to attach to any item of clothing, targeted for any user who wants to capture a photo without breaking a moment. Users can interact with the camera through buttons on the camera or voice command in order to take photos or record voice descriptions of the photo. The photos and voice memos are automatically transmitted to a mobile app, which allows users to manage or share the photos.
 
-<p><img src="assets/projects/{{ project.path }}/design2.png" width="100%" style="max-width: 620px; display: block; margin: auto;"></p>
+<p><img src="assets/projects/{{ project.path }}/design2.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 #### Design 3 - Group Travel Enhancement App
 This travel enhancement app is targeted at groups travelling together, with the primary goal of making group travel as painless as possible. In this app, multiple users can specify that they will travel together, forming a travel group. Within this travel group, photos will be automatically shared among members, and suggestions for future itinerary will be offered to each user based on past travel history.
 
-<p><img src="assets/projects/{{ project.path }}/design3.png" width="100%" style="max-width: 620px; display: block; margin: auto;"></p>
+<p><img src="assets/projects/{{ project.path }}/design3.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 ### Selected Design and Storyboards:
 We have chosen to further develop our Wearable Mini Camera design. Based on our user research, we found out that people have various needs and pain points in different stages of the photo taking and management process. Reflecting on our initial goal of helping people remember more precious moments, we decided to focus on the “upstream” problem first, which is to enable people to capture more photos and stories easily when traveling. Together with the camera, we also want to design a mobile app, which stores all the good photos taken by the camera, and provides some essential functions in our first design for people to easily manage their photos.
