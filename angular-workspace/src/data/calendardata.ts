@@ -104,11 +104,11 @@ class CalendarData {
     examQA: [
       {
         time: "12:30 to 1:20",
-        location: "TBD",
+        location: "CSE 305",
       },
       {
         time: "4:30 to 5:20",
-        location: "TBD",
+        location: "CSE 305",
       }
     ],
 
@@ -276,13 +276,14 @@ class CalendarData {
       name: 'Inspection',
       locationName: 'lecture',
       // Required to be day that 3a is due, includes in-class start on 3b'
-      slides: 'https://canvas.uw.edu/files/62076599/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/62076599/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7960f5e5-c565-45f1-a874-ab37016381db'
     },
     {
       date: moment('2020-02-20', 'YYYY-MM-DD'),
       name: 'Usability Evaluation<br>Considered Harmful',
-      locationName: 'lecture'
-      // slides: ''
+      locationName: 'lecture',
+      slides: 'https://canvas.uw.edu/files/62136953/download?download_frd=1'
     },
     {
       date: moment('2020-02-21', 'YYYY-MM-DD'),

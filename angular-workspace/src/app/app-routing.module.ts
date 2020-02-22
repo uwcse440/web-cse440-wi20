@@ -16,6 +16,7 @@ import { ReadingsComponent } from "./assignments/readings/readings.component";
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
+  { path: 'projects/:name', component: ProjectsComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'assignments',
     component: AssignmentsComponent,

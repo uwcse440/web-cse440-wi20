@@ -1,6 +1,8 @@
+<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 <html>
 <div class="row">
@@ -18,9 +20,9 @@ This page is still being migrated and developed. All content remains subject to 
 
 Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
 
-`Wednesday, March 20, 2019`
+Thursday, March 12, 2019
 
-`4:30pm to 5:30pm`, [CSE Atrium](http://www.washington.edu/maps/#!/cse)
+11:30am to 12:30pm, [CSE Atrium](http://www.washington.edu/maps/#!/cse)
 
 <img src="assets/images/poster_session.jpg" class="posterSessionImage" alt="Photo of Poster Session"/>
 </div>  
@@ -44,16 +46,16 @@ help go beyond simple data fetishes to help people in using personal data as par
 <html>
   <div class="row">
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" *ngFor="let project of projects.projects">
-      <p>
-        <app-generated-link linkHREF="assets/projects/{{ project.path }}/" forceExternal="true">{{ project.name }}</app-generated-link>
-      </p>
-      <div class="projectThumbBox">
+      <button type="button" class="btn btn-link" style="text-align: left;" (click)="openProject(projectmodal, project)">
         <p>
-          <app-generated-link linkHREF="assets/projects/{{ project.path }}/" forceExternal="true">
-            <img src="assets/projects/{{ project.path }}/project_thumb.png" width="150" class="projectThumbImage" alt="{{ project.name }}"/>
-          </app-generated-link>
+          {{ project.name }}
         </p>
-      </div>
+        <div class="projectThumbBox">
+          <p>
+            <img src="assets/projects/{{ project.path }}/project_thumb.png" width="150" class="projectThumbImage" alt="{{ project.name }}"/>
+          </p>
+        </div>
+      </button>
     </div>
   </div>
 </html>

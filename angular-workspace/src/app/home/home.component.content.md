@@ -76,7 +76,7 @@ Check the calendar for non-standard times, locations, or staffing.
 
 __Office Hours__:
 
-- James, Tuesdays 3:30 to 4:30, [Allen 632](https://uw.edu/maps/?cse)
+- James, Tuesdays, see calendar for time, [Allen 632](https://uw.edu/maps/?cse)
 - Qisheng, Wednesdays 10:00 to 11:00, [Allen 4th Floor Breakout](https://uw.edu/maps/?cse)
 - Jesse, Thursdays 2:00 to 3:00, [Allen 4th Floor Breakout](https://uw.edu/maps/?cse)
 
