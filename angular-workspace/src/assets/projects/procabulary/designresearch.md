@@ -1,10 +1,3 @@
-
-
-![project_thumb](media/project_thumb.png)
-
-# ProCabulary
-Arjun Malhotra, Francis Wang, Karron Bansal, Zhennan Zhou
-
 ### 1. Problem and Solution Overview
 There exists an implicit onboarding process in specialized fields of work. Not only is there a standard training process for new employees, there is a second, hidden one as well. This hidden process is the understanding of technical jargon in that field, especially in professional contexts. Our problem is how do we speed up this process, or, in other words, how do we get people to master sophisticated and specialized jargons and information in professional industries at a quicker pace. Per the Bureau of Labor Statistics, the US economy added 176,000 jobs every month in 2019. The expanding workforce and relentless onboarding that occurs for professionals exacerbates this problem.
 
@@ -34,72 +27,60 @@ These were the results that came out of our design research process.
 ### 4. Identified Tasks
 We have summarized main pain points that were mentioned during interviews with our potential targets as well as from our initial design research. After analyzing our research and interview results, we designed 6 tasks that embody the objectives our targets want to accomplish and particular needs they have. 
 
-**Task1: Identify and compile new terms and vocabulary.** Four interviewees all expressed their concerns to quickly comprehend and extract important terms in fast-paced intellectual discussions. Hence, we think it is fairly important to design this task to help our potential target identify and organize new terms and vocabulary.
+**Task 1: Identify and compile new terms and vocabulary.** Four interviewees all expressed their concerns to quickly comprehend and extract important terms in fast-paced intellectual discussions. Hence, we think it is fairly important to design this task to help our potential target identify and organize new terms and vocabulary.
 
-**Task2: Review and study identified vocabulary.** The majority of our interviewees, when being asked about memorizing new terms and keywords, told us that they have to force themselves to review and memorize them constantly, otherwise they will quickly forget those words completely. 
+**Task 2: Review and study identified vocabulary.** The majority of our interviewees, when being asked about memorizing new terms and keywords, told us that they have to force themselves to review and memorize them constantly, otherwise they will quickly forget those words completely. 
 
-**Task3: Integrate vocabulary into daily conversations.** Although all of our interviewees acknowledged that remembering and integrating newly-gathered information into their speech is a natural process, they worried that the entire process is too slow to be practical without any external forces. They also identified that they constantly find it difficult to naturally incorporate those words to appropriate contexts when talking with other professionals.
+**Task 3: Integrate vocabulary into daily conversations.** Although all of our interviewees acknowledged that remembering and integrating newly-gathered information into their speech is a natural process, they worried that the entire process is too slow to be practical without any external forces. They also identified that they constantly find it difficult to naturally incorporate those words to appropriate contexts when talking with other professionals.
 
-**Task4: Identify places for improvements.** In our design research, we noticed that a lot of our interviewees, even though they have spent time reviewing and extracting important information, they always lack a clear goal to enhance and hone their skills, not sure where they are and where they are heading to. This makes their effort less effective and leaves it in vain. 
+**Task 4: Identify places for improvements.** In our design research, we noticed that a lot of our interviewees, even though they have spent time reviewing and extracting important information, they always lack a clear goal to enhance and hone their skills, not sure where they are and where they are heading to. This makes their effort less effective and leaves it in vain. 
 
-**Task5: Reflect on changes and progress.**  Through our design research, we discovered that incentivizing and personalizing learning experience triggers powerful human emotions, particularly fulfillment, encouragement and interests. Reinforcing good behaviors and improvements by offering small, staged rewards, even small psychological rewards, can help users accomplish their goals one by one and create a sense of achievement for them to proceed further. According to the statistics demonstrated by TalentLMS [1], 81% of respondents said that the reward system increases their engagement and gives them encouragement for future learning.
+**Task 5: Reflect on changes and progress.**  Through our design research, we discovered that incentivizing and personalizing learning experience triggers powerful human emotions, particularly fulfillment, encouragement and interests. Reinforcing good behaviors and improvements by offering small, staged rewards, even small psychological rewards, can help users accomplish their goals one by one and create a sense of achievement for them to proceed further. According to the statistics demonstrated by TalentLMS [1], 81% of respondents said that the reward system increases their engagement and gives them encouragement for future learning.
 
-**Task6: Draw connections among different settings of daily conversations**. Throughout our interviews with our potential target users, we noticed that people have particular need to "translate" speeches in their professional areas to speeches aiming for people without professional knowledge. As our interviewees mentioned, every time before conversations, they need to spend a long time thinking carefully about how to use plain language to properly communicate in front of people outside their industry but always fail to achieve this by unconsciously assuming other people understand what he/she is talking about with professional languages.
-
+**Task 6: Draw connections among different settings of daily conversations**. Throughout our interviews with our potential target users, we noticed that people have particular need to "translate" speeches in their professional areas to speeches aiming for people without professional knowledge. As our interviewees mentioned, every time before conversations, they need to spend a long time thinking carefully about how to use plain language to properly communicate in front of people outside their industry but always fail to achieve this by unconsciously assuming other people understand what he/she is talking about with professional languages.
 
 ### 5. Proposed Design Sketches 
-**Design 1: Wearable - mobile learning app pair**
+**Design 1: Wearable - Mobile Learning App Pair**
 
 This wearable-mobile app pair especially focuses on collecting new information from conversations and learning the newly-gathered information.Learners can tap the record button on the wearable screen to start recording and stop the recording by tapping again. The recording will then be analyzed, jargons from this field will be presented in a manner that is easy to comprehend and memorize, integrating methods such as relational diagrams, flashcards and quizzes. Meaning, frequency of the words mentioned, and common usage will be presented if one clicks the word bubble. Playbacks of each word are also provided for the learner to get a sense of the context the new words are used. See *Figure.1* below for details.  
  
-<img src = "media/memorizing.jpg" alt = "Figure.1 Sketch for Design 1: Wearable-Learning App Pair" width = "500">
-
-*Figure.1 Sketch for Design 1: Wearable-Learning App Pair*
-
-
-
+<p><img src="assets/projects/{{ project.path }}/memorizing.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;" alt="Figure 1: Wearable-Learning App Pair"></p>
+<p style="text-align: center;"><b>Figure 1: Wearable-Learning App Pair</b></p>
 
 **Design 2: Speech Improvement Mobile App**
+
 The speech improvement mobile app is more focused on helping people learn how to use words in the correct context and tracking their every step along the speech improvement journey. The design of the app combines the idea of personal training apps and Grammarly. Users can build a profile, provide the information on their current fluency in their areas, and what they wish to achieve. A timeline will then be generated for the users to present a clear visualization of their speech improvement journey. The users can tap the record button on the lower menu to start recording. The written version of their speech will be presented on the speech, there will also be suggestions on some words or framing of sentences to make the speech more appropriate in the given context. The advice may come from the speech of professionals that the users talk to, or external sources. Details are given in *Figure.2*. 
 
+<p><img src="assets/projects/{{ project.path }}/speechguide.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;" alt="Figure 2: Speech Improvement Mobile App"></p>
+<p style="text-align: center;"><b>Figure 2: Speech Improvement Mobile App</b></p>
 
-<img src = "media/speech%20guide.jpg" alt = "Figure.2 Speech Improvement Mobile App" width = "500">
+**Design 3: Wearable and Audio Analysis on Desktop**
 
-*Figure.2 Speech Improvement Mobile App*
-
-
-**Design 3 Wearable and Audio Analysis on Desktop**
 The wearable is specifically designed and equipped with audio recording capability. Users are able to proactively activate the audio recording by pressing the start button on the wearable and stop recording at any time by pressing the button again. The audio then will be sent to and analyzed on the registered PC or Mac securely. All related and emphasized topics will be extracted from the audio clips and listed on the front page by their frequency and importance. This allows users to quickly pinpoint the topic/area they want to review afterwards. Each topic includes a keyword list and a corresponding list of brief summaries according to the fields, realms that users select. By clicking the keyword, the user is able to review playbacks in which the keyword is mentioned as well as other tangible related materials. 
 
-<img src = "media/analysis.jpg" alt = "Figure.3 Wearable and Audio Analysis on Desktop" width = "500">
-*Figure.3 Wearable and Audio Analysis on Desktop*
-
-
+<p><img src="assets/projects/{{ project.path }}/analysis.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;" alt="Figure 3: Wearable and Audio Analysis on Desktop"></p>
+<p style="text-align: center;"><b>Figure 3: Wearable and Audio Analysis on Desktop</b></p>
 
 ### 6. Selected Design and Storyboards
 
 We chose to combine the second design and third design. Together, these two designs address a majority of goals we identified from our participants: pinpointing new terms and vocabularies, reviewing and getting familiarized with those new words/info and evaluating their progress. The combined design contains a wearable to support audio recording as well as a smartphone for data presentation. Smartphones make analysis and reflection on those captured data much easier, and wearable allows for a less intrusive method of continuous speech capture. From our design research, most of our participants tend to become rusty on certain words as time goes by. The combined design aims to facilitate learning and proactively reactive memory in the correct context. 
 
-
-**Scenario #1 Compiling new terms/vocabulary and review the identified words**
+**Scenario 1: Compiling new terms/vocabulary and review the identified words**
 
 Peter is a new lawyer, and the conferences and hearings he needs to attend are always lengthy. Even though there are always audio recordings, it is time-consuming to listen to the entire recording aimlessly to gather the most instructive information. He wants to quickly capture the keywords and juristic theories so that he is able to draw some parallels from them. After researching online, he decided to give Procabulary a shot. On the other day, he recorded the hearing that he attended using his smart watch. The material was then transferred to ProCabulary and analyzed thoroughly. A brief summary of the court hearing, and a list of extracted keywords were presented in the app. The order of the keyword list was based on the frequency those words were mentioned, and he can check out the definition, common usage, and playback audios of the mentioned keywords. Peter was glad that he discovered ProCabulary, for it could not only save him tons of time going through the lengthy recordings, but also help him capture those keywords with ease. 
 
+<p><img src="assets/projects/{{ project.path }}/task1.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;" alt="Figure 4: Storyboard for Scenario 1"></p>
+<p style="text-align: center;"><b>Figure 4: Storyboard for Scenario 1</b></p>
 
-<img src = "media/task%201%20copy.jpg" alt = "Figure.4 Storyboard for Scenario #1" width = "500">
-
-*Figure.4 Storyboard for Scenario #1*
-
-
-**Scenario #2 Identifying places for improvement and track one’s progress**
+**Scenario 2: Identifying places for improvement and track one’s progress**
 
 Jason is a Ph.D. student who majors in transportation engineering, but he wants to pursue a career in the consulting industry. As a non-native speaker, he finds the transition to be quite challenging. A friend highly recommended him try out ProCabulary to improve his speech, so he purchased the premium plan. He set up his profile, specifying his current fluency in consulting, and his goal (to sound like a professional consultant). The other day, Jason recorded the conversation with a client by using the recording app on his apple watch. What he said during the meeting was extracted and presented in ProCabulary. Several suggestions regarding his word choice were provided, for example, "I'm available " to be rephrased as "I will have bandwidth to take on this project," and "get the senior person engaged in my idea" be replaced by "gain traction." With the advice provided by ProCabulary, Jason's speech became more appropriate for the consulting setting. Jason was glad that he could find a tool that helps him incorporate the consulting glossary into his language. 
 
-
-<img src = "media/task2%20copy.jpg" alt = "Figure.5 storyboard for Scenario #2" width = "500">
-
-*Figure.5 storyboard for Scenario #2*
+<p><img src="assets/projects/{{ project.path }}/task2.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;" alt="Figure 5: Storyboard for Scenario 2"></p>
+<p style="text-align: center;"><b>Figure 5: Storyboard for Scenario 2</b></p>
 
 ---
+
 Work Cited
+
 https://www.talentlms.com/blog/gamification-survey-results/
