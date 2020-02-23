@@ -7,7 +7,7 @@ import * as MarkdownIt from "markdown-it";
 import * as MarkdownItAnchor from "markdown-it-anchor";
 
 // Paths we will process
-import { PATHS_DATA } from "./markdown.paths";
+import { RENDERING_DATA } from "./markdown.paths";
 
 // Our primary Markdown renderer
 let markdownIt = MarkdownIt("commonmark")
@@ -65,30 +65,29 @@ function renderMarkdown(markdown: string) {
   return renderedMarkdown;
 }
 
-for (let pathDataCurrent of PATHS_DATA) {
-  let pathAngularTemplate = join(pathDataCurrent.pathDirectory, `${pathDataCurrent.pathPrefix}.template.html`);
+for (let renderingDataCurrent of RENDERING_DATA) {
+  let pathAngularTemplate = `${renderingDataCurrent.pathPrefixTemplate}.template.html`;
   let angularTemplate = readFileSync(pathAngularTemplate, {encoding:"utf-8"});
 
   // Each piece of content is added as a named ng-template
   let combinedTemplate = "";
-  for (let contentNameCurrent of pathDataCurrent.markdownContentNames) {
-    let pathContentCurrent = join(pathDataCurrent.pathDirectory, `${pathDataCurrent.pathPrefix}.${contentNameCurrent}.md`);
-    let markdownContentCurrent = readFileSync(pathContentCurrent, {encoding:"utf-8"});
+  for (let renderingPairCurrent of renderingDataCurrent.markdownRenderingPairs) {
+    let markdownCurrent = readFileSync(renderingPairCurrent.pathMarkdown, {encoding:"utf-8"});
 
     // Render the Markdown
-    let renderedContentCurrent = renderMarkdown(markdownContentCurrent);
+    let renderedCurrent = renderMarkdown(markdownCurrent);
 
-    combinedTemplate += `<ng-template #${contentNameCurrent}>\n`;
-    combinedTemplate += `${renderedContentCurrent.trim()}\n`;
+    combinedTemplate += `<ng-template #${renderingPairCurrent.nameDestinationTemplate}>\n`;
+    combinedTemplate += `${renderedCurrent.trim()}\n`;
     combinedTemplate += `</ng-template>\n`;
     combinedTemplate += `\n`;
   }
 
-  // The angular template can then draw upon those
+  // The angular template can then use the rendered templates
   combinedTemplate += angularTemplate;
 
   // Store it at the rendered location to be used by Angular compilation
-  let pathRenderedTemplate = join(pathDataCurrent.pathDirectory, `${pathDataCurrent.pathPrefix}.rendered.html`);
+  let pathRenderedTemplate = `${renderingDataCurrent.pathPrefixTemplate}.rendered.html`;
   writeFileSync(pathRenderedTemplate, combinedTemplate);
 
   console.log(`Rendered ${pathRenderedTemplate}`);

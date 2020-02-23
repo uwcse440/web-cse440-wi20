@@ -101,14 +101,16 @@ class CalendarData {
       }
     ],
 
-    /*
-        examQA: [
-          {
-            time: "TBD",
-            location: "TBD"
-          }
-        ],
-    */
+    examQA: [
+      {
+        time: "12:30 to 1:20",
+        location: "CSE 305",
+      },
+      {
+        time: "4:30 to 5:20",
+        location: "CSE 305",
+      }
+    ],
 
     officeHourJames: [
       {
@@ -272,15 +274,16 @@ class CalendarData {
     {
       date: moment('2020-02-18', 'YYYY-MM-DD'),
       name: 'Inspection',
-      locationName: 'lecture'
+      locationName: 'lecture',
       // Required to be day that 3a is due, includes in-class start on 3b'
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/62076599/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7960f5e5-c565-45f1-a874-ab37016381db'
     },
     {
       date: moment('2020-02-20', 'YYYY-MM-DD'),
       name: 'Usability Evaluation<br>Considered Harmful',
-      locationName: 'lecture'
-      // slides: ''
+      locationName: 'lecture',
+      slides: 'https://canvas.uw.edu/files/62136953/download?download_frd=1'
     },
     {
       date: moment('2020-02-21', 'YYYY-MM-DD'),
@@ -304,18 +307,13 @@ class CalendarData {
     {
       date: moment('2020-03-13', 'YYYY-MM-DD'),
     },
-/*
+    // Exam Q&A
     {
-      date: moment('2019-02-25', 'YYYY-MM-DD'),
+      date: moment('2020-02-24', 'YYYY-MM-DD'),
       name: 'Exam Q&A',
       locationName: 'examQA',
-      slides: 'https://canvas.uw.edu/files/54172899/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/62078869/download?download_frd=1'
     },
-    {
-      date: moment('2019-03-14', 'YYYY-MM-DD'),
-      locationName: 'lecture',
-    },
-*/
   ];
 
   majors: Major[] = [
