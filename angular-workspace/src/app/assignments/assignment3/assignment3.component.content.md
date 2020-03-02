@@ -397,55 +397,66 @@ This milestone will be graded on a scale of __14 points__:
 
 <app-assignment-due-text dueText="{{ page.due_project_3p }}"></app-assignment-due-text>
 
+The goal of this milestone is to effectively communicate your design prototyping in a presentation.
+
 Prepare a presentation of your process in getting the design right. It should encompass all of your work in Assignment 3.
 
 - Two members of your team should deliver the presentation, each speaking to relatively equal portions.
 - A seven minute time limit will be strictly enforced, with additional time for questions.
-- Your presenters should be different from your presenters in Assignment 2, such that everybody has presented at least once this quarter.
+- Presenters should be different from those for Assignment 2, such that everybody presents at least once this quarter.
   If there is some reason this cannot work for your team, be sure you have communicated with us.
 
 A suggested organization of this presentation is:
 
-1. __Title__:
+1. __Title Slide__: 
  
-   A short, creative, and marketable title capturing the key idea. Include team member names.
+   A short, creative, and marketable title capturing the key idea.
+   
+   Include team member names. Be clear which team members are presenting.
  
-2. __Overall Problem__: 
+2. __Overall Problem__:  
 
-   Tell this as a story, instead of simply reading the slide. Motivate your audience to be interested in your problem.
+   Convey that your problem is both important and appropriate for a design investigation.
+
+   Motivate your audience to be interested in your problem and your proposed solution.
+   Remember that you are teaching us what you learned in your process, you are not "selling" your solution.
+   Be sure to avoid simply reading slide bullets, as you need to develop a connection to your audience. 
 
 3. __Initial Paper Prototype__:
  
    Present your initial paper prototype.
-   Convey the critical aspects of your design, including your two primary tasks.
+   Convey the critical aspects of your design, including the two primary tasks being refined in your paper prototype.
  
 4. __Testing Process and Results__:
  
-   Describe your testing process, what you learned from it, and how you refined your prototype as a result.
+   Convey how you iteratively improved on your design. This should include your process: 
+   - your methods (i.e., what methods did you use to improve your initial design),
+   - your participants (i.e., what participants did you engage),
+   
+   It should also include your findings and iterative improvements:
+   - specific usability issues that were identified and corrected (e.g., consider before and after comparisons)
+   - higher-level findings and themes that emerged (e.g., consider explaining a specific issue that was identified and how it led to a larger revision of the design)
  
 5. __Final Paper Prototype__:
 
    Present your final paper prototype.
-   Convey the critical aspects of your design, including your two primary tasks.
+   Convey the critical aspects of your design, including the two primary tasks.
    This might be shorter than your presentation of the initial paper prototype, 
    because you already presented changes and are about to present the digital mockup.
-   Keep your presentation appropriately paced instead of getting bogged down here.
+   This might also have been part of your testing process and results, if changes were illustrated there.
 
 6. __Digital Mockup__:
  
    Present your digital mockup.
-   Convey the critical aspects of your design, including your two primary tasks.
+   Convey the critical aspects of your design, including the two primary tasks.
+   Discuss any significant changes that were required when transitioning from a paper prototype.
  
-7. __Summary__:
-
-   Summarize the lessons learned in your design process.
-
 We strongly recommend rehearsing your presentation beforehand. 
 For example, arrange to practice together with another group or two, giving each other feedback on your presentations.
 
-Note that we have not provided recommendations for the number of slides in each section of this presentation. 
-You can deliver your presentation using as many or as few slides as you want, 
-as long as you successfully address the above points and the presentation falls within the time restriction.
+Note that we have not set a required number of slides in each section of this presentation.
+You can deliver your presentation using as many or as few slides as you want,
+as long as your presentation successfully addresses the above points in the allowed time.
 
 <!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="3p"></app-assignment-samples>
@@ -463,43 +474,39 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3p }}"></app-assignment-submission-link>
 
-#### Contribution Statement
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
-#### In-Class Feedback Forms
+### Grading
 
-The course staff will have a feedback form they keep during your presentation:
+The course staff will have a grading form they keep during your presentation:
 
-<div class="alert alert-danger" markdown="1">
-<p>[3g-presentation-staff-form.pdf](/assets/assignments/3g-presentation-staff-form.pdf)</p>
-</div>
+<p>[3p-presentation-staff-form.pdf](/assets/assignments/3p-presentation-staff-form.pdf)</p>
 
-#### Grading
+The content of this presentation will be graded on a scale of __16 points__:
 
-<div class="alert alert-danger" markdown="1">
-The content of this presentation will be graded on a scale of __10 points__:
-
-- Presentation shows appropriate preparation, with visual aids that are effective, properly prepared, and properly employed.
-- Slides are legible, such that people in the back of the room can still see them.
-- Presentation should not have an outline slide. It is short enough to be told as a story of your process.
-- Problem is presented in a manner that is compelling and achievable.
-- First paper prototype effectively demonstrates completion of a scenario.
-- Testing process is appropriate for the design.
-- Testing process is carried out in an appropriate manner.
-- Testing results are illuminating in terms of the design.
-- Final paper prototype has a strong connection to the results of the testing process.
-- Digital mockup effectively implements the final paper prototype.
-- Digital mockup is at the proper fidelity.
-- Presentation covered the required scope within the allowed time period.
+- Presentations should not have an outline slide.
+  They are short enough to be told as a story of your process, and your outline is the same as every other presentation.
+  Instead use that time to tell us about your project.
+- The problem and your proposed solution should be presented in a manner that is compelling,
+  should teach us what you learned in your process rather than "selling" your solution.
+- The initial prototype should be effectively conveyed through two scenarios.
+- The process of iteratively improving the design should be effectively conveyed and appropriate for the design.
+- Findings and iterative improvements of the design should be effectively conveyed.
+- The final design, as represented by your digital mockup, should be effectively conveyed through two scenarios.
+- Presentations should show appropriate preparation, 
+  with slides that are legible and content that is effective, properly prepared, and properly employed.
+- Presentations should cover the required scope within the allowed time.
 
 The delivery of this presentation will be graded on a scale of __4 points__:
 
 - Presenter makes eye contact with the audience.
 - Presenter projects their voice well and is audible throughout the room.
-- Presenter feels casual and engaged with the content, not just reading it.
-- Presentation covered the required scope within the allowed time period.
-</div>
+- Presenter feels engaged with the content, not just reading slides.
+- Presenter covers the required scope within the allowed time.
 
 ### 3web: Getting the Design Right
 	

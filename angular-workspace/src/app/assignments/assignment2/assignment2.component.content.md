@@ -467,6 +467,8 @@ Prepare a presentation of your process in getting the right design. It should en
 
 - Two members of your team should deliver the presentation, each speaking to relatively equal portions.
 - A seven minute time limit will be strictly enforced, with additional time for questions.
+- Presenters should be different from those for Assignment 3, such that everybody presents at least once this quarter.
+  If there is some reason this cannot work for your team, be sure you have communicated with us.
 
 Your presentation should include:
 
