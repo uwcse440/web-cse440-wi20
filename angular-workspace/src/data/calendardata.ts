@@ -239,7 +239,8 @@ class CalendarData {
     {
       date: moment('2020-02-27', 'YYYY-MM-DD'),
       name: 'Designing for Diverse Needs',
-      // slides: ''
+      slides: 'https://canvas.uw.edu/files/62370175/download?download_frd=1',
+      panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=36142580-e2f4-465b-9af7-ab3701638612'
     },
     // Visual Critique
     // Presentations
@@ -600,7 +601,7 @@ class CalendarData {
     {
       date: moment('2020-03-10', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJames'
+      locationName: 'officeHourJames230'
     },
 
     // Qisheng
