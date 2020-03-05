@@ -299,15 +299,15 @@ class CalendarData {
       locationName: 'lecture'
       // slides: ''
     },
-    {
-      date: moment('2020-03-10', 'YYYY-MM-DD'),
-      name: 'Video Critique',
-      locationName: 'lecture'
-      // slides: ''
-    },
-    {
-      date: moment('2020-03-13', 'YYYY-MM-DD'),
-    },
+    // {
+    //   date: moment('2020-03-10', 'YYYY-MM-DD'),
+    //   name: 'Video Critique',
+    //   locationName: 'lecture'
+    //   // slides: ''
+    // },
+    // {
+    //   date: moment('2020-03-13', 'YYYY-MM-DD'),
+    // },
     // Exam Q&A
     {
       date: moment('2020-02-24', 'YYYY-MM-DD'),
@@ -336,24 +336,24 @@ class CalendarData {
       locationName: 'lecture',
       // link: 'slides/lecture/cse440-consolidated-17au.pdf'
     },
-    {
-      date: moment('2020-03-05', 'YYYY-MM-DD'),
-      name: 'Presentations',
-      locationName: 'lecture',
-      link: '/assignments/assignment3#id-3g-presentation'
-    },
+    // {
+    //   date: moment('2020-03-05', 'YYYY-MM-DD'),
+    //   name: 'Presentations',
+    //   locationName: 'lecture',
+    //   link: '/assignments/assignment3#id-3g-presentation'
+    // },
     {
       date: moment('2020-03-06', 'YYYY-MM-DD'),
       name: 'Presentations',
       locationName: 'section',
       link: '/assignments/assignment3#id-3g-presentation'
     },
-    {
-      date: moment('2020-03-12', 'YYYY-MM-DD'),
-      name: 'Poster Session',
-      locationName: 'posterSession',
-      link: '/assignments/assignment4#id-4p-poster-session'
-    }
+    // {
+    //   date: moment('2020-03-12', 'YYYY-MM-DD'),
+    //   name: 'Poster Session',
+    //   locationName: 'posterSession',
+    //   link: '/assignments/assignment4#id-4p-poster-session'
+    // }
   ];
 
   assignments = [
@@ -473,15 +473,15 @@ class CalendarData {
       link: '/assignments/assignment3#id-3e-digital-mockup'
     },
     {
-      date: moment('2020-03-09', 'YYYY-MM-DD'),
+      date: moment('2020-03-10', 'YYYY-MM-DD'),
       name: '3web - Getting the Design Right',
-      dueNote: '[due night before class]',
+      dueNote: '[due end of day]',
       link: '/assignments/assignment3#id-3web-getting-the-design-right'
     },
     {
-      date: moment('2020-03-04', 'YYYY-MM-DD'),
+      date: moment('2020-03-05', 'YYYY-MM-DD'),
       name: '3p - Presentation',
-      dueNote: '[due night before class]',
+      dueNote: '[due end of day]',
       link: '/assignments/assignment3#id-3p-presentation'
     },
 
@@ -495,13 +495,13 @@ class CalendarData {
     {
       date: moment('2020-03-09', 'YYYY-MM-DD'),
       name: '4b - Initial Video',
-      dueNote: '[due night before class]',
+      dueNote: '[due end of day]',
       link: '/assignments/assignment4#id-4b-initial-video'
     },
     {
       date: moment('2020-03-09', 'YYYY-MM-DD'),
       name: '4c - Final Poster and Pitch',
-      dueNote: '[due night before class]',
+      dueNote: '[due end of day]',
       link: '/assignments/assignment4#id-4c-final-poster-and-pitch'
     },
     {

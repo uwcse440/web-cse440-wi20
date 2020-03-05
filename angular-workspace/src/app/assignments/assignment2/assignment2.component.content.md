@@ -695,7 +695,7 @@ You post must be a plain text file, formatted in Markdown syntax:
 
 [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
 
-Name the file `gettingtherightdesign.md`. In addition to your Markdown file, you will also need to provide:
+Name the file `designresearch.md`. In addition to your Markdown file, you will also need to provide:
 
 1. __A Project Thumbnail__: 
    A 150x150 image appropriate as a thumbnail for your project, named `project_thumb.png`.

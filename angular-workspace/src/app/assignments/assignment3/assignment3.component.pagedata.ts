@@ -13,10 +13,10 @@ class PageData {
   due_project_3e: string = "Uploaded Monday, March 2, 2020";
   link_project_3e: string = "https://canvas.uw.edu/courses/1352267/assignments/5160375";
 
-  due_project_3p: string = "Uploaded Wednesday, March 4, 2020";
+  due_project_3p: string = "Uploaded Thursday, March 5, 2020";
   link_project_3p: string = "https://canvas.uw.edu/courses/1352267/assignments/5159993";
 
-  due_project_3web: string = "Submitted Monday, March 9, 2020";
+  due_project_3web: string = "Submitted Tuesday, March 10, 2020";
   link_project_3web: string = "https://canvas.uw.edu/courses/1352267/assignments/5160379";
 }
 
