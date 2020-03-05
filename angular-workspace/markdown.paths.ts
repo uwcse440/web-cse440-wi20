@@ -172,79 +172,68 @@ export const RENDERING_DATA:MarkdownRenderingData[] = [
       new MarkdownRenderingPair(
         'src/assets/projects/vapeweight/designresearch.md',
         'designresearch_vapeweight'
+      ),
+
+      new MarkdownRenderingPair(
+        'src/assets/projects/chaser/designprototyping.md',
+        'designprototyping_chaser'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/doze/designprototyping.md',
+        'designprototyping_doze'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/feedo/designprototyping.md',
+        'designprototyping_feedo'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/fridgigotchi/designprototyping.md',
+        'designprototyping_fridgigotchi'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/guardia/designprototyping.md',
+        'designprototyping_guardia'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/mode/designprototyping.md',
+        'designprototyping_mode'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/pinpoint/designprototyping.md',
+        'designprototyping_pinpoint'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/pocketgrocer/designprototyping.md',
+        'designprototyping_pocketgrocer'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/pocketplanner/designprototyping.md',
+        'designprototyping_pocketplanner'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/poolbuddy/designprototyping.md',
+        'designprototyping_poolbuddy'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/procabulary/designprototyping.md',
+        'designprototyping_procabulary'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/reminice/designprototyping.md',
+        'designprototyping_reminice'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/stude/designprototyping.md',
+        'designprototyping_stude'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/tidy/designprototyping.md',
+        'designprototyping_tidy'
+      ),
+      new MarkdownRenderingPair(
+        'src/assets/projects/vapeweight/designprototyping.md',
+        'designprototyping_vapeweight'
       )
     ]
   ),
 ];
-
-// class MarkdownPathData {
-//   constructor(
-//     public pathDirectory:string, // Directory containing all the related files
-//     public pathPrefix:string, // Prefix for all the related files
-//     public markdownContentNames:string[] // Names of Markdown content files/templates
-//   ) {
-//   }
-// }
-
-// export const PATHS_DATA:MarkdownPathData[] = [
-//   new MarkdownPathData(
-//     'src/app/assignment-contribution-statement',
-//     'assignment-contribution-statement.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/assignment-samples',
-//     'assignment-samples.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/assignments',
-//     'assignments.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/assignments/assignment0',
-//     'assignment0.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/assignments/assignment1',
-//     'assignment1.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/assignments/assignment2',
-//     'assignment2.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/assignments/assignment3',
-//     'assignment3.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/assignments/assignment4',
-//     'assignment4.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/assignments/readings',
-//     'readings.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/calendar',
-//     'calendar.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/home',
-//     'home.component',
-//     ['content']
-//   ),
-//   new MarkdownPathData(
-//     'src/app/projects',
-//     'projects.component',
-//     ['content']
-//   ),
-// ];

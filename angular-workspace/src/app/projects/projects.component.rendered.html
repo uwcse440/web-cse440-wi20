@@ -700,7 +700,7 @@ Our solution is a wearable camera that can be attached to any clothes or hat. Pi
 <p>Overall, the most practical design we chose that could accommodate the tasks we listed was a mobile app (combining both grocery recording and expiry date tracking features from designs 1 and 3). An app provided more flexibility in recording and analyzing data than an individual device like the placemats in design 2. Additionally, users would be able to coordinate grocery shopping trips with their inventory at home just by using their phone, which many participants already use to either record their grocery list or call home to double check items. Thus, a mobile app was the most easy to integrate into the participants’ everyday lifestyle.</p>
 <h4 id="storyboard-1">Storyboard 1</h4>
 <p>A shopper goes about their usual grocery routine, purchasing items they would usually buy during each trip. Instead of trying to recall what they still have at home or calling someone to check their fridge and pantry, the shopper can refer to their phone as they walk through the store themselves. They can check for when the last time they purchased a certain grocery item, and use this to decide what items they will need to repurchase or what else they can buy to supplement their current items. After checking out, they can take a photo of their receipt and the app will record all the new items purchased on that trip, updating the purchase date and predicted expiration dates.</p>
-<p><img src="assets/projects/{{ project.path }}/storyboard1.JPG" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
+<p><img src="assets/projects/{{ project.path }}/storyboard1.jpg" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
 <h4 id="storyboard-2">Storyboard 2</h4>
 <p>As foods get old and their expiration date approaches, the mobile app will send a notification to remind individuals about these items. It can then offer ways of disposing the food as well as the food’s packaging, and they can see how much of food they have thrown away over time. As the app is used more and more, it can suggest more optimal purchase amounts for each food item that is thrown away.</p>
 <p><img src="assets/projects/{{ project.path }}/storyboard2.png" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
@@ -1158,6 +1158,66 @@ AN EASY WAY TO TRACK AND SCAPE THE VAPE
 <p><img src="assets/projects/{{ project.path }}/storyboard2.jpg" width="100%" style="max-width: 650px; display: block; margin: auto;"></p>
 </ng-template>
 
+<ng-template #designprototyping_chaser>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_doze>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_feedo>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_fridgigotchi>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_guardia>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_mode>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_pinpoint>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_pocketgrocer>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_pocketplanner>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_poolbuddy>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_procabulary>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_reminice>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_stude>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_tidy>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
+<ng-template #designprototyping_vapeweight>
+<h3 id="content-to-be-added">Content to be Added</h3>
+</ng-template>
+
 <div class="container app-main">
   <div class="row">
     <div class="col">
@@ -1174,9 +1234,22 @@ AN EASY WAY TO TRACK AND SCAPE THE VAPE
 <ng-template #projectmodal let-modal>
   <div class="modal-header">
     <h1 class="modal-title" id="modal-basic-title">{{ project.name }}</h1>
-    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-      <span aria-hidden="true">&times;</span>
-    </button>
+
+    <span class="close">
+      <span class="btn-group mr-3">
+        <button type="button" class="btn btn-lg" aria-label="Previous Project" (click)="previousProject()">
+          <span aria-hidden="true">&lt;</span>
+        </button>
+        <button type="button" class="btn btn-lg" aria-label="Next Project" (click)="nextProject()">
+          <span aria-hidden="true">&gt;</span>
+        </button>
+      </span>
+      <span class="btn-group">
+        <button type="button" class="btn btn-lg" aria-label="Close" (click)="modal.dismiss('Cross click')">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </span>
+    </span>
   </div>
   <div class="modal-body">
     <div class="row">
@@ -1204,7 +1277,9 @@ AN EASY WAY TO TRACK AND SCAPE THE VAPE
             <div class="row justify-content-center">
               <div class="col">
                 <div class="embed-responsive embed-responsive-16by9 mb-3">
-                  <iframe src="https://www.youtube.com/embed/DLzxrzFCyOs" frameborder="0" allowfullscreen=""></iframe>
+                  <video controls poster="assets/projects/{{ project.path }}/video_poster.png">
+                    <source src="assets/projects/{{ project.path }}/video.mp4" type="video/mp4">
+                  </video>
                 </div>
                 <div class="container pt-5">
                   <div class="row justify-content-center">
@@ -1276,13 +1351,58 @@ AN EASY WAY TO TRACK AND SCAPE THE VAPE
         </div>
         <div *ngIf="selectedDeliverable==3">
           <h2>Design Prototyping</h2>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+          <p>
+            <ng-container *ngFor="let person of project.people; last as isLast">
+              <span [innerHTML]="person.name"></span>
+              <span *ngIf="!isLast">, </span>
+            </ng-container>
+          </p>
+
+          <ng-container *ngIf="project.path=='chaser'">
+            <ng-container *ngTemplateOutlet="designprototyping_chaser"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='doze'">
+            <ng-container *ngTemplateOutlet="designprototyping_doze"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='feedo'">
+            <ng-container *ngTemplateOutlet="designprototyping_feedo"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='fridgigotchi'">
+            <ng-container *ngTemplateOutlet="designprototyping_fridgigotchi"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='guardia'">
+            <ng-container *ngTemplateOutlet="designprototyping_guardia"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='mode'">
+            <ng-container *ngTemplateOutlet="designprototyping_mode"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='pinpoint'">
+            <ng-container *ngTemplateOutlet="designprototyping_pinpoint"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='pocketgrocer'">
+            <ng-container *ngTemplateOutlet="designprototyping_pocketgrocer"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='pocketplanner'">
+            <ng-container *ngTemplateOutlet="designprototyping_pocketplanner"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='poolbuddy'">
+            <ng-container *ngTemplateOutlet="designprototyping_poolbuddy"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='procabulary'">
+            <ng-container *ngTemplateOutlet="designprototyping_procabulary"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='reminice'">
+            <ng-container *ngTemplateOutlet="designprototyping_reminice"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='stude'">
+            <ng-container *ngTemplateOutlet="designprototyping_stude"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='tidy'">
+            <ng-container *ngTemplateOutlet="designprototyping_tidy"></ng-container>
+          </ng-container>
+          <ng-container *ngIf="project.path=='vapeweight'">
+            <ng-container *ngTemplateOutlet="designprototyping_vapeweight"></ng-container>
+          </ng-container>
         </div>
       </div>
     </div>
