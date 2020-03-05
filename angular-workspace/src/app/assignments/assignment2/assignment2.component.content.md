@@ -467,6 +467,8 @@ Prepare a presentation of your process in getting the right design. It should en
 
 - Two members of your team should deliver the presentation, each speaking to relatively equal portions.
 - A seven minute time limit will be strictly enforced, with additional time for questions.
+- Presenters should be different from those for Assignment 3, such that everybody presents at least once this quarter.
+  If there is some reason this cannot work for your team, be sure you have communicated with us.
 
 Your presentation should include:
 
@@ -693,7 +695,7 @@ You post must be a plain text file, formatted in Markdown syntax:
 
 [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
 
-Name the file `gettingtherightdesign.md`. In addition to your Markdown file, you will also need to provide:
+Name the file `designresearch.md`. In addition to your Markdown file, you will also need to provide:
 
 1. __A Project Thumbnail__: 
    A 150x150 image appropriate as a thumbnail for your project, named `project_thumb.png`.

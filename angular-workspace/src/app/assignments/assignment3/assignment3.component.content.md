@@ -1,8 +1,10 @@
 # Assignment 3: Getting the Design Right
 
+<!--
 <div class="alert alert-danger" markdown="1">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Overview
 
@@ -397,55 +399,71 @@ This milestone will be graded on a scale of __14 points__:
 
 <app-assignment-due-text dueText="{{ page.due_project_3p }}"></app-assignment-due-text>
 
+The goal of this milestone is to effectively communicate your design prototyping in a presentation.
+
 Prepare a presentation of your process in getting the design right. It should encompass all of your work in Assignment 3.
 
 - Two members of your team should deliver the presentation, each speaking to relatively equal portions.
 - A seven minute time limit will be strictly enforced, with additional time for questions.
-- Your presenters should be different from your presenters in Assignment 2, such that everybody has presented at least once this quarter.
+- Presenters should be different from those for Assignment 2, such that everybody presents at least once this quarter.
   If there is some reason this cannot work for your team, be sure you have communicated with us.
 
 A suggested organization of this presentation is:
 
-1. __Title__:
+1. __Title Slide__: 
  
-   A short, creative, and marketable title capturing the key idea. Include team member names.
+   A short, creative, and marketable title capturing the key idea.
+   
+   Include team member names. Be clear which team members are presenting.
  
-2. __Overall Problem__: 
+2. __Overall Problem__:  
 
-   Tell this as a story, instead of simply reading the slide. Motivate your audience to be interested in your problem.
+   Convey that your problem is both important and appropriate for a design investigation.
+
+   Motivate your audience to be interested in your problem and your proposed solution.
+   Remember that you are teaching us what you learned in your process, you are not "selling" your solution.
+   Be sure to avoid simply reading slide bullets, as you need to develop a connection to your audience. 
 
 3. __Initial Paper Prototype__:
  
    Present your initial paper prototype.
-   Convey the critical aspects of your design, including your two primary tasks.
+   Convey the critical aspects of your design, including the two primary tasks being refined in your paper prototype.
  
-4. __Testing Process and Results__:
+4. __Testing Process__:
  
-   Describe your testing process, what you learned from it, and how you refined your prototype as a result.
+   Present your process for iteratively improving your design, including: 
+   - your methods (i.e., what methods did you use to improve your initial design),
+   - your participants (i.e., what participants did you engage).
+   
+5. __Testing Results and Prototype Refinement__:
  
-5. __Final Paper Prototype__:
+   Present usability and design issues that you identified and iterative improvements you made to address those issues.
+   This will include changes from your heuristic evaluation, usability testing, and design critique.
+   
+   Discuss identified issues as an appropriate level of detail, including:
+   - specific usability issues that were identified and corrected (e.g., consider before and after comparisons),
+   - higher-level findings and themes that emerged (e.g., consider explaining a specific issue that was identified and how it led to a larger revision of the design).
+ 
+6. __Final Paper Prototype__:
 
    Present your final paper prototype.
-   Convey the critical aspects of your design, including your two primary tasks.
+   Convey the critical aspects of your design, including the two primary tasks.
    This might be shorter than your presentation of the initial paper prototype, 
    because you already presented changes and are about to present the digital mockup.
-   Keep your presentation appropriately paced instead of getting bogged down here.
+   This might also have been part of your testing process and results, if changes were illustrated there.
 
-6. __Digital Mockup__:
+7. __Digital Mockup__:
  
    Present your digital mockup.
-   Convey the critical aspects of your design, including your two primary tasks.
+   Convey the critical aspects of your design, including the two primary tasks.
+   Discuss any significant changes that were required when transitioning from a paper prototype.
  
-7. __Summary__:
-
-   Summarize the lessons learned in your design process.
-
 We strongly recommend rehearsing your presentation beforehand. 
 For example, arrange to practice together with another group or two, giving each other feedback on your presentations.
 
-Note that we have not provided recommendations for the number of slides in each section of this presentation. 
-You can deliver your presentation using as many or as few slides as you want, 
-as long as you successfully address the above points and the presentation falls within the time restriction.
+Note that we have not set a required number of slides in each section of this presentation.
+You can deliver your presentation using as many or as few slides as you want,
+as long as your presentation successfully addresses the above points in the allowed time.
 
 <!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="3p"></app-assignment-samples>
@@ -463,149 +481,179 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3p }}"></app-assignment-submission-link>
 
-#### Contribution Statement
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
 
-#### In-Class Feedback Forms
+### Grading
 
-The course staff will have a feedback form they keep during your presentation:
+The course staff will have a grading form they keep during your presentation:
 
-<div class="alert alert-danger" markdown="1">
-<p>[3g-presentation-staff-form.pdf](/assets/assignments/3g-presentation-staff-form.pdf)</p>
-</div>
+<p>[3p-presentation-staff-form.pdf](/assets/assignments/3p-presentation-staff-form.pdf)</p>
 
-#### Grading
+The content of this presentation will be graded on a scale of __16 points__:
 
-<div class="alert alert-danger" markdown="1">
-The content of this presentation will be graded on a scale of __10 points__:
-
-- Presentation shows appropriate preparation, with visual aids that are effective, properly prepared, and properly employed.
-- Slides are legible, such that people in the back of the room can still see them.
-- Presentation should not have an outline slide. It is short enough to be told as a story of your process.
-- Problem is presented in a manner that is compelling and achievable.
-- First paper prototype effectively demonstrates completion of a scenario.
-- Testing process is appropriate for the design.
-- Testing process is carried out in an appropriate manner.
-- Testing results are illuminating in terms of the design.
-- Final paper prototype has a strong connection to the results of the testing process.
-- Digital mockup effectively implements the final paper prototype.
-- Digital mockup is at the proper fidelity.
-- Presentation covered the required scope within the allowed time period.
+- Presentations should not have an outline slide.
+  They are short enough to be told as a story of your process, and your outline is the same as every other presentation.
+  Instead use that time to tell us about your project.
+- The problem and your proposed solution should be presented in a manner that is compelling,
+  should teach us what you learned in your process rather than "selling" your solution.
+- The initial prototype should be effectively conveyed through two scenarios.
+- The process of iteratively improving the design should be effectively conveyed and appropriate for the design.
+- Findings and iterative improvements of the design should be effectively conveyed.
+- The final design, as represented by your digital mockup, should be effectively conveyed through two scenarios.
+- Presentations should show appropriate preparation, 
+  with slides that are legible and content that is effective, properly prepared, and properly employed.
+- Presentations should cover the required scope within the allowed time.
 
 The delivery of this presentation will be graded on a scale of __4 points__:
 
 - Presenter makes eye contact with the audience.
 - Presenter projects their voice well and is audible throughout the room.
-- Presenter feels casual and engaged with the content, not just reading it.
-- Presentation covered the required scope within the allowed time period.
-</div>
+- Presenter feels engaged with the content, not just reading slides.
+- Presenter covers the required scope within the allowed time.
 
 ### 3web: Getting the Design Right
 	
 <app-assignment-due-text dueText="{{ page.due_project_3web }}"></app-assignment-due-text>
 
-<div class="alert alert-danger" markdown="1">
-The goal of this milestone is to communicate your iterative design process and the resulting design.
+The goal of this milestone is to effectively communicate your design prototyping in a post appropriate for a web portfolio.
 
-Prepare a report documenting your process of getting the design right. 
-Your report should follow the outline below, and will be graded using the guidelines that follow. 
-The provided page allocations are estimates, intended to help convey how to divide up the space.
+Prepare a post documenting your process of getting the design right. 
+Your post will be integrated into the course website via a Projects page,
+used to both advertise the course poster session and to provide an archive of course projects. 
+Your post should follow the outline below, and will be posted together with the content from your prior post.
 
-If you completed all of your milestones above, you will have much of the content for this report. 
-But it is critical that you revise and update that content. 
-You have received extensive feedback throughout your design process, and evaluation of your report will 
-include how you have addressed and incorporated that feedback to improve relative to your prior milestones.
+Your prior milestones provide significant content you can draw upon in this post,
+but this post is intended for an audience of future readers reviewing your design work.
+Not all of the content from prior milestones is included
+(e.g., you will convey both specific usability issues and higher-level findings, 
+but do not need to provide an exhaustive enumeration of changes made in your processes),
+you should update your prior work based on feedback received throughout your design process,
+and you may choose to omit elements of your work that were ultimately less relevant to your design process.
 
-1.  __Title__ 
+1. __Title__ 
 
-    A short, creative, and marketable title capturing the key idea.
+   A short, creative, and marketable title capturing the key idea.
 
-2.  __Each Team Member’s Name and Role__
+2. __Problem and Solution Overview__:
 
-3.  __Problem and Solution Overview__: (1 paragraph)
+   A concise statement of the problem you are addressing and a brief introduction of your proposed solution.
+   
+   It is appropriate to assume that a reader of this post will have already read your previous post.
+   Therefore briefly set context for your iterative design in Assignment 3 without repeating the full context from Assignment 2.
 
-    A concise statement of the problem you are tackling and a brief synopsis of your proposed solution. 
-    Consider updating this from your previous report to reflect the scope of your final design.
+   This could be organized as an introduction of key themes from your design research and how that motivated your initial design.  
 
-4.  __Initial Paper Prototype__: (1 page)
+3.  __Initial Paper Prototype__:
 
-    Present your original paper prototype, as a baseline against which this report will present your iteration.
-    Convey the critical aspects of your design, including your two primary tasks.
+    Present your initial paper prototype.
+    Convey the critical aspects of your design,
+    including the two primary tasks being refined in your paper prototype.
+    This provides a baseline upon which to report iterative prototyping and refinement of your design.
 
-5.  __Testing Process__: (1 page)
+4.  __Testing Process__:
 	
     Present your testing process, including your method and your participants.
-    This process probably evolved some in the course of your project.
-    Include a retrospective on how you refined your process, separate from how you refined your design.
+    This process probably evolved in the course of your testing 
+    (e.g., as your design or focus evolved through testing).
+    Include a retrospective on how you refined your process, distinct from how you refined your design.
 
-6.  __Testing Results__: (2 pages)
+5.  __Testing Results and Prototype Refinement__:
 	
-    Summarize the results of your paper prototype testing and refinement.
-    Present what you learned about each version of your prototype and what changes you made as a result.
+	Present usability and design issues that you identified and iterative improvements you made to address those issues.
     This will include changes from your heuristic evaluation, usability testing, and design critique.
+    
+    Discuss identified issues as an appropriate level of detail, including:
+    - specific usability issues that were identified and corrected (e.g., consider before and after comparisons),
+    - higher-level findings and themes that emerged (e.g., consider explaining a specific issue that was identified and how it led to a larger revision of the design).
+ 
+    Consider different potential organizations of your results and design progression, including:
+    - a chronological organization, discussing what you learned about each version of your prototype and what changes you made as a result,
+    - a bottom-up organization, starting from specific issues and discussing how they revealed higher-level findings and changes,
+    - a top-down organization, starting from higher-level themes and showing how they applied in specific design changes. 
 
-7.  __Final Paper Prototype__: (1 page)
+6.  __Final Paper Prototype__:
 
     Present your final version of your paper prototype, as you did for your initial paper prototype above. 
-    Convey the critical aspects of your design, including your two primary tasks.
+    Convey the critical aspects of your design,
+    including the two primary tasks being refined in your paper prototype.
 
-8.  __Digital Mockup__: (1 page)
+7.  __Digital Mockup__:
 
     Present your digital mockup.
-    Convey the critical aspects of your design, including your two primary tasks.
-    Briefly discuss any changes you needed to make as you switched to your digital tools instead of paper. 
-    Briefly discuss any changes you made in response to critique.
-    Include descriptions of how your design supports each of your primary tasks (e.g., one paragraph per task).
+    Convey the critical aspects of your design,
+    including the two primary tasks being refined in your paper prototype.
 
-9.  __Discussion__: (1 page)
+    Include descriptions of how your design supports each of your primary tasks
+    (e.g., as scenarios demonstrating the task in your final design).
+    Briefly reflect on any changes you needed to make as you switched to digital tools from your paper prototype. 
 
-    Reflect upon and discuss your project and your results. For example: 
-   
-    - What did you learn from the process of iterative design? 
-    - How did the process shape your final design? 
-    - How have your tasks changed as a result of your usability tests?
-    - Do you think you could have used more, or fewer, iterations upon your design? 
+Ensure your post is appropriately clear and easy to read. This includes:
 
-10. __Appendix__:
-
-     Attach copies of all materials involved in your testing. 
-     Includes any instructions or task descriptions you handed out or read aloud to your participants.
-     Include identified critical incidents from your usability testing. 
-     The appendix materials and screenshots do not count in your page limit.
+ - text should be clear and concise
+ - use section headings and formatting as appropriate
+ - include images in the body of the post
+ - check for typos, spelling, and grammar errors
 
 <!-- Samples from Prior Offerings -->
 <app-assignment-samples sampleToLink="3web"></app-assignment-samples>
 
 #### Submission
 
-No more than eight pages of text in PDF format, following the above outline.
+Evidence suggests that effective posts can be read in approximately 7 minutes:
 
-Images and your appendix do not count against your page limit, and are therefore effectively free. 
-You should embed images throughout your PDF, keeping them near the text that references them.
-The limit applies to the approximate amount of text you would have if all images were removed.
+[https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b](https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b)
+
+Author your post such that it conveys the necessary content while remaining easy to skim and read within approximately 7 minutes.
+We estimate posts will be between 1500 and 2000 words in length.
+
+You post must be a plain text file, formatted in Markdown syntax:
+
+[https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
+
+Name the file `designprototyping.md`. In addition to your Markdown file, you will also need to provide:
+
+1. __All images referenced by your Markdown file__: 
+   These will be placed in the same directory as your rendered Markdown file.
+   Instead of Markdown's image syntax, consider incorporating `img` tags directly in your Markdown,
+   thus allowing you to specify the rendering size of the image.
+
+Your Markdown file and all images should be submitted as a single Zip archive file,
+as Canvas will otherwise mangle the names of your image files.
+Note that these files will be placed in the same directory as files from your prior post,
+so ensure there are no naming conflicts in your image files.
+
+For guidance on formatting your Markdown and its included images, see the source files from prior posts:
+
+[https://github.com/uwcse440/web-cse440-wi20/tree/master/angular-workspace/src/assets/projects](https://github.com/uwcse440/web-cse440-wi20/tree/master/angular-workspace/src/assets/projects)
 
 Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3web }}"></app-assignment-submission-link>
 
-#### Contribution Statement
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+<!-- Contribution Statement -->
 <app-assignment-contribution-statement></app-assignment-contribution-statement>
+
+Your post should be complete and will be evaluated as such.
+But you will also be able to make later modifications as we integrate your post into the course website (e.g., to correct any formatting issues) or as your project evolves (e.g., if your project title later changes).
 
 #### Grading
 
-This report will be graded on a scale of __25 points__:
+This report will be graded on a scale of __24 points__:
 
 1.  __Title__: (1 point) 
-2.  __Team Member Names__: (1 point)  
+2.  __Project Thumbnail__: (1 point) 
+2.  __Team Member Images and Names__: (1 points)  
 3.  __Problem and Solution Overview__: (2 points)
 4.  __Initial Paper Prototype__: (3 points)
 5.  __Testing Process__: (2 points)
-6.  __Testing Results__: (3 points)
+6.  __Testing Results and Prototype Refinement__: (4 points)
 7.  __Final Paper Prototype__: (3 points)
 8.  __Digital Mockup__: (3 points)
-9.  __Discussion__: (3 points)
 10. __Clarity and Presentation__: (4 points)
-
-</div>
