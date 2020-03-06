@@ -123,19 +123,19 @@ class ProjectsData {
       people: [
         {
           name: 'Hsien&#8209;Lun Chen',
-          photo: 'hsien-lun.png'
+          photo: 'hsien_lun.jpg'
         },
         {
           name: 'Anish Prasad',
-          photo: 'anish.png'
+          photo: 'anish.jpg'
         },
         {
           name: 'Annie Xia',
-          photo: 'annie.png'
+          photo: 'annie.jpg'
         },
         {
           name: 'Sydney Zapf',
-          photo: 'sydney.png'
+          photo: 'sydney.jpg'
         }
       ]
     },
