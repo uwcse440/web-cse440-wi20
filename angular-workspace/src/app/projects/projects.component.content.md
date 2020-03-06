@@ -4,6 +4,7 @@ This page is still being migrated and developed. All content remains subject to 
 </div>
 -->
 
+<!--
 <html>
 <div class="row">
 
@@ -31,6 +32,7 @@ Thursday, March 12, 2019
 </div>
 
 <div class="col-md-8">
+-->
 
 ## Project Theme
 
@@ -60,7 +62,9 @@ help go beyond simple data fetishes to help people in using personal data as par
   </div>
 </html>
 
+<!--
 </div>
 
 </div>
 </html>
+-->
