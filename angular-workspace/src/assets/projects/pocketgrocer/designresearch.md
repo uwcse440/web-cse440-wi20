@@ -101,7 +101,7 @@ Overall, the most practical design we chose that could accommodate the tasks we 
 #### Storyboard 1
 A shopper goes about their usual grocery routine, purchasing items they would usually buy during each trip. Instead of trying to recall what they still have at home or calling someone to check their fridge and pantry, the shopper can refer to their phone as they walk through the store themselves. They can check for when the last time they purchased a certain grocery item, and use this to decide what items they will need to repurchase or what else they can buy to supplement their current items. After checking out, they can take a photo of their receipt and the app will record all the new items purchased on that trip, updating the purchase date and predicted expiration dates.
 
-<p><img src="assets/projects/{{ project.path }}/storyboard1.JPG" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
+<p><img src="assets/projects/{{ project.path }}/storyboard1.jpg" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
 
 #### Storyboard 2
 As foods get old and their expiration date approaches, the mobile app will send a notification to remind individuals about these items. It can then offer ways of disposing the food as well as the food’s packaging, and they can see how much of food they have thrown away over time. As the app is used more and more, it can suggest more optimal purchase amounts for each food item that is thrown away.

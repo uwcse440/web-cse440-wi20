@@ -47,6 +47,14 @@ export class ProjectsComponent implements AfterViewInit, OnInit {
     }
   }
 
+  nextProject() {
+    this.project = this.projects.projects[(this.projects.projects.indexOf(this.project) + 1) % this.projects.projects.length];
+  }
+
+  previousProject() {
+    this.project = this.projects.projects[(this.projects.projects.indexOf(this.project) - 1 + this.projects.projects.length) % this.projects.projects.length];
+  }
+
   openProject(projectModal, project) {
     this.project = project;
     this.selectedDeliverable = 1;
