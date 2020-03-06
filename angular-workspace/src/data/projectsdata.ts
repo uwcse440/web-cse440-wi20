@@ -241,7 +241,7 @@ class ProjectsData {
         },
         {
           name: 'Zhennan Zhou',
-          photo: 'zhennan.png'
+          photo: 'zhennan.jpg'
         }
       ]
     },
