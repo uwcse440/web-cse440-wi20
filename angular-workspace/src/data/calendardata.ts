@@ -136,15 +136,6 @@ class CalendarData {
         location: "Allen 4th Floor Breakout"
       }
     ],
-
-    /*
-        officeHourJamesAt300: [
-          {
-            time: "3:00 - 4:00",
-            location: "CSE 632"
-          }
-        ],
-    */
   };
 
   holidays = [
@@ -342,12 +333,12 @@ class CalendarData {
     //   locationName: 'lecture',
     //   link: '/assignments/assignment3#id-3g-presentation'
     // },
-    {
-      date: moment('2020-03-06', 'YYYY-MM-DD'),
-      name: 'Presentations',
-      locationName: 'section',
-      link: '/assignments/assignment3#id-3g-presentation'
-    },
+    // {
+    //   date: moment('2020-03-06', 'YYYY-MM-DD'),
+    //   name: 'Presentations',
+    //   locationName: 'section',
+    //   link: '/assignments/assignment3#id-3g-presentation'
+    // },
     // {
     //   date: moment('2020-03-12', 'YYYY-MM-DD'),
     //   name: 'Poster Session',
@@ -598,11 +589,11 @@ class CalendarData {
       name: 'Office Hour - James',
       locationName: 'officeHourJames230'
     },
-    {
-      date: moment('2020-03-10', 'YYYY-MM-DD'),
-      name: 'Office Hour - James',
-      locationName: 'officeHourJames230'
-    },
+    // {
+    //   date: moment('2020-03-10', 'YYYY-MM-DD'),
+    //   name: 'Office Hour - James',
+    //   locationName: 'officeHourJames230'
+    // },
 
     // Qisheng
     {
@@ -630,16 +621,16 @@ class CalendarData {
       name: 'Office Hour - Qisheng',
       locationName: 'officeHourQisheng'
     },
-    {
-      date: moment('2020-03-04', 'YYYY-MM-DD'),
-      name: 'Office Hour - Qisheng',
-      locationName: 'officeHourQisheng'
-    },
-    {
-      date: moment('2020-03-11', 'YYYY-MM-DD'),
-      name: 'Office Hour - Qisheng',
-      locationName: 'officeHourQisheng'
-    },
+    // {
+    //   date: moment('2020-03-04', 'YYYY-MM-DD'),
+    //   name: 'Office Hour - Qisheng',
+    //   locationName: 'officeHourQisheng'
+    // },
+    // {
+    //   date: moment('2020-03-11', 'YYYY-MM-DD'),
+    //   name: 'Office Hour - Qisheng',
+    //   locationName: 'officeHourQisheng'
+    // },
 
     // Jesse
     {
@@ -667,16 +658,16 @@ class CalendarData {
       name: 'Office Hour - Jesse',
       locationName: 'officeHourJesse'
     },
-    {
-      date: moment('2020-03-05', 'YYYY-MM-DD'),
-      name: 'Office Hour - Jesse',
-      locationName: 'officeHourJesse'
-    },
-    {
-      date: moment('2020-03-12', 'YYYY-MM-DD'),
-      name: 'Office Hour - Jesse',
-      locationName: 'officeHourJesse'
-    },
+    // {
+    //   date: moment('2020-03-05', 'YYYY-MM-DD'),
+    //   name: 'Office Hour - Jesse',
+    //   locationName: 'officeHourJesse'
+    // },
+    // {
+    //   date: moment('2020-03-12', 'YYYY-MM-DD'),
+    //   name: 'Office Hour - Jesse',
+    //   locationName: 'officeHourJesse'
+    // },
   ];
 
   aways = [
