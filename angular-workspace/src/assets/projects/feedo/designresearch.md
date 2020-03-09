@@ -91,7 +91,12 @@ Unlike the first design, this design focuses purely on the application and manua
 
 This design, unlike the second one, is all automatic. This is also different from the second design, which is an all-in-one design that only comes with a camera wearable and a mobile application. This is more convenient than the other two. The camera wearable works like a goPro and enables the user to check whether the dog’s eating when it’s not supposed to (Task 5 & 6). In the application, the user can view the automatically collected exercise and food intake data (Task 3 & 6). The data and clips of the dog can be sent to a vet for consultation (Task 2).
 
-<p><img src="assets/projects/{{ project.path }}/image6.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
+<p style="display: block; margin: auto; text-align:center;">
+  <img src="assets/projects/{{ project.path }}/image9.jpg" width="100%" style="max-width: 450px;">
+  <img src="assets/projects/{{ project.path }}/image6.jpg" width="100%" style="max-width: 450px;">
+</p>
+
+<p style="text-align: center">Figure 3: Design 3 - Dog Camera Wearable</p>
 
 ### Selected Design and Storyboard:
 
