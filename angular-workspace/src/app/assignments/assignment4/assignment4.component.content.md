@@ -98,7 +98,7 @@ This milestone will be graded on a scale of __10 points__:
   - Gives insight into the design process
 - __Clarity and Presentation__: (5 points)
   - Appropriately large images that convey key aspects of the design
-  - Test is minimal and appropriate, large and legible
+  - Text is minimal and appropriate, large and legible
   - Colors and fonts are a pleasing combination and easy to read
 
 Your poster should be complete and will be evaluated as such.
