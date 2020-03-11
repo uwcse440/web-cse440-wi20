@@ -1252,6 +1252,14 @@ AN EASY WAY TO TRACK AND SCAPE THE VAPE
   </div>
 </div>
 
+<ng-container *ngFor="let project of projects.projects">
+  <img src="assets/projects/{{ project.path }}/project_thumb.png" style="display: none;"/>
+  <img src="assets/projects/{{ project.path }}/poster.png" style="display: none;"/>
+  <ng-container *ngFor="let person of project.people">
+    <img src="assets/projects/{{ project.path }}/{{ person.photo }}" style="display: none;"/>
+  </ng-container>
+</ng-container>
+
 <ng-template #projectmodal let-modal>
   <div class="modal-header">
     <h1 class="modal-title" id="modal-basic-title">{{ project.name }}</h1>
@@ -1282,13 +1290,13 @@ AN EASY WAY TO TRACK AND SCAPE THE VAPE
         </div>
 
         <div class="btn-group btn-group-toggle btn-group-vertical" ngbRadioGroup name="radioBasic" [(ngModel)]="selectedDeliverable">
-          <label ngbButtonLabel ngbAutofocus class="btn-link pl-0 text-left active">
-            <input ngbButton type="radio" [value]="1"><p>Video and<br>Project Team</p>
+          <label ngbButtonLabel ngbAutofocus class="btn-link pl-0 text-left active" style="cursor: pointer;">
+            <input ngbButton type="radio" [value]="1"><p>Project Team<br>and Poster</p>
           </label>
-          <label ngbButtonLabel class="btn-link pl-0 text-left">
+          <label ngbButtonLabel class="btn-link pl-0 text-left" style="cursor: pointer;">
             <input ngbButton type="radio" [value]="2"><p>Design<br>Research</p>
           </label>
-          <label ngbButtonLabel class="btn-link pl-0 text-left">
+          <label ngbButtonLabel class="btn-link pl-0 text-left" style="cursor: pointer;">
             <input ngbButton type="radio" [value]="3"><p>Design<br>Prototyping</p>
           </label>
         </div>
@@ -1297,19 +1305,41 @@ AN EASY WAY TO TRACK AND SCAPE THE VAPE
         <div *ngIf="selectedDeliverable==1">
             <div class="row justify-content-center">
               <div class="col">
+                <!-- Video Removed from Winter 2020
                 <div class="embed-responsive embed-responsive-16by9 mb-3">
                   <video controls poster="assets/projects/{{ project.path }}/video_poster.png">
                     <source src="assets/projects/{{ project.path }}/video.mp4" type="video/mp4">
                   </video>
                 </div>
                 <div class="container pt-5">
-                  <div class="row justify-content-center">
-                    <div class="col-auto" *ngFor="let person of project.people">
-                      <p><img src="assets/projects/{{ project.path }}/{{ person.photo }}" height="100" alt="{{ person.name }}"/></p>
-                      <p style="width: 0; overflow: visible" [innerHTML]="person.name"></p>
+                -->
+
+                <div [ngClass]="posterToggle ? 'teamCollapsed' : 'teamExpanded'">
+                  <div class="container pb-5">
+                    <div class="row justify-content-center">
+                      <div class="col-auto" *ngFor="let person of project.people">
+                        <p><img src="assets/projects/{{ project.path }}/{{ person.photo }}" alt="{{ person.name }}" style="max-height: 150px"/></p>
+                        <p style="width: 0; overflow: visible" [innerHTML]="person.name"></p>
+                      </div>
                     </div>
                   </div>
+
+                  <div style="text-align: center;">
+                    <h3>Project Poster</h3>
+                    <p>(click to expand)</p>
+                  </div>
                 </div>
+
+                <p>
+                  <img
+                    src="assets/projects/{{ project.path }}/poster.png"
+                    (click)="posterToggle=!posterToggle"
+                    [ngClass]="posterToggle ? 'posterExpanded' : 'posterCollapsed'"
+                    style="cursor: pointer; display: block; margin: auto;"
+                    alt="Project Poster"
+                  />
+                </p>
+
               </div>
             </div>
             <div class="row justify-content-center">
