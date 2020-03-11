@@ -73,31 +73,46 @@
                 <div class="container pt-5">
                 -->
 
-                <div [ngClass]="posterToggle ? 'teamCollapsed' : 'teamExpanded'">
-                  <div class="container pb-5">
-                    <div class="row justify-content-center">
-                      <div class="col-auto" *ngFor="let person of project.people">
-                        <p><img src="assets/projects/{{ project.path }}/{{ person.photo }}" alt="{{ person.name }}" style="max-height: 150px"/></p>
-                        <p style="width: 0; overflow: visible" [innerHTML]="person.name"></p>
+                <!-- Our team and poster view for lg and xl -->
+                <div class="d-none d-lg-block">
+                  <div [ngClass]="posterToggle ? 'teamCollapsed' : 'teamExpanded'">
+                    <div class="container pb-5">
+                      <div class="row justify-content-center">
+                        <div class="col-auto" *ngFor="let person of project.people">
+                          <p class="d-none d-xl-block"><img src="assets/projects/{{ project.path }}/{{ person.photo }}" alt="{{ person.name }}" style="max-height: 150px"/></p>
+                          <p class="d-none d-lg-block d-xl-none"><img src="assets/projects/{{ project.path }}/{{ person.photo }}" alt="{{ person.name }}" style="max-height: 80px"/></p>
+                          <p style="width: 0; overflow: visible" [innerHTML]="person.name"></p>
+                        </div>
                       </div>
+                    </div>
+
+                    <div style="text-align: center;">
+                      <h3>Project Poster</h3>
+                      <p>(click to expand)</p>
                     </div>
                   </div>
 
-                  <div style="text-align: center;">
-                    <h3>Project Poster</h3>
-                    <p>(click to expand)</p>
-                  </div>
+                  <p>
+                    <img
+                      src="assets/projects/{{ project.path }}/poster.png"
+                      (click)="posterToggle=!posterToggle"
+                      [ngClass]="posterToggle ? 'posterExpanded' : 'posterCollapsed'"
+                      style="cursor: pointer; display: block; margin: auto;"
+                      alt="Project Poster"
+                    />
+                  </p>
+                </div>
+                <!-- Only show the poster for less than lg -->
+                <div class="d-lg-none">
+                  <a href="assets/projects/{{ project.path }}/poster.png" target="_blank">
+                    <img
+                      src="assets/projects/{{ project.path }}/poster.png"
+                      width="100%"
+                      alt="Project Poster"
+                    />
+                  </a>
                 </div>
 
-                <p>
-                  <img
-                    src="assets/projects/{{ project.path }}/poster.png"
-                    (click)="posterToggle=!posterToggle"
-                    [ngClass]="posterToggle ? 'posterExpanded' : 'posterCollapsed'"
-                    style="cursor: pointer; display: block; margin: auto;"
-                    alt="Project Poster"
-                  />
-                </p>
 
               </div>
             </div>
