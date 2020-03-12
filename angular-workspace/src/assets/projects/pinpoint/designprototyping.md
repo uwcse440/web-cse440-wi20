@@ -9,31 +9,31 @@ We want to design a mini camera and a mobile app to make it more convenient for 
 ### Initial Paper Prototype:
 Our prototype has two components. The first one is a wearable PinPoint camera that can be attached to clothing or a hat, it takes photos and adds descriptions to them using a voice command. The second component is a mobile app connected to the camera via Bluetooth; the app stores and organizes photos taken by PinPoint camera.
 
-<p><img src="assets/projects/{{ project.path }}/1-1.png" width="100%" style="max-width: 400px; display: block; margin: auto;"></p>
+<p><img src="assets/projects/{{ project.path }}/1_1.jpg" width="100%" style="max-width: 400px; display: block; margin: auto;"></p>
 <p style="text-align: center">Figure 1.1 PinPoint camera prototype and relations between different screens in mobile app</p>
 
 #### Task 1: Adding descriptions to photos at the moment they are taken
 
-<p><img src="assets/projects/{{ project.path }}/1_2-11.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
-
 Selecting “Camera” on the “Settings” tab (fig. 1.2) takes the user to default camera settings (fig. 1.3).
 The user switches “Bluetooth” toggle to connect the wearable camera and sees a pop-up window that device was successfully paired (fig. 1.4).
 By clicking “Alert”, the user can select the volume of the sound, which sound to use when photo/notes were taken and whether to use vibration (fig. 1.5).
-Selecting “Notes” on the “Settings” tab (fig. 1.2) takes the user to note settings (fig. 1.6). 
-There are options for notes autotranscription and keeping the original voice memo. 
+Selecting “Notes” on the “Settings” tab (fig. 1.2) takes the user to note settings (fig. 1.6).
+There are options for notes autotranscription and keeping the original voice memo.
 Selecting “Photos” on the “Settings” tab (fig. 1.2) takes the user to default photo settings (fig. 1.7).
-Selecting “Take Photo” takes the user to default photo-taking routine. If “Auto” is selected, the user can choose the frequency of auto photo/note taking (fig. 1.8). 
+Selecting “Take Photo” takes the user to default photo-taking routine. If “Auto” is selected, the user can choose the frequency of auto photo/note taking (fig. 1.8).
 If the user wants photos/notes to be taken by voice command, the user should set up it. The user clicks “Set up taking photos” and sees pop-up notification (fig. 1.9).
 When the user clicks “Continue”, the new pop-up window is displayed, and the app records command to be used for taking photos (fig. 1.10).
-The “command successfully set up” notification is shown and the user can proceed taking photos via voice command (fig. 1.11). 
+The “command successfully set up” notification is shown and the user can proceed taking photos via voice command (fig. 1.11).
 The exact same routine happens when the user selects “Set up taking notes”.
 When those set-ups are done, the user can take photos and record notes whenever he/she wants. For example, the user wears a PinPoint camera and goes hiking. When he see bears, he just says command and camera takes photos and notes.
 
+<p><img src="assets/projects/{{ project.path }}/1_2-11.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
+
 #### Task 2: Organizing/deleting duplicate pictures
 
-<p><img src="assets/projects/{{ project.path }}/1_12-15.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
-
 The user selects the “Gallery” tab and sees recently added photos; burst photos and photos with notes have a pile of photos symbol or voice symbol respectively (fig. 1.12). When the user selects the group of the same photos (burst) with added voice memo, the user can scroll bottom field to see each photo from the series of photos (fig. 1.13). If the user doesn’t want to manually choose the best photo from each group, the user can go back to “Settings” (fig. 1.2), and select “Auto delete” on “Photos” tab (fig. 1.7). The user can change the maximum number of photos taken per one command and switch toggle to allow app analysis and keeping only the best photo from the whole series (fig.1.14). When the user returns back to the “Gallery”, the user sees only the best-quality photos (fig. 1.15).
+
+<p><img src="assets/projects/{{ project.path }}/1_12-15.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 ### Testing Process:
 #### Inspection-based method:
@@ -89,7 +89,8 @@ A very interesting point mentioned by one participant was that the gallery in th
 <p style="text-align: center">Figure 2.4</p>
 
 There are also many other minor modifications based on the usability test results:
-Increased visibility to edit voice memo transcriptions
+
+##### Increased visibility to edit voice memo transcriptions
 
 <p><img src="assets/projects/{{ project.path }}/2_5.jpg" width="100%" style="max-width: 500px; display: block; margin: auto;"></p>
 <p style="text-align: center">Figure 2.5</p>
@@ -118,17 +119,19 @@ Our prototype has two components. The first one is a wearable PinPoint camera th
 
 #### Task 1: Taking photos and adding descriptions immediately
 
-<p><img src="assets/projects/{{ project.path }}/3_2-13.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
-
 When the user uses the app for the first time, the user is guided through all required setup (fig 3.2). At the beginning, the user pairs the camera with a phone app (fig. 3.3-3.4). Then, the user chooses whether to take photos automatically between some intervals or to use voice command (fig. 3.5). In the next step, the user sets up the voice command to take a photo (fig. 3.7-3.9). After that, the user sets up the voice command to record the voice memos (fig. 3.10-3.12). Finally, the user sets up an alert to use after the photo/note was taken (fig. 3.13). When those set-ups are done, the user can take photos and record notes whenever he/she wants. Later, if the user wants to change this set up, he/she is able to do it in settings.
+
+<p><img src="assets/projects/{{ project.path }}/3_2-13.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 The user wears a PinPoint camera, checks how the camera is attached and where it’s pointed to (fig. 3.14) and goes hiking. When the user sees bears, he just says command and camera takes photos and notes. Later, the user opens the app, and sees all pictures taken during the hike (fig. 3.15). When the user selects a photo with the voice sign, he sees both photo and transcribed notes (fig. 3.16).
 
+<p><img src="assets/projects/{{ project.path }}/3_14-16.jpg" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
+
 #### Task 2: Searching for specific moments
 
-<p><img src="assets/projects/{{ project.path }}/3_14-16.jpg" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
-
 After removing manual deletion as a focus, we decided to switch our second task to searching for photos. After taking a photo and recording a memo to attach to that photo (fig. 3.17), users can navigate to our search menu (fig. 3.18). Searching for photos will use AI-powered photo recognition and descriptions (the transcribed memos) as searchable fields. Our search can also accommodate power users with an easy advanced search using keywords, two of which are illustrated in figures 3.19 and 3.20.
+
+<p><img src="assets/projects/{{ project.path }}/3_17-20.jpg" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
 
 ### Digital Mockup:
 
@@ -139,19 +142,19 @@ Our camera is displayed in figure 4.1 and key functionality of the app is descri
 
 #### Task 1: Taking photos and adding descriptions (initial setup)
 
-<p><img src="assets/projects/{{ project.path }}/4_2-9.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
-
 When the users use the app for the first time, they are guided through all required setup (fig 4.2). At the beginning, the users pair the camera with a phone app (fig. 4.3-4.4). Then, they choose whether they want photos to be taken automatically between some intervals (fig. 4.5). In the next step, users have an option to set up required voice commands (fig. 4.6). If they decide to do so, they set up the voice command to take a photo (fig. 4.7) and record the voice memos (fig. 4.8). Finally, the users set up an alert to use when the photo/note was taken (fig. 4.9). Later, if the users want to change this set up, they are able to do it in settings.
 
-<p><img src="assets/projects/{{ project.path }}/4_10-14.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
+<p><img src="assets/projects/{{ project.path }}/4_2-9.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 The user wears a PinPoint camera, checks how the camera is attached and where it’s pointed to (fig. 4.10) and goes about their adventures. When users see something notable, they activate their camera using their preset voice commands. Later, they open the app and see all the pictures taken during their adventures (fig. 4.11). When the users select a photo with the voice sign, they see both photo and transcribed notes (fig. 4.12). Users can record an audio without taking a picture, if so, the audio note will be depicted as an audio symbol in the gallery (fig. 4.13). Users can also take photos without recording audio notes, in this case, the audio can be recorded anytime later (fig. 4.14).
 
+<p><img src="assets/projects/{{ project.path }}/4_10-14.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
+
 #### Task 2: Searching for specific moments
 
-<p><img src="assets/projects/{{ project.path }}/4_15-18.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
-
 After taking photos and recording memos attached to photos (fig. 4.15), users can navigate to the search menu (fig. 4.16). Searching for photos will use AI-powered photo recognition and descriptions (the transcribed memos) as searchable fields. Our search can also accommodate power users with an easy advanced search using keywords, two of which (and/or keywords) are illustrated above (fig. 4.17 - 4.18).
+
+<p><img src="assets/projects/{{ project.path }}/4_15-18.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 #### Changes to Design
 
