@@ -115,7 +115,7 @@ In our first usability test, we noticed that the participant was unclear on how 
 
 <p style="display: block; margin: auto; text-align: center;">
   <img 
-    src="assets/projects/{{ project.path }}/select_before.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
+    src="assets/projects/{{ project.path }}/select_journal.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
     alt="A drawing of our initial paper prototype's select screen which comes up after a user takes an image of their physical journal entry. The screen shows highlighted and struck out text, and three buttons labeled: Select, Erase, and Strike, on the bottom of the screen." 
   >
 </p>
@@ -208,7 +208,7 @@ We refined how users accomplish the task of daily recording by adding a suggesti
 
 <p style="display: block; margin: auto; text-align: center;">
   <img 
-    src="assets/projects/{{ project.path }}/onboarding_1.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
+    src="assets/projects/{{ project.path }}/day_2.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
     alt="Final paper prototype screen that demonstrates the adding content flow." 
   >
 </p>
@@ -217,7 +217,7 @@ We also refined how users accomplish the task of evaluating and selecting memori
 
 <p style="display: block; margin: auto; text-align: center;">
   <img 
-    src="assets/projects/{{ project.path }}/onboarding_1.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
+    src="assets/projects/{{ project.path }}/delete_after.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
     alt="Final paper prototype screen that shows the viewing of memories and how they can be manipulated." 
   >
 </p>
@@ -348,11 +348,11 @@ In the onboarding screens, we mainly focused on the first task. We felt that mak
     alt="Digital mockup version of the login screen, with the logo, log in, and sign up." 
   >
   <img 
-    src="assets/projects/{{ project.path }}/digital_on_7.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
+    src="assets/projects/{{ project.path }}/digital_on_2.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
     alt="Digital version of the sign in screen, waiting for email and password input." 
   >
   <img 
-    src="assets/projects/{{ project.path }}/digital_on_2.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
+    src="assets/projects/{{ project.path }}/digital_on_7.jpg" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded"
     alt="Account confirmation page." 
   >
   <img 
