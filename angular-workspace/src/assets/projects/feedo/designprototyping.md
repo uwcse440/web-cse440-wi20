@@ -129,27 +129,25 @@ The four main issues that came out of the Heuristic Evaluations were:
 
 * Help recognize, diagnose, and recover from errors
 
-  An issue where we didn’t allow users
-  
-  because there weren’t warnings or guidance when tiles and collars had sync errors. We resolved this by added those messages
+  An issue where we didn’t allow users to recover from or to diagnose errors, because there weren’t any warnings or guidance when tiles and collars had sync errors. We resolved this by adding those messages.
 
 * Recognition rather than recall
-  
-  A problem where it wasn’t obvious enough whether a dog had enough exercise on a specific day. By including color screens in our paper prototype, we corrected this issue
+
+  A problem where it wasn’t obvious enough whether a dog had enough exercise on a specific day, since numbers are bland. By including color screens in our paper prototype, we corrected this issue.
 
 * Consistency and standards
 
-  Lastly, we solved an issue where our layout was suggesting that syncing a tile was a similar task as tracking food or tracking exercise. We moved the sync tile button to the hamburger menu to solve this issue
+  Lastly, we solved an issue where our layout was suggesting that syncing a tile was a similar task as tracking food or tracking exercise. We moved the sync tile button to the hamburger menu to solve this issue.
 
 There were also four main issues that came out of the Usability Tests:
 
-* Participant 1 noted that the Sync button on the collar clip wasn’t obvious on the paper prototype. This likely is more of an issue with the medium we used for prototyping, but we made sure to label the button more obviously
+* Participant 1 noted that the Sync button on the collar clip wasn’t obvious on the paper prototype. This likely is more of an issue with the medium we used for prototyping, but we made sure to label the button more obviously.
 
-* Participant 1 also wasn’t sure how to input the breed of one of her dogs. Her dog was a mixed-breed and our design didn’t clearly support the input of mixed-breed dogs. We corrected this by allowing the field more flexibility and by including a help button with a pop-up message for clarity
+* Participant 1 also wasn’t sure how to input the breed of one of her dogs. Her dog was a mixed-breed and our design didn’t clearly support the input of mixed-breed dogs. We corrected this by allowing the field more flexibility and by including a help button with a pop-up message for clarity.
 
-* Participant 1 also asked if we could prompt her to sync a tile immediately after syncing a collar. This is something we didn’t think about initially, but really helped get new users to be able to use the app more quickly
+* Participant 1 also asked if we could prompt her to sync a tile immediately after syncing a collar. This is something we didn’t think about initially, but really helped get new users to be able to use the app more quickly.
 
-* Participants 2 and 3 noted that many of our labels were a bit too ambiguous, so we made changes throughout the app. One example is instead of using the term “Food” we changed it to “Food Data”
+* Participants 2 and 3 noted that many of our labels were a bit too ambiguous, so we made changes throughout the app. One example is instead of using the term “Food” we changed it to “Food Data”.
 
 The lack of mixed-breed support was a significant issue as only 5% of dogs in the US are purebred. This reduced the flexibility of our app which shrinks the population of participants that could use it. The workflow efficiency improvements and label and verbiage ambiguity were oversights by our design team, but participants who didn’t have the expert lens were able to find these quickly. One thing to note is that all participants were able to successfully complete the tasks which shows the advantages of having a simple design.
 
@@ -298,7 +296,13 @@ User clicks food then” tracking” from the main screen to see the dogs activi
 
 #### Scenario
 
-Tom is a second-year student in college. He has a three-year-old mixed breed of golden retriever and husky named Brooklyn, who is severely overweight. The veterinarian told Tom to make sure Brooklyn gets enough exercise and eats no more than 800 calories per day. Tom starts to wonder how he could keep track and monitor Brooklyn’s exercise amount. Tom finds Feedo online. He downloads the mobile application, and collar clip and location tiles are sent to him the next day. He put the collar clip on Brooklyn’s collar and the location tile on bowl. When Tom opens the app, he gets to the start page (Figure 1) and is asked to either sign in or create an account. Tom creates an account (Figure 2) and Brooklyn’s profile (Figure 3). He doesn’t know how to describe the breed because Brooklyn’s a mixed-breed. He clicks on the help button (Figure 3) and a message shows up to guide him to select the two breeds that Brooklyn is mixed of (Figure 4). Then, the app asks him to sync the collar clip with the phone (Figure 5). A successful connected message is shown (Figure 6). Then, the app continues to ask Tom to sync a location tile (Figure 7). Tom enters the location of the tile (Figure 8) and starts syncing (Figure 9), and a confirmation message is shown (Figure 10). Now, Tom goes to the main page (Figure 11) and clicks on “Exercise Data” to see how far and how many steps Brooklyn has walked today (Figure 12). A month later, Tome clicks on “See Monthly Overview” to see how Brooklyn did over the last month (Figure 13). According to the color-coded calendar, Brooklyn did great (a lot of green squares). Everyday, Tom goes to the food tracking page (Figure 16) via “food data” (Figure 14) and taps “Tracking” which gives him the data (Figure 15). He could see when Brooklyn has been eating and whether she has run to the neighbor’s house and asked for treats. Tom also puts the dog food brand into the recommendation page (Figure 18) and gives Brooklyn the amount of food recommended by the app. A month later, Brooklyn is back to being a happy and healthy dog.
+Tom is a second-year student in college. He has a three-year-old mixed breed of golden retriever and husky named Brooklyn, who is severely overweight. The veterinarian told Tom to make sure Brooklyn gets enough exercise and eats no more than 800 calories per day. Tom starts to wonder how he could keep track and monitor Brooklyn’s exercise amount. Tom finds Feedo online.
+
+He downloads the mobile application, and collar clip and location tiles are sent to him the next day. He put the collar clip on Brooklyn’s collar and the location tile on bowl. When Tom opens the app, he gets to the start page (Figure 1) and is asked to either sign in or create an account. Tom creates an account (Figure 2) and Brooklyn’s profile (Figure 3). He doesn’t know how to describe the breed because Brooklyn’s a mixed-breed. He clicks on the help button (Figure 3) and a message shows up to guide him to select the two breeds that Brooklyn is mixed of (Figure 4). Then, the app asks him to sync the collar clip with the phone (Figure 5). A successful connected message is shown (Figure 6).
+
+Then, the app continues to ask Tom to sync a location tile (Figure 7). Tom enters the location of the tile (Figure 8) and starts syncing (Figure 9), and a confirmation message is shown (Figure 10). Now, Tom goes to the main page (Figure 11) and clicks on “Exercise Data” to see how far and how many steps Brooklyn has walked today (Figure 12). A month later, Tome clicks on “See Monthly Overview” to see how Brooklyn did over the last month (Figure 13). According to the color-coded calendar, Brooklyn did great (a lot of green squares).
+
+Everyday, Tom goes to the food tracking page (Figure 16) via “Food Data” (Figure 14) and taps “Tracking” which gives him the data (Figure 15). He could see when Brooklyn has been eating and whether she has run to the neighbor’s house and asked for treats. Tom also puts the dog food brand into the recommendation page (Figure 18) and gives Brooklyn the amount of food recommended by the app. A month later, Brooklyn is back to being a happy and healthy dog.
 
 #### Changes
 
