@@ -123,21 +123,21 @@ Users who downloaded the app on their phone as well as on their smartwatch need 
 Users are able to fully control their data on their watches. For instance, if they find one conversation to be particularly essential, they can highlight them using flags and their priority in the system will rise. Similarly, if they find a conversation meaningless or pointless, they can directly delete the recording in the middle of the recording. 
 
 <div style="margin: auto; text-align: center;">
-  <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
-    <p><img src="assets/projects/{{ project.path }}/watch_start.png" width="100%" class="border rounded"></p>
+  <div style="width: 250px; vertical-align: top; display: inline-block;" class="m-3">
+    <p><img src="assets/projects/{{ project.path }}/watch_start.png" width="100%" style="max-width: 200px;" class="border rounded"></p>
     <p style="text-align: center;"><b>start recording on watch</b></p>
   </div>
-  <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
-    <p><img src="assets/projects/{{ project.path }}/watch_stop.png" width="100%" class="border rounded"></p>
+  <div style="width: 250px; vertical-align: top; display: inline-block;" class="m-3">
+    <p><img src="assets/projects/{{ project.path }}/watch_stop.png" width="100%" style="max-width: 200px;" class="border rounded"></p>
     <p style="text-align: center;"><b>stop recording on watch</b></p>
   </div>
   <br>
-  <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
-    <p><img src="assets/projects/{{ project.path }}/watch_list.png" width="100%" class="border rounded"></p>
+  <div style="width: 250px; vertical-align: top; display: inline-block;" class="m-3">
+    <p><img src="assets/projects/{{ project.path }}/watch_list.png" width="100%" style="max-width: 200px;" class="border rounded"></p>
     <p style="text-align: center;"><b>browse recording list</b></p>
   </div>
-  <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
-    <p><img src="assets/projects/{{ project.path }}/watch_delete.png" width="100%" class="border rounded"></p>
+  <div style="width: 250px; vertical-align: top; display: inline-block;" class="m-3">
+    <p><img src="assets/projects/{{ project.path }}/watch_delete.png" width="100%" style="max-width: 200px;" class="border rounded"></p>
     <p style="text-align: center;"><b>delete and star recording on watch</b></p>
   </div>
 </div>
