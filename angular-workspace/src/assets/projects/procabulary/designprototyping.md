@@ -50,7 +50,7 @@ Our testing process includes 3 **heuristic evaluations** with another group from
 * Evaluation 2: Evaluated by Jane, conducted by Francis, Karron and Zhennan
 * Evaluation 3: Evaluated by Group x from CSE 440, conducted by Francis, Arjun and Zhennan
 
-In our initial heuristic evaluation, we began with laying out all of our paper prototypes on the table and giving our participants an exploratory walkthrough of our prototypes so that they can be familiarized with our system. Subsequently, we asked our participants to attempt to finish 2 of our primary tasks. Then we went over the heuristic evaluation one by one and discussed any further questions. However, with our first participant, we found out that our participant had a strong inclination to follow the procedures we just showed to finish the task instead of understanding what she was really asked to do and reacted based on what was presented on the paper prototype. Therefore, in the following heuristic evaluations, we instead introduced our study, our system as well as tasks to be carried out to our participants patiently and gave a brief walkthrough of our system with an unrelated task before testing our prototypes. Afterwards, the team went through each of the problems we spotted during heuristic evaluation and discussed potential reasons and corresponding solutions.
+In our initial heuristic evaluation, we began with laying out all of our paper prototypes on the table and giving our participants an exploratory walkthrough of our prototypes so that they can be familiarized with our system. Subsequently, we asked our participants to attempt to finish 2 of our primary tasks. Then we went over the heuristic evaluation one by one and discussed any further questions. However, with our first participant, we found out that our participant had a strong inclination to follow the procedures we just showed to finish the task instead of understanding what she was asked to do and reacted based on what was presented on the paper prototype. Therefore, in the following heuristic evaluations, we instead introduced our study, our system as well as tasks to be carried out to our participants patiently and gave a brief walkthrough of our system with an unrelated task before testing our prototypes. Afterward, the team went through each of the problems we spotted during heuristic evaluation and discussed potential reasons and corresponding solutions.
 
 #### Design Critiques
 After the initial in-class evaluation and testing, we received feedback from our TAs, Jesse and Richard, regarding our goal setup process. “How do we evaluate goals and progress during the first few weeks of use; where do your sources of data come from in the first few weeks for evaluation” etc. Those questions were instructive and enlightening for us, as it pushed us to think thoroughly and profoundly in terms of the pivotal goal-setting process and its potential influence on users’ following actions. It was helpful because we were able to brainstorm solutions and receive feedback immediately.
@@ -60,7 +60,7 @@ After the initial in-class evaluation and testing, we received feedback from our
 * Test2: A first-year master’s student from UW’s information school who is trying to pursue a career in technical consulting.
 * Test3: a UW HCDE undergraduate student during CSE 440 usability testing section.
 
-All of our 3 usability testings went smoothly well and we received a lot of insightful responses and meaningful suggestions. Our usability testing consisted of 3 important stages. The first stage was background questions for us to gain general ideas regarding our participants’ current circumstances (e.g. Beginner, Intermediate, Advanced) etc. In the meantime, we also offered our participants a brief overview of our study for them to build a basic understanding towards our prototype. The initial stage created an opportunity for us to build rapport with our participants. The second stage was our main usability testing, which we spitted to 2 parts based on 2 primary tasks we decided to support. The final stage was debriefings and asking and answering questions regarding our participants’ experience with the prototypes, confusions and thoughts. Initially, we had multiple team members acting as the notetakers. However, as we repeated the process, we found out that this created too much extra work to compile and organize and locate our testing documents later on. Therefore, we then let one team member be the notetaker for the rest of the usability testing to document changes more systematically. Similarly, as the testing progressed, each of us was getting familiarized with the roles we’ve selected and made the testing process more efficient.
+All of our 3 usability testings went smoothly well and we received a lot of insightful responses and meaningful suggestions. Our usability testing consisted of 3 important stages. The first stage was background questions for us to gain general ideas regarding our participants’ current circumstances (e.g. Beginner, Intermediate, Advanced), etc. In the meantime, we also offered our participants a brief overview of our study for them to build a basic understanding of our prototype. The initial stage created an opportunity for us to build rapport with our participants. The second stage was our main usability testing, which we divided into 2 parts based on 2 primary tasks we decided to support. The final stage was debriefings and asking and answering questions regarding our participants’ experience with the prototypes, confusions and thoughts. Initially, we had multiple team members acting as the notetakers. However, as we repeated the process, we found out that this created too much extra work to compile and organize and locate our testing documents later on. Therefore, we then let one team member be the notetaker for the rest of the usability testing to document changes more systematically. Similarly, as the testing progressed, each of us was getting familiarized with the roles we’ve selected and made the testing process more efficient.
 
 ### 4. Testing Results and Prototype Refinement
 
@@ -84,17 +84,17 @@ In the initial paper prototype, we include timeline as a tool to help the partic
 Based on the feedback of our participants, the goal-setting feature in the initial paper prototype is vague. It only allows them to choose between beginner, intermediate and advanced, and once the users set their goals, the system would generate a timeline accordingly. This leads to several issues. For example, if P2 wants to improve her speech, then it wouldn’t be as helpful if the system assigns her tasks of memorizing vocabulary. We decided that the goal-setting should be more granular so that some users can choose to focus mostly on vocabulary learning, while others can primarily focus on speech improvement. To further define the goals, we decided to extract information from the user by using a survey. Users can not only select the fields that they want to develop verbal expertise but also which task they want to perform. Another problem is that the users’ self-perceived competencies in their areas might be different from the reality, so we decided to introduce the concept of ‘trial week’ during setup, where a baseline of skill level is established during the first week of use. 
  
 <p><img src="assets/projects/{{ project.path }}/goalsetting_paper.png" alt="initial prototype overview" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
-<p style="text-align: center"><b>timeline - paper prototype changes</b></p>
+<p style="text-align: center"><b>setting up goals - paper prototype changes</b></p>
 
 <p><img src="assets/projects/{{ project.path }}/choices_paper.png" alt="initial prototype overview" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
-<p style="text-align: center"><b>user choices after goal settings - prototype changes</b></p>
+<p style="text-align: center"><b>users' choices after goal settings - prototype changes</b></p>
 
 #### Practice mode revision 
 
 We didn’t have robust practice functionality in our initial design, and two participants in our usability tests expressed a desire to be able to do more of that, which highlighted it as an important issue for us to solve. We tackled the problems from both perspectives, adding quizzes in the keyword section and adding the mock conversation feature in the improvement section. Fixing this problem is important since it adds functionality people seek to use. The practice mode allows people to review the things they see as important to them and lets them try out their newfound knowledge in a safe space with the mock conversation tool.
  
 <p><img src="assets/projects/{{ project.path }}/practice_paper.png" alt="initial prototype overview" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
-<p style="text-align: center"><b>practice paper - prototype changes</b></p>
+<p style="text-align: center"><b>practice modes - paper prototype changes</b></p>
 
 ### 5. Final Paper Prototype 
 
@@ -111,75 +111,75 @@ When the participant opens the app for the first time, he/she needs to set up hi
 <p><img src="assets/projects/{{ project.path }}/digital_overview.png" alt="initial prototype overview" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 <p style="text-align: center"><b>digital mockup overview</b></p>
 
-We made 3 significant changes in the process of transitioning from paper prototype to digital mockup. First and foremost, we consolidated practice modes in our digital mockup to include more obvious practice buttons, immersive conversations and incorporate results into the progress page, so that it is convenient for users to review and track their progress over time. The improvement page in our paper prototypes received a design overhaul in our digital mockup compared to our paper prototypes in order to be more informative as well as enlightening. Originally, we provided only binary analyzed results of highlighted keywords as well as corresponding audio clips. But in our digital mockup, we enriched the entire page by adding more relevant details, such as the matching keywords of a specific context and its explanations and usages, to better help our users memorize important information through contextualization. In the digital mockup, we include a universal search button in summary, keyword and improvement pages, instead of hidden search bar, to make it more obvious, easy-to-reach and give them direct shortcuts to filter out and pinpoint the materials they specifically want.
+We made 3 significant changes in the process of transitioning from paper prototype to digital mockup. First and foremost, we consolidated practice modes in our digital mockup to include more obvious practice buttons, immersive conversations and incorporate results into the progress page, so that it is convenient for users to review and track their progress over time. The improvement page in our paper prototypes received a design overhaul in our digital mockup compared to our paper prototypes to be more informative as well as enlightening. Originally, we provided only binary analyzed results of highlighted keywords as well as corresponding audio clips. But in our digital mockup, we enriched the entire page by adding more relevant details, such as the matching keywords of a specific context and its explanations and usages, to better help our users memorize important information through contextualization. In the digital mockup, we include a universal search button in summary, keyword and improvement pages, instead of the hidden search bar, to make it more obvious, easy-to-reach and give them direct shortcuts to filter out and pinpoint the materials they specifically want.
 
 #### Tasks Breakdown		
 Our two primary tasks are: **1) Record speech and review compiled words, phrases and summaries** and **2) Raise the level of professionalism in one's own speech through practices**. Descriptions of each of these tasks are provided below, alongside the important digital mockup components. 
 
 ##### Task 1: Record speech and review compiled words, phrases and summaries
-Users who downloaded the app on their phone as well as on their smartwatch needs to go through several initial setup processes to activate the system. In particular, they need to pair their watch with their mobile devices for secure audio data transmission as well as setting up their short-term and long-term goal by answering a series of questions. The setup process is crucial, as it acts as the basis for the system to recognize its user, adjust itself based on the each user’s particular circumstances, and provide more accurate subsequent analysis and suggestions. Moreover, our design also allows users to take advantage of summaries and keywords functionalities inside the App to review important materials, words, phrases after professional conversations. For example, users can take a look at the each summary block to remind himself/herself of the topic and key content of a certain conversation. Even, they can utilize the key audio clips attached with each summary for more context and information. In addition to the summary page, keywords page can assist users to memorize the most useful and important words, phrases from professional conversations. If they still feel confused about particular words, they can open key audio clips and definitions to reactivate their memory. The primary aim of the design is to help users build concrete foundation in their professional industries. A walkthrough is shown below:
+Users who downloaded the app on their phone as well as on their smartwatch need to go through several initial setup processes to activate the system. In particular, they need to pair their watch with their mobile devices for secure audio data transmission as well as setting up their short-term and long-term goal by answering a series of questions. The setup process is crucial, as it acts as the basis for the system to recognize its user, adjust itself based on user’s particular circumstances, and provide more accurate subsequent analysis and suggestions. Moreover, our design also allows users to take advantage of summaries and keywords functionalities inside the App to review important materials, words, phrases after professional conversations. For example, users can take a look at each summary block to remind himself/herself of the topic and key content of a certain conversation. Even, they can utilize the key audio clips attached to each summary for more context and information. In addition to the summary page, the keywords page can assist users to memorize the most useful and important words, phrases from professional conversations. If they still feel confused about particular words, they can open key audio clips and definitions to reactivate their memory. The primary aim of the design is to help users build concrete foundations in their professional industries. A walkthrough is shown below:
 
 **Use of Watch.**
-Users are able to fully control their data on their watches. For instance, if they find one conversation to be particularly essential, they can highlight them using flags and its priority in the system will rise. Similarly, if they find a conversation meaningless or pointless, they can directly delete the recording in the middle of recording. 
+Users are able to fully control their data on their watches. For instance, if they find one conversation to be particularly essential, they can highlight them using flags and their priority in the system will rise. Similarly, if they find a conversation meaningless or pointless, they can directly delete the recording in the middle of the recording. 
 
 <div style="margin: auto; text-align: center;">
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/watch_start.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>watch start</b></p>
+    <p style="text-align: center;"><b>start recording on watch</b></p>
   </div>
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/watch_stop.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>watch stop</b></p>
+    <p style="text-align: center;"><b>stop recording on watch</b></p>
   </div>
   <br>
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/watch_list.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>watch recording list</b></p>
+    <p style="text-align: center;"><b>browse recording list</b></p>
   </div>
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/watch_delete.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>delete and star in watch</b></p>
+    <p style="text-align: center;"><b>delete and star recording on watch</b></p>
   </div>
 </div>
 
 **Browse Summaries.**
-Users can use summary as a quick reminder to review the essential parts in a conversation without reaching to more details. 
+Users can use the summary as a quick reminder to review the essential parts in a conversation without reaching to more details. 
 
 <div style="margin: auto; text-align: center;">
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/summary.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>summary</b></p>
+    <p style="text-align: center;"><b>summary page</b></p>
   </div>
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/summary_detail.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>summary details</b></p>
+    <p style="text-align: center;"><b>summary page details</b></p>
   </div>
 </div>
  
 **Review Keywords.**
-Users are able to sort keywords either by their frequencies appeared in the professional conversations or topics they belong to for more precise and effective learning. 
+Users are able to sort keywords either by their frequencies that appeared in the professional conversations or topics they belong to for more precise and effective learning. 
 
 <div style="margin: auto; text-align: center;">
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/keyword.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>keywords</b></p>
+    <p style="text-align: center;"><b>keywords page</b></p>
   </div>
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/keyword_detail.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>keyword details</b></p>
+    <p style="text-align: center;"><b>keyword page details</b></p>
   </div>
 </div>
  
 ##### Task 2: Raise the level of professionalism in one's own speech through practices
-Our second task focuses on long-term improvements of professionalism in one’s own speeches and is greatly supported by our practice mode as well as improvement feature. The practice mode in keyword list enables users to strengthen their memory about those keywords by using quizzes. Additionally, the improvement features can help users contextualize their understanding towards certain keywords using contexts in the conversations; practice mode in the improvement page allows users to participate in an immersive, professional conversations with a virtual assistant on the topics they’ve selected. All the results will be combined and display directly in the progress page and main page so that users can easily keep track of their progress. The primary objective of the design is to inform users of their inadequacy in certain areas and help them improve accordingly. A walkthrough is shown below:
+Our second task focuses on long-term improvements of professionalism in one’s own speeches and is greatly supported by our practice mode as well as improvement feature. The practice mode in the keyword list enables users to strengthen their memory about those keywords by using quizzes. Additionally, the improvement features can help users contextualize their understanding towards certain keywords using contexts in the conversations; practice mode in the improvement page allows users to participate in an immersive, professional conversation with a virtual assistant on the topics they’ve selected. All the results will be combined and display directly on the progress page and main page so that users can easily keep track of their progress. The primary objective of the design is to inform users of their inadequacy in certain areas and help them improve accordingly. A walkthrough is shown below:
 
 **Practice Mode in Keyword.**
-Sometimes, accurately memorizing keywords and jargons and their definitions is key to academic success. Under this circumstance, users can tap the “Quiz” button at the bottom of the keyword page and opt to have quizzes to strengthen their memorization. So that once a keyword pops up from conversations, users can immediately recognize it and extend the conversations to be more in-depth and intriguing.
+Sometimes, accurately memorizing keywords and jargon and their definitions are key to academic success. Under this circumstance, users can tap the “Quiz” button at the bottom of the keyword page and opt to have quizzes to strengthen their memorization. So that once a keyword pops up from conversations, users can immediately recognize it and extend the conversations to be more in-depth and intriguing.
 
 <div style="margin: auto; text-align: center;">
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/keywords_highlighted.jpeg" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>highlighted keywords button</b></p>
+    <p style="text-align: center;"><b>quiz button</b></p>
   </div>
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/quiz.png" width="100%" class="border rounded"></p>
@@ -188,29 +188,29 @@ Sometimes, accurately memorizing keywords and jargons and their definitions is k
 </div>
 
 **Practice Mode in conversations.**
-It’s common for users who have difficulties speaking professional language to be intimidated by engaging in professional conversations with others. In this case, they can practice by themselves using the practice mode in conversation. By clicking the “start mockup” button at the bottom of the improvement page and choosing which topics to cover, users can start a conversation with the AI chatbot. When the mockup conversation is finished, the analysis report of their mockup conversation can be found in the improvement page for the users to check out their performance in the practice.  
+It’s common for users who have difficulties speaking the professional language to be intimidated by engaging in professional conversations with others. In this case, they can practice by themselves using the practice mode in conversation. By clicking the “start mockup” button at the bottom of the improvement page and choosing which topics to cover, users can start a conversation with the AI chatbot. When the mockup conversation is finished, the analysis report of their mockup conversation can be found in the improvement page for the users to check out their performance in the practice.  
 
 <div style="margin: auto; text-align: center;">
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/improvements_highlighted.jpeg" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>highlighted improvements button</b></p>
+    <p style="text-align: center;"><b>conversation practice button</b></p>
   </div>
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/conversation_practice.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>improvements practices</b></p>
+    <p style="text-align: center;"><b>professional conversation practices</b></p>
   </div>
 </div>
 
-**Contextualize keywords using context from conversation.**
+**Contextualize keywords using context from conversations.**
 If users feel that they have difficulties to choose the most appropriate words in the correct contexts, they can browse the suggested uses keywords related to the contexts in the improvement page. 
 
 <div style="margin: auto; text-align: center;">
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/improvement.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>improvement</b></p>
+    <p style="text-align: center;"><b>improvement page</b></p>
   </div>
   <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
     <p><img src="assets/projects/{{ project.path }}/improvement_detail.png" width="100%" class="border rounded"></p>
-    <p style="text-align: center;"><b>improvement detail</b></p>
+    <p style="text-align: center;"><b>improvement page detail</b></p>
   </div>
 </div>
