@@ -1,19 +1,18 @@
-﻿
-# Getting the Design Right
-
-## Problem and Solution Overview
+﻿### Problem and Solution Overview
 Sleep, especially for college-aged adolescents, is a crucial necessity. However,
 many students have let it fall to the bottom of their priorities. Amid the pressure
 of school, work, extracurricular activities, and social events, college students
 fail to find the time to sleep. Our group in our design asked ourselves:
+
 **How do we facilitate proper sleeping habits for those that can sleep earlier but won't?**
+
 Our solution combines tracking, social networking, and sleep science into Doze: A Smart Pillow.
 
-## Initial Paper Prototype
+### Initial Paper Prototype
 
-<img src="initialmobileprototype.png" alt="Initial Mobile App Paper Prototype" style="width: 50%; display: block; margin: 10px auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+<p><img src="assets/projects/{{ project.path }}/initialmobileprototype.png" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
 
-<img src="initialpillowinsertpaperprototype.png" alt="Initial Pillow Insert Paper Prototype" style="width: 50%; display: block; margin: auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+<p><img src="assets/projects/{{ project.path }}/initialpillowinsertpaperprototype.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 In our initial paper prototype, we capture the basic functionality we wanted to incorporate
 into our design. Our interface includes features such as a character or avatar to display
@@ -33,7 +32,7 @@ they can check the app for recommendations from others or suggestions based on t
 collected by the pillow. The pillow additionally can play music to help the user fall
 asleep or play an alarm in the morning to make a phone unnecessary for sleep.
 
-## Testing Process
+### Testing Process
 In each of the usability tests we conducted, we discussed how the test would be run with the
 participant and afterwards debriefed the experience with them. During each test, Ying
 ran the test and gave the participant tasks, Zoe recorded video of the test, and Kevin and
@@ -61,43 +60,44 @@ participant would have deeper insights considering her extensive experience with
 told us that our design was already clear and usable, but her suggestions greatly improved
 the layout of the app to be more convenient and pertinent to the user's current needs.
 
-## Testing Results and Prototype Refinement
+### Testing Results and Prototype Refinement
 Our testing identified the following issues which needed to be addressed.
 
-### Login information
+#### Login information
 
-<img src="login.png" alt="Login page" style="width: 50%; display: block; margin: auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+<p><img src="assets/projects/{{ project.path }}/login.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 Many participants told us that privacy was a major concern with this app. Our original prototype
 only had options for logging in with Facebook, Instagram, or Google to help with the social
 aspect of the app. After listening to user concerns, we decided to add a proprietary log in
 system for users who did not want their sleep data shared with these companies.
 
-### Data visualization
-<img src="data.jpg" alt="Sleep report" style="width: 50%; display: block; margin: auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+#### Data visualization
+
+<p><img src="assets/projects/{{ project.path }}/data.jpg" width="100%" style="max-width: 300px; display: block; margin: auto;"></p>
 
 Some participants found the sleep data report page confusing, so we modified it to clarify
 which day the user was currently on and added the option to change the way data was displayed.
 
-### Home page display
+#### Home page display
 
-<img src="home page.png" alt="Home page" style="width: 50%; display: block; margin: auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+<p><img src="assets/projects/{{ project.path }}/homepage.png" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
 
 The original design had an animal avatar as a method to communicate current progress to the
 user in a concise and generalizable manner. Participants found the animal confusing. We changed
 the prototype to use a person or animoji avatar instead but recognized that further discussion
 was needed on this feature.
 
-### Information search
+#### Information search
 
-<img src="information.png" alt="Information search" style="width: 50%; display: block; margin: auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+<p><img src="assets/projects/{{ project.path }}/information.png" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
 
 Participants loved the feature to search for sleep tips and music, but found the interface hard
 to use, so we classified information in order to make finding information more intuitive.
 
-### Community ranking list
+#### Community ranking list
 
-<img src="ranking.png" alt="Ranking list" style="width: 50%; display: block; margin: auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+<p><img src="assets/projects/{{ project.path }}/ranking.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 Our original intention with the ranking list was to enable users to share their sleep habits
 with others and to learn about how to improve their own sleep. Participants thought this
@@ -105,9 +105,9 @@ feature showed promise but shared too much personal information. We modified the
 aggregate data and display an overall score instead of specific sleep and wake times. We
 additionally walked away from this with a greater focus on privacy.
 
-## Final Paper Prototype
+### Final Paper Prototype
 
-<img src="finalpaperprototype.png" alt="Final Paper Prototype" style="width: 100%; display: block; margin: auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+<p><img src="assets/projects/{{ project.path }}/finalpaperprototype.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 These changes resulted in our final paper prototype.  Our final prototype is similar to the
 original in many ways but our testing allowed us to refine it.  This created a more focused
@@ -124,48 +124,45 @@ environment for better sleep. The changed explore page makes information on impr
 sleep environment more timely and convenient to access. Users will find it easier to share
 and find information they need.
 
-## Digital Mockup
+### Digital Mockup
 
-<img src="user flow.png" alt="Digital mockup user flow" style="width: 100%; display: block; margin: auto; border: 2px solid black; box-shadow: 5px 5px #555" />
+<p><img src="assets/projects/{{ project.path }}/userflow.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 The feedback we received on our paper prototypes all culminates in our digital mockup.
 
-<div style="display: flex; flex-direction: row; justify-content: space-evenly">
-    <img src="dpLogin1.png" alt="Tutorial page 1" style="width: 20%; display: block; margin: auto" />
-    <img src="dpLogin2.png" alt="Tutorial page 2" style="width: 20%; display: block; margin: auto" />
-    <img src="dpLogin3.png" alt="Tutorial page 3" style="width: 20%; display: block; margin: auto" />
-</div>
-
-<div style="display: flex; flex-direction: row; justify-content: space-evenly">
-    <img src="dpLogin4.png" alt="Log-In page 1" style="width: 20%; display: block; margin: auto" />
-    <img src="dpLogin5.png" alt="Setup page 1" style="width: 20%; display: block; margin: auto" />
-    <img src="dpLogin6.png" alt="Setup page 2" style="width: 20%; display: block; margin: auto" />
-</div>
+<p style="display: block; margin: auto; text-align: center;">
+  <img src="assets/projects/{{ project.path }}/dpLogin1.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpLogin2.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpLogin3.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpLogin4.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpLogin5.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpLogin6.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+</p>
 
 The first time a user opens the app, they are taken through a short tutorial.
 
-<div style="display: flex; flex-direction: row; justify-content: space-evenly">
-    <img src="dpHome1.png" alt="Home Page" style="width: 20%; display: block; margin: auto" />
-</div>
+<p style="display: block; margin: auto; text-align: center;">
+  <img src="assets/projects/{{ project.path }}/dpHome1.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+</p>
 
 The home page greets the user and contains the information most commonly used in our app.
 The score is out of three stars and matches the one shared with others in the group a user
 is a part of.
 
-<div style="display: flex; flex-direction: row; justify-content: space-evenly">
-    <img src="dpLibrary1.png" alt="Library" style="width: 20%; display: block; margin: auto" />
-    <img src="dpLibrary2.png" alt="Music" style="width: 20%; display: block; margin: auto" />
-</div>
+<p style="display: block; margin: auto; text-align: center;">
+  <img src="assets/projects/{{ project.path }}/dpLibrary1.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpLibrary2.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+</p>
 
 The tabs at the bottom help the user navigate to different pages. The first of these is the
 library page. This page displays information curated by Doze on sleep as well as tips and
 recommendations by the community of users. A person hoping to improve their sleep can seek
 help here. Information is categorized to make the interface intuitive and easy to navigate.
 
-<div style="display: flex; flex-direction: row; justify-content: space-evenly">
-    <img src="dpReport1.png" alt="Report horizontal" style="width: 20%; display: block; margin: auto" />
-    <img src="dpReport2.png" alt="Report vertical" style="width: 20%; display: block; margin: auto" />
-</div>
+<p style="display: block; margin: auto; text-align: center;">
+  <img src="assets/projects/{{ project.path }}/dpReport1.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpReport2.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+</p>
 
 The second tab, the report page, shows the user the data that their pillow has collected on
 their sleep. The user has multiple options for how the sleep data can be displayed. Helpful
@@ -173,12 +170,12 @@ tips can pop up if they are necessary or relevant given the user's current data.
 data a user gains greater understanding of their current state and Doze will encourage them
 to act upon it and improve their sleep habits.
 
-<div style="display: flex; flex-direction: row; justify-content: space-evenly">
-    <img src="dpGroup1.png" alt="Group overview" style="width: 20%; display: block; margin: auto" />
-    <img src="dpGroup2.png" alt="Group edit" style="width: 20%; display: block; margin: auto" />
-    <img src="dpGroup3.png" alt="Group profile" style="width: 20%; display: block; margin: auto" />
-    <img src="dpGroup4.png" alt="Group progress" style="width: 20%; display: block; margin: auto" />
-</div>
+<p style="display: block; margin: auto; text-align: center;">
+  <img src="assets/projects/{{ project.path }}/dpGroup1.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpGroup2.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpGroup3.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpGroup4.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+</p>
 
 The group page hosts the social portion of the app. From here a user can create a group of
 friends. The app avoids negative reinforcement, instead encouraging groups to work together
@@ -186,10 +183,10 @@ towards a group goal. Members can view each other's progress and encourage one a
 adopt healthy practices. The group page's design is centered on fostering healthy team
 mentality to encourage conversation around sleep and positive feedback.
 
-<div style="display: flex; flex-direction: row; justify-content: space-evenly">
-    <img src="dpPillow1.png" alt="Pillow music" style="width: 20%; display: block; margin: auto" />
-    <img src="dpPillow2.png" alt="Pillow alarm" style="width: 20%; display: block; margin: auto" />
-</div>
+<p style="display: block; margin: auto; text-align: center;">
+  <img src="assets/projects/{{ project.path }}/dpPillow1.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+  <img src="assets/projects/{{ project.path }}/dpPillow2.png" alt="initial prototype - pay area" width="100%" style="max-width: 200px; vertical-align: top;" class="m-3 border rounded">
+</p>
 
 The pillow page holds the controls for the smart pillow. The design is simple and intuitive
 and allows the user to schedule alarms in advance or choose music to help them fall asleep.
