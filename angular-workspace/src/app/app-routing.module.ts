@@ -16,7 +16,8 @@ import { ReadingsComponent } from "./assignments/readings/readings.component";
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'projects/:name', component: ProjectsComponent },
+  { path: 'projects/:projectPath', redirectTo: 'projects/:projectPath/', pathMatch: 'full' },
+  { path: 'projects/:projectPath/:projectScreen', component: ProjectsComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'assignments',
     component: AssignmentsComponent,

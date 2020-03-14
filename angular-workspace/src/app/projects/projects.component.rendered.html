@@ -43,7 +43,7 @@ help go beyond simple data fetishes to help people in using personal data as par
 
   <div class="row">
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" *ngFor="let project of projects.projects">
-      <button type="button" class="btn btn-link" style="text-align: left;" (click)="openProject(projectmodal, project)">
+      <a class="d-inline-block" routerLink="/projects/{{ project.path }}">
         <p>
           {{ project.name }}
         </p>
@@ -52,7 +52,7 @@ help go beyond simple data fetishes to help people in using personal data as par
             <img src="assets/projects/{{ project.path }}/project_thumb.png" width="150" class="projectThumbImage" alt="{{ project.name }}"/>
           </p>
         </div>
-      </button>
+      </a>
     </div>
   </div>
 
@@ -2913,21 +2913,21 @@ TODO: tagline
 <p><strong>Use of Watch.</strong>
 Users are able to fully control their data on their watches. For instance, if they find one conversation to be particularly essential, they can highlight them using flags and their priority in the system will rise. Similarly, if they find a conversation meaningless or pointless, they can directly delete the recording in the middle of the recording.</p>
 <div style="margin: auto; text-align: center;">
-  <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
-    <p><img src="assets/projects/{{ project.path }}/watch_start.png" width="100%" class="border rounded"></p>
+  <div style="width: 250px; vertical-align: top; display: inline-block;" class="m-3">
+    <p><img src="assets/projects/{{ project.path }}/watch_start.png" width="100%" style="max-width: 200px;" class="border rounded"></p>
     <p style="text-align: center;"><b>start recording on watch</b></p>
   </div>
-  <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
-    <p><img src="assets/projects/{{ project.path }}/watch_stop.png" width="100%" class="border rounded"></p>
+  <div style="width: 250px; vertical-align: top; display: inline-block;" class="m-3">
+    <p><img src="assets/projects/{{ project.path }}/watch_stop.png" width="100%" style="max-width: 200px;" class="border rounded"></p>
     <p style="text-align: center;"><b>stop recording on watch</b></p>
   </div>
   <br>
-  <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
-    <p><img src="assets/projects/{{ project.path }}/watch_list.png" width="100%" class="border rounded"></p>
+  <div style="width: 250px; vertical-align: top; display: inline-block;" class="m-3">
+    <p><img src="assets/projects/{{ project.path }}/watch_list.png" width="100%" style="max-width: 200px;" class="border rounded"></p>
     <p style="text-align: center;"><b>browse recording list</b></p>
   </div>
-  <div style="max-width: 250px; vertical-align: bottom; display: inline-block;" class="m-3">
-    <p><img src="assets/projects/{{ project.path }}/watch_delete.png" width="100%" class="border rounded"></p>
+  <div style="width: 250px; vertical-align: top; display: inline-block;" class="m-3">
+    <p><img src="assets/projects/{{ project.path }}/watch_delete.png" width="100%" style="max-width: 200px;" class="border rounded"></p>
     <p style="text-align: center;"><b>delete and star recording on watch</b></p>
   </div>
 </div>
@@ -4284,20 +4284,16 @@ Our design research showed that social motivation influences if and when individ
           </p>
         </div>
 
-        <div class="btn-group btn-group-toggle btn-group-vertical" ngbRadioGroup name="radioBasic" [(ngModel)]="selectedDeliverable">
-          <label ngbButtonLabel ngbAutofocus class="btn-link pl-0 text-left active" style="cursor: pointer;">
-            <input ngbButton type="radio" [value]="1"><p>Project Team<br>and Poster</p>
-          </label>
-          <label ngbButtonLabel class="btn-link pl-0 text-left" style="cursor: pointer;">
-            <input ngbButton type="radio" [value]="2"><p>Design<br>Research</p>
-          </label>
-          <label ngbButtonLabel class="btn-link pl-0 text-left" style="cursor: pointer;">
-            <input ngbButton type="radio" [value]="3"><p>Design<br>Prototyping</p>
-          </label>
-        </div>
+        <p *ngIf="projectScreen==''">Project Team<br>and Poster</p>
+        <a *ngIf="projectScreen!=''" routerLink="/projects/{{ project.path }}"><p>Project Team<br>and Poster</p></a>
+        <p *ngIf="projectScreen=='designresearch'">Design<br>Research</p>
+        <a *ngIf="projectScreen!='designresearch'" routerLink="/projects/{{ project.path }}/designresearch"><p>Design<br>Research</p></a>
+        <p *ngIf="projectScreen=='designprototyping'">Design<br>Prototyping</p>
+        <a *ngIf="projectScreen!='designprototyping'" routerLink="/projects/{{ project.path }}/designprototyping"><p>Design<br>Prototyping</p></a>
+
       </div>
       <div class="col container">
-        <div *ngIf="selectedDeliverable==1">
+        <div *ngIf="projectScreen==''">
             <div class="row justify-content-center">
               <div class="col">
                 <!-- Video Removed from Winter 2020
@@ -4355,7 +4351,7 @@ Our design research showed that social motivation influences if and when individ
             <div class="row justify-content-center">
             </div>
         </div>
-        <div *ngIf="selectedDeliverable==2">
+        <div *ngIf="projectScreen=='designresearch'">
           <h2>Design Research</h2>
           <p>
             <ng-container *ngFor="let person of project.people; last as isLast">
@@ -4410,7 +4406,7 @@ Our design research showed that social motivation influences if and when individ
             <ng-container *ngTemplateOutlet="designresearch_vapeweight"></ng-container>
           </ng-container>
         </div>
-        <div *ngIf="selectedDeliverable==3">
+        <div *ngIf="projectScreen=='designprototyping'">
           <h2>Design Prototyping</h2>
           <p>
             <ng-container *ngFor="let person of project.people; last as isLast">

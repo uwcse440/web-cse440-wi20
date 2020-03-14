@@ -48,20 +48,16 @@
           </p>
         </div>
 
-        <div class="btn-group btn-group-toggle btn-group-vertical" ngbRadioGroup name="radioBasic" [(ngModel)]="selectedDeliverable">
-          <label ngbButtonLabel ngbAutofocus class="btn-link pl-0 text-left active" style="cursor: pointer;">
-            <input ngbButton type="radio" [value]="1"><p>Project Team<br>and Poster</p>
-          </label>
-          <label ngbButtonLabel class="btn-link pl-0 text-left" style="cursor: pointer;">
-            <input ngbButton type="radio" [value]="2"><p>Design<br>Research</p>
-          </label>
-          <label ngbButtonLabel class="btn-link pl-0 text-left" style="cursor: pointer;">
-            <input ngbButton type="radio" [value]="3"><p>Design<br>Prototyping</p>
-          </label>
-        </div>
+        <p *ngIf="projectScreen==''">Project Team<br>and Poster</p>
+        <a *ngIf="projectScreen!=''" routerLink="/projects/{{ project.path }}"><p>Project Team<br>and Poster</p></a>
+        <p *ngIf="projectScreen=='designresearch'">Design<br>Research</p>
+        <a *ngIf="projectScreen!='designresearch'" routerLink="/projects/{{ project.path }}/designresearch"><p>Design<br>Research</p></a>
+        <p *ngIf="projectScreen=='designprototyping'">Design<br>Prototyping</p>
+        <a *ngIf="projectScreen!='designprototyping'" routerLink="/projects/{{ project.path }}/designprototyping"><p>Design<br>Prototyping</p></a>
+
       </div>
       <div class="col container">
-        <div *ngIf="selectedDeliverable==1">
+        <div *ngIf="projectScreen==''">
             <div class="row justify-content-center">
               <div class="col">
                 <!-- Video Removed from Winter 2020
@@ -119,7 +115,7 @@
             <div class="row justify-content-center">
             </div>
         </div>
-        <div *ngIf="selectedDeliverable==2">
+        <div *ngIf="projectScreen=='designresearch'">
           <h2>Design Research</h2>
           <p>
             <ng-container *ngFor="let person of project.people; last as isLast">
@@ -174,7 +170,7 @@
             <ng-container *ngTemplateOutlet="designresearch_vapeweight"></ng-container>
           </ng-container>
         </div>
-        <div *ngIf="selectedDeliverable==3">
+        <div *ngIf="projectScreen=='designprototyping'">
           <h2>Design Prototyping</h2>
           <p>
             <ng-container *ngFor="let person of project.people; last as isLast">

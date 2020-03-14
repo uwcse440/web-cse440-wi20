@@ -48,7 +48,7 @@ help go beyond simple data fetishes to help people in using personal data as par
 <html>
   <div class="row">
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" *ngFor="let project of projects.projects">
-      <button type="button" class="btn btn-link" style="text-align: left;" (click)="openProject(projectmodal, project)">
+      <a class="d-inline-block" routerLink="/projects/{{ project.path }}">
         <p>
           {{ project.name }}
         </p>
@@ -57,7 +57,7 @@ help go beyond simple data fetishes to help people in using personal data as par
             <img src="assets/projects/{{ project.path }}/project_thumb.png" width="150" class="projectThumbImage" alt="{{ project.name }}"/>
           </p>
         </div>
-      </button>
+      </a>
     </div>
   </div>
 </html>
