@@ -179,7 +179,7 @@ A person can press a button to manually add items to the inventory if the items 
 
 The person can add items to the inventory by opening the camera and taking a picture of a receipt. The camera reads the text on the receipt and automatically draws the items on the screen.
 
-<p><img src="assets/projects/{{ project.path }}/image32.png" width="100%" style="max-width: 600px; display: block; margin: auto;"></p>
+<p><img src="assets/projects/{{ project.path }}/image32.png" width="100%" style="max-width: 800px; display: block; margin: auto;"></p>
 
 The person then has a chance to review the items being added and make changes, especially on items with information the scanner struggled to autofill. If the user doesn’t want to process an item right now, they can save it for later.  Before confirming that the item should be added on the screen, the person has a chance to edit the item’s display name and image.  When a new item is added the technology estimates its expiration, and stores how long it has left.  The person can edit this too. After taking the picture, the items then appear in the main interface, along with counters indicating the number of days left in the food, as calculated by the given expiration dates
 
